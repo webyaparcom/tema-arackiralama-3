@@ -1074,6 +1074,16 @@
     }
   }
 
+  
+  @media (prefers-color-scheme: dark) {
+    .h0001bodylogo:not([src*="acik"]) {
+      background: #ffffff;
+      padding: 4px 10px;
+      border-radius: 8px;
+      box-sizing: content-box;
+    }
+  }
+
 
   .b0000-gm {
     box-sizing: border-box;
