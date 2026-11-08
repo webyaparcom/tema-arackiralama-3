@@ -1,0 +1,41 @@
+{
+  "id": "6v3p5rcvcp",
+  "name": {
+    "tr": "Seçenekler",
+    "en": "Options",
+    "ar": "الخيارات"
+  },
+  "description": {
+    "tr": "Belirli bir tarih için yapılan araç kiralamada cayma hakkı bulunmaz (6502 sayılı Kanun md. 15/g); iptal, değişiklik ve depozito koşulları Kiralama Koşulları sayfasındadır. Kapora alınmaz; ödeme teslimde yapılır.",
+    "en": "There is no right of withdrawal for vehicle rental booked for a specific date (Law No. 6502 art. 15/g); cancellation, change and deposit terms are on the Rental Terms page. No deposit is taken online; payment is made at pick-up.",
+    "ar": "لا يوجد حق عدول في تأجير المركبات المحدد بتاريخ معيّن (المادة 15/ز من القانون التركي رقم 6502)؛ وشروط الإلغاء والتعديل والتأمين في صفحة شروط التأجير. لا تُؤخذ عربون عبر الإنترنت ويتم الدفع عند الاستلام."
+  },
+  "keyword": {
+    "tr": "araç kiralama, rent a car, filo",
+    "en": "car rental, rent a car, fleet",
+    "ar": "تأجير سيارات، فلو"
+  },
+  "path": "secenekler",
+  "icon": "car_rental",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "7hyqvo",
+      "bu7lgh",
+      "5vpgz6"
+    ],
+    "footer": []
+  },
+  "index": 1,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Seçenekler",
+    "en": "Options",
+    "ar": "الخيارات"
+  },
+  "date": "2026-10-31T14:38:35.565Z",
+  "update": "2026-11-05T19:38:43.332Z"
+}

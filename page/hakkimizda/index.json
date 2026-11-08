@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 5,
+  "icon": "info",
+  "desing": {
+    "header": [],
+    "body": [
+      "7d06id",
+      "depdzr"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Kuzey Rent, az sözle çok şey anlatmayı seçen kurgusal bir demo kiralama firmasıdır: her araç sınıfının fiyatı, km sınırı ve iptal koşulu tek tabloda okunur. Bu sitedeki araçlar, fiyatlar ve adresler kurgusaldır.",
+    "en": "Kuzey Rent is a fictional demo rental company that prefers saying a lot with few words: the price, km allowance and cancellation terms of every class can be read in one table. Vehicles, prices and addresses on this site are fictional.",
+    "ar": "كوزي رنت شركة تأجير تجريبية افتراضية تفضّل قول الكثير بكلمات قليلة: يُقرأ سعر كل فئة وحد الكيلومترات وشروط الإلغاء في جدول واحد. المركبات والأسعار والعناوين في هذا الموقع افتراضية."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "text": {},
+  "update": "2026-11-05T19:38:43.349Z",
+  "date": "2026-10-30"
+}

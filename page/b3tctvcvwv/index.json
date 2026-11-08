@@ -1,0 +1,39 @@
+{
+  "id": "b3tctvcvwv",
+  "name": {
+    "tr": "Araçlar",
+    "en": "Vehicles",
+    "ar": "المركبات"
+  },
+  "description": {
+    "tr": "Kiralık araçlar; günlük fiyat ve km sınırı.",
+    "en": "Vehicles for rent; daily price and km allowance.",
+    "ar": "مركبات للإيجار؛ السعر اليومي وحد الكيلومترات."
+  },
+  "keyword": {
+    "tr": "araçlar, kiralık",
+    "en": "vehicles, rental",
+    "ar": "مركبات، إيجار"
+  },
+  "path": "araclar",
+  "icon": "directions_car",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "79uq60"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Araçlar",
+    "en": "Vehicles",
+    "ar": "المركبات"
+  },
+  "date": "2026-10-31T14:38:35.568Z",
+  "update": "2026-11-05T19:38:43.335Z"
+}

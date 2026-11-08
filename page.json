@@ -1,0 +1,188 @@
+{
+  "data": [
+    {
+      "id": "b3tctvcvwv",
+      "name": {
+        "tr": "Araçlar",
+        "en": "Vehicles",
+        "ar": "المركبات"
+      },
+      "description": {
+        "tr": "Kiralık araçlar; günlük fiyat ve km sınırı.",
+        "en": "Vehicles for rent; daily price and km allowance.",
+        "ar": "مركبات للإيجار؛ السعر اليومي وحد الكيلومترات."
+      },
+      "path": "araclar",
+      "icon": "directions_car",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "79uq60"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "id": "6v3p5rcvcp",
+      "name": {
+        "tr": "Seçenekler",
+        "en": "Options",
+        "ar": "الخيارات"
+      },
+      "description": {
+        "tr": "Belirli bir tarih için yapılan araç kiralamada cayma hakkı bulunmaz (6502 sayılı Kanun md. 15/g); iptal, değişiklik ve depozito koşulları Kiralama Koşulları sayfasındadır. Kapora alınmaz; ödeme teslimde yapılır.",
+        "en": "There is no right of withdrawal for vehicle rental booked for a specific date (Law No. 6502 art. 15/g); cancellation, change and deposit terms are on the Rental Terms page. No deposit is taken online; payment is made at pick-up.",
+        "ar": "لا يوجد حق عدول في تأجير المركبات المحدد بتاريخ معيّن (المادة 15/ز من القانون التركي رقم 6502)؛ وشروط الإلغاء والتعديل والتأمين في صفحة شروط التأجير. لا تُؤخذ عربون عبر الإنترنت ويتم الدفع عند الاستلام."
+      },
+      "path": "secenekler",
+      "icon": "car_rental",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "7hyqvo",
+          "bu7lgh",
+          "5vpgz6"
+        ],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "id": "4gimrqmc2n",
+      "name": {
+        "tr": "Rezervasyon",
+        "en": "Reservation",
+        "ar": "الحجز"
+      },
+      "description": {
+        "tr": "Segmenti ve teslim gününü seçin; talebiniz bu demo sitede yalnızca tarayıcınızda oluşturulur. Kapora alınmaz.",
+        "en": "Choose the segment and pick-up day; on this demo site your request is created only in your browser. No deposit is taken.",
+        "ar": "اختر الفئة ويوم الاستلام؛ يُنشأ طلبك في متصفحك فقط. لا يُؤخذ عربون."
+      },
+      "path": "rezervasyon",
+      "icon": "event_available",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "rc194k"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "xfdkwir0te",
+      "name": {
+        "tr": "Kiralama Koşulları",
+        "en": "Rental Terms",
+        "ar": "شروط التأجير"
+      },
+      "description": {
+        "tr": "Kiracı şartları, depozito, iptal ve cayma hakkı bilgisi.",
+        "en": "Renter requirements, deposit, cancellation and withdrawal information.",
+        "ar": "شروط المستأجر والتأمين والإلغاء ومعلومات حق العدول."
+      },
+      "path": "kiralama-kosullari",
+      "icon": "gavel",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "pjd51h"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "y5p8pxpzt2",
+      "name": {
+        "tr": "Galeri",
+        "en": "Gallery",
+        "ar": "المعرض"
+      },
+      "description": {
+        "tr": "Filo, teslim noktası ve ofisten görüntüler.",
+        "en": "Views of the fleet, the pick-up point and the office.",
+        "ar": "صور من الأسطول ونقطة الاستلام والمكتب."
+      },
+      "path": "galeri",
+      "icon": "photo_library",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "jmmejy"
+        ],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "name": {
+        "tr": "Hakkımızda",
+        "en": "About",
+        "ar": "من نحن"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 5,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "7d06id",
+          "depdzr"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Kuzey Rent, az sözle çok şey anlatmayı seçen kurgusal bir demo kiralama firmasıdır: her araç sınıfının fiyatı, km sınırı ve iptal koşulu tek tabloda okunur. Bu sitedeki araçlar, fiyatlar ve adresler kurgusaldır.",
+        "en": "Kuzey Rent is a fictional demo rental company that prefers saying a lot with few words: the price, km allowance and cancellation terms of every class can be read in one table. Vehicles, prices and addresses on this site are fictional.",
+        "ar": "كوزي رنت شركة تأجير تجريبية افتراضية تفضّل قول الكثير بكلمات قليلة: يُقرأ سعر كل فئة وحد الكيلومترات وشروط الإلغاء في جدول واحد. المركبات والأسعار والعناوين في هذا الموقع افتراضية."
+      }
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 6,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "a46h9y",
+          "3x01t3"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon, e-posta ve çalışma saatleri.",
+        "en": "Address, phone, e-mail and opening hours.",
+        "ar": "العنوان والهاتف والبريد الإلكتروني وساعات العمل."
+      }
+    }
+  ],
+  "desc": []
+}

@@ -1,0 +1,43 @@
+{
+  "id": "misyon",
+  "name": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "description": {
+    "tr": "Misyonumuz",
+    "en": "Our mission",
+    "ar": "مهمتنا"
+  },
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "path": "misyon",
+  "icon": "policy",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pjd51h"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {
+    "tr": "<h2>Misyonumuz</h2>\n<p>Misyonumuz, kiralama koşullarını baştan açıkça anlatan, güvenli ve bakımlı araçlar sunmaktır.</p>",
+    "en": "<h2>Our mission</h2>\n<p>Our mission is to offer safe, well-maintained vehicles and to explain rental terms clearly from the start.</p>",
+    "ar": "<h2>مهمتنا</h2>\n<p>مهمتنا توفير مركبات آمنة ومصانة وشرح شروط التأجير بوضوح منذ البداية.</p>"
+  },
+  "title": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "date": "2026-10-31T14:38:35.378Z",
+  "update": "2026-11-05T19:38:43.377Z"
+}
