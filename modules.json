@@ -1,0 +1,4927 @@
+{
+  "data": [
+    {
+      "name": "Demo Bandı",
+      "path": "demo-bandi",
+      "local": "header",
+      "category": "demo",
+      "id": "g3db01",
+      "desing": {
+        "tone": "info",
+        "bandBg": "",
+        "bandFg": "",
+        "ctaHref": "https://webyapar.com/temalar#arackiralama-3",
+        "ariaLabel": {
+          "tr": "Demo site uyarısı",
+          "en": "Demo site notice",
+          "ar": "تنبيه الموقع التجريبي"
+        },
+        "text": {
+          "tr": "Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz",
+          "en": "This is a demo site — the content is fictional and no payment is taken",
+          "ar": "هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        }
+      },
+      "version": "1.0.0",
+      "icon": "info",
+      "index": 0
+    },
+    {
+      "name": "Menü 4",
+      "path": "menu-4",
+      "local": "header",
+      "category": "menu",
+      "id": "g3mn01",
+      "desing": {
+        "logo": "logo.png",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "height": "72px",
+        "background-color": "var(--mx-site-bg, #ffffff)",
+        "menubg": "",
+        "menutext": "#fff",
+        "menuhoverbg": "rgba(255,255,255,.18)"
+      },
+      "version": "1.0.0",
+      "icon": "menu",
+      "index": 1
+    },
+    {
+      "name": "Galeri Masonry (Filtre + Lightbox)",
+      "path": "galeri-masonry",
+      "local": "body",
+      "category": "galeri",
+      "id": "g3gm01",
+      "desing": {
+        "max": "1280px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #ffffff)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "gap": "0px",
+        "radius": "8px",
+        "columns": {
+          "d": 4,
+          "t": 3,
+          "m": 2
+        },
+        "ratio": "auto",
+        "captions": "hover",
+        "filter": true,
+        "lightbox": true,
+        "lazy": true,
+        "urlPrefix": "",
+        "title": {
+          "tr": "Galeri",
+          "en": "Gallery",
+          "ar": "المعرض"
+        },
+        "description": {
+          "tr": "Çalışmalarımızdan seçilmiş kareler. Kategoriye göre süzün, büyütmek için dokunun.",
+          "en": "A selection of frames from our work. Filter by category and tap to enlarge.",
+          "ar": "مختارات من أعمالنا. صفِّ حسب الفئة، وانقر على الصورة لتكبيرها."
+        },
+        "allLabel": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "filterLabel": {
+          "tr": "Kategoriye göre filtrele",
+          "en": "Filter by category",
+          "ar": "التصفية حسب الفئة"
+        },
+        "countText": {
+          "zero": {
+            "ar": "لا توجد صور"
+          },
+          "one": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photo",
+            "ar": "صورة واحدة"
+          },
+          "two": {
+            "ar": "صورتان"
+          },
+          "few": {
+            "ar": "{n} صور"
+          },
+          "many": {
+            "ar": "{n} صورة"
+          },
+          "other": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photos",
+            "ar": "{n} صورة"
+          }
+        },
+        "emptyText": {
+          "tr": "Henüz gösterilecek görsel yok.",
+          "en": "There are no images to show yet.",
+          "ar": "لا توجد صور لعرضها بعد."
+        },
+        "lightboxLabels": {
+          "dialog": {
+            "tr": "Görsel görüntüleyici",
+            "en": "Image viewer",
+            "ar": "عارض الصور"
+          },
+          "close": {
+            "tr": "Kapat",
+            "en": "Close",
+            "ar": "إغلاق"
+          },
+          "prev": {
+            "tr": "Önceki görsel",
+            "en": "Previous image",
+            "ar": "الصورة السابقة"
+          },
+          "next": {
+            "tr": "Sonraki görsel",
+            "en": "Next image",
+            "ar": "الصورة التالية"
+          },
+          "counter": {
+            "tr": "{i} / {n}",
+            "en": "{i} / {n}",
+            "ar": "{i} من {n}"
+          }
+        },
+        "cats": [
+          {
+            "id": "mekan",
+            "name": {
+              "tr": "Mekan",
+              "en": "Spaces",
+              "ar": "المساحات"
+            }
+          },
+          {
+            "id": "detay",
+            "name": {
+              "tr": "Detay",
+              "en": "Details",
+              "ar": "التفاصيل"
+            }
+          },
+          {
+            "id": "surec",
+            "name": {
+              "tr": "Süreç",
+              "en": "Process",
+              "ar": "سير العمل"
+            }
+          }
+        ]
+      },
+      "version": "1.0.0",
+      "icon": "photo_library",
+      "data": [
+        {
+          "img": "",
+          "title": {
+            "tr": "Giriş alanı",
+            "en": "Entrance area",
+            "ar": "منطقة المدخل"
+          },
+          "cat": "mekan",
+          "w": 800,
+          "h": 1000,
+          "alt": {
+            "tr": "Aydınlık giriş alanı",
+            "en": "Bright entrance area",
+            "ar": "منطقة مدخل مضيئة"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Ana salon",
+            "en": "Main hall",
+            "ar": "القاعة الرئيسية"
+          },
+          "cat": "mekan",
+          "w": 1200,
+          "h": 800,
+          "alt": {
+            "tr": "Geniş ana salon",
+            "en": "Spacious main hall",
+            "ar": "قاعة رئيسية واسعة"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Malzeme seçimi",
+            "en": "Material selection",
+            "ar": "اختيار المواد"
+          },
+          "cat": "detay",
+          "w": 1000,
+          "h": 1000,
+          "alt": {
+            "tr": "Yakın çekim doku",
+            "en": "Close-up texture",
+            "ar": "نسيج بلقطة مقرّبة"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Aydınlatma",
+            "en": "Lighting",
+            "ar": "الإضاءة"
+          },
+          "cat": "detay",
+          "w": 800,
+          "h": 1000,
+          "alt": {
+            "tr": "Sıcak ışıklı detay",
+            "en": "Warm-lit detail",
+            "ar": "تفصيل بإضاءة دافئة"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Çizim masası",
+            "en": "Drafting table",
+            "ar": "طاولة الرسم"
+          },
+          "cat": "surec",
+          "w": 1200,
+          "h": 800,
+          "alt": {
+            "tr": "Çalışma masasında planlar",
+            "en": "Plans on the work table",
+            "ar": "مخططات على طاولة العمل"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Uygulama",
+            "en": "On site",
+            "ar": "التنفيذ"
+          },
+          "cat": "surec",
+          "w": 1000,
+          "h": 1000,
+          "alt": {
+            "tr": "Uygulama aşaması",
+            "en": "Installation stage",
+            "ar": "مرحلة التنفيذ"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Teslim",
+            "en": "Handover",
+            "ar": "التسليم"
+          },
+          "cat": "mekan",
+          "w": 800,
+          "h": 1000,
+          "alt": {
+            "tr": "Teslim edilen mekan",
+            "en": "Finished space",
+            "ar": "المساحة بعد التسليم"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Son dokunuşlar",
+            "en": "Finishing touches",
+            "ar": "اللمسات الأخيرة"
+          },
+          "cat": "detay",
+          "w": 1200,
+          "h": 800,
+          "alt": {
+            "tr": "Son dokunuş detayı",
+            "en": "Finishing detail",
+            "ar": "تفصيل اللمسات الأخيرة"
+          }
+        }
+      ],
+      "index": 2
+    },
+    {
+      "name": "Fiyatlandırma 1",
+      "path": "pricing-1",
+      "local": "body",
+      "category": "pricing",
+      "id": "g3pr01",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "badge": {
+          "tr": "Paketler",
+          "en": "Packages",
+          "ar": "الباقات"
+        },
+        "title": {
+          "tr": "Çekim paketleri",
+          "en": "Shooting packages",
+          "ar": "باقات التصوير"
+        },
+        "description": {
+          "tr": "İhtiyacınıza göre esnek paket seçenekleri. Dilediğiniz zaman yükseltebilirsiniz.",
+          "en": "Flexible plans for your needs. Upgrade anytime.",
+          "ar": "خيارات باقات مرنة حسب احتياجك، ويمكنك الترقية في أي وقت."
+        },
+        "accentText": "#ffffff"
+      },
+      "version": "1.0.0",
+      "icon": "payments",
+      "data": [
+        {
+          "plan": {
+            "tr": "Başlangıç",
+            "en": "Starter",
+            "ar": "البداية"
+          },
+          "price": "₺4.900",
+          "period": {
+            "tr": "/ proje",
+            "en": "/ project",
+            "ar": "/ مشروع"
+          },
+          "note": {
+            "tr": "Küçük işletmeler için",
+            "en": "For small businesses",
+            "ar": "للأعمال الصغيرة"
+          },
+          "features": {
+            "tr": "5 sayfa web sitesi|Mobil uyumlu tasarım|Temel SEO|1 ay destek",
+            "en": "5-page website|Responsive design|Basic SEO|1 month support",
+            "ar": "موقع من 5 صفحات|تصميم متجاوب|تحسين أساسي لمحركات البحث|دعم لمدة شهر"
+          },
+          "ctaText": {
+            "tr": "Hemen Başla",
+            "en": "Get Started",
+            "ar": "ابدأ الآن"
+          },
+          "ctaUrl": "#",
+          "featured": false
+        },
+        {
+          "plan": {
+            "tr": "Profesyonel",
+            "en": "Professional",
+            "ar": "احترافي"
+          },
+          "price": "₺9.900",
+          "period": {
+            "tr": "/ proje",
+            "en": "/ project",
+            "ar": "/ مشروع"
+          },
+          "note": {
+            "tr": "Büyüyen markalar için",
+            "en": "For growing brands",
+            "ar": "للعلامات المتنامية"
+          },
+          "features": {
+            "tr": "15 sayfa web sitesi|Çok dilli altyapı|Gelişmiş SEO|E-ticaret hazır|3 ay destek",
+            "en": "15-page website|Multi-language|Advanced SEO|E-commerce ready|3 months support",
+            "ar": "موقع من 15 صفحة|بنية متعددة اللغات|تحسين متقدم لمحركات البحث|جاهز للتجارة الإلكترونية|دعم لمدة 3 أشهر"
+          },
+          "ctaText": {
+            "tr": "Hemen Başla",
+            "en": "Get Started",
+            "ar": "ابدأ الآن"
+          },
+          "ctaUrl": "#",
+          "featured": true,
+          "flag": {
+            "tr": "En Popüler",
+            "en": "Most Popular",
+            "ar": "الأكثر شيوعًا"
+          }
+        },
+        {
+          "plan": {
+            "tr": "Kurumsal",
+            "en": "Enterprise",
+            "ar": "المؤسسة"
+          },
+          "price": "₺19.900",
+          "period": {
+            "tr": "/ proje",
+            "en": "/ project",
+            "ar": "/ مشروع"
+          },
+          "note": {
+            "tr": "Kurumsal çözümler",
+            "en": "Enterprise solutions",
+            "ar": "حلول المؤسسات"
+          },
+          "features": {
+            "tr": "Sınırsız sayfa|Özel entegrasyonlar|Öncelikli destek|Performans optimizasyonu|12 ay destek",
+            "en": "Unlimited pages|Custom integrations|Priority support|Performance tuning|12 months support",
+            "ar": "صفحات غير محدودة|تكاملات مخصصة|دعم ذو أولوية|تحسين الأداء|دعم لمدة 12 شهرًا"
+          },
+          "ctaText": {
+            "tr": "Teklif Al",
+            "en": "Get a Quote",
+            "ar": "اطلب عرضًا"
+          },
+          "ctaUrl": "#",
+          "featured": false
+        }
+      ],
+      "index": 3
+    },
+    {
+      "name": "CTA Şerit 1",
+      "path": "cta-1",
+      "local": "body",
+      "category": "cta",
+      "id": "g3ca01",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "btnbg": "var(--mx-site-surface, #ffffff)",
+        "btncolor": "var(--mx-site-text, #1b1b1b)",
+        "title": {
+          "tr": "Birlikte çalışalım",
+          "en": "Let's work together",
+          "ar": "لنعمل معًا"
+        },
+        "description": {
+          "tr": "Çekim tarihiniz için müsaitlik sorun.",
+          "en": "Ask about availability for your shoot date.",
+          "ar": "اسأل عن التوفر لموعد جلستك."
+        },
+        "btn1Text": {
+          "tr": "Randevu al",
+          "en": "Book a session",
+          "ar": "احجز جلسة"
+        },
+        "btn1Url": "iletisim",
+        "btn2Text": {
+          "tr": "Hakkımda",
+          "en": "About me",
+          "ar": "نبذة عني"
+        },
+        "btn2Url": "hakkimizda",
+        "stil": ""
+      },
+      "version": "1.1.0",
+      "icon": "campaign",
+      "index": 4
+    },
+    {
+      "name": "Footer 3",
+      "path": "footer-3",
+      "local": "footer",
+      "category": "footer",
+      "id": "g3ft01",
+      "desing": {
+        "showlang": true,
+        "bgcolor": "var(--mx-site-surface-2, #f1f1ee)",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "minimal_design": true,
+        "social_media": false,
+        "logo_maxh": "60px",
+        "logo_plate": false,
+        "contact_line": "auto"
+      },
+      "version": "1.0.0",
+      "icon": "widgets",
+      "data": [],
+      "index": 5
+    },
+    {
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "category": "contact",
+      "id": "g3ct01",
+      "desing": {
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "name": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact Us",
+          "ar": "تواصل معنا"
+        },
+        "margin": "30px 0px 30px 0px",
+        "linkcolor": "var(--mx-site-primary, #2563eb)",
+        "stil": ""
+      },
+      "version": "1.0.0",
+      "icon": "contact_mail",
+      "data": [
+        {
+          "icon": "phone",
+          "text": "+90",
+          "url": ""
+        },
+        {
+          "icon": "email",
+          "text": ""
+        },
+        {
+          "icon": "map",
+          "text": ""
+        }
+      ],
+      "index": 6
+    },
+    {
+      "name": "Maps",
+      "path": "map-2",
+      "local": "body",
+      "category": "map",
+      "id": "g3mp01",
+      "desing": {
+        "height": "200px",
+        "opacity": "0.5",
+        "backgroundcolor": "#ffffff",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "img": "map.png",
+        "externalUrl": "",
+        "margin": "0px"
+      },
+      "version": "1.0.0",
+      "icon": "widgets",
+      "index": 7
+    },
+    {
+      "name": "Tanıtım Modülü",
+      "path": "module-1",
+      "local": "body",
+      "category": "module",
+      "id": "g3in01",
+      "desing": {
+        "name": {
+          "tr": "Hakkımızda",
+          "en": "About us",
+          "ar": "من نحن"
+        },
+        "description": {
+          "tr": "Bu sayfa bir tema örneğidir; içerik demo üretiminde doldurulur.",
+          "en": "This page is a theme sample; its content is filled in during demo production.",
+          "ar": "هذه الصفحة نموذج للقالب؛ يُملأ محتواها عند إنتاج العرض التجريبي."
+        },
+        "name2": {
+          "tr": "Vizyonumuz",
+          "en": "Our Vision",
+          "ar": "رؤيتنا"
+        },
+        "spot2": {
+          "tr": "Sektörümüzde yenilikçi yaklaşımlarla öncü olmak.",
+          "en": "To lead our industry with innovative approaches.",
+          "ar": "أن نكون روّادًا في قطاعنا بأساليب مبتكرة."
+        },
+        "icon2": "visibility",
+        "name3": {
+          "tr": "Misyonumuz",
+          "en": "Our Mission",
+          "ar": "مهمتنا"
+        },
+        "spot3": {
+          "tr": "İhtiyaç duyulan çözümleri hızlı ve şeffaf sunmak.",
+          "en": "Deliver needed solutions quickly and transparently.",
+          "ar": "تقديم الحلول المطلوبة بسرعة وشفافية."
+        },
+        "icon3": "flag",
+        "img": "index.jpg",
+        "bgcolor": "var(--mx-site-surface, #ffffff)",
+        "fontcolor": "var(--mx-site-text, #1b1b1b)",
+        "margintop": "20",
+        "marginbotton": "20",
+        "title": {
+          "tr": "Kurumsal",
+          "en": "Corporate",
+          "ar": "المؤسسة"
+        },
+        "stil": ""
+      },
+      "version": "1.1.0",
+      "icon": "business",
+      "index": 8
+    },
+    {
+      "name": "Galeri Masonry (Filtre + Lightbox)",
+      "path": "galeri-masonry",
+      "local": "body",
+      "category": "galeri",
+      "id": "g3gm02",
+      "desing": {
+        "max": "1280px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #ffffff)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "gap": "0px",
+        "radius": "8px",
+        "columns": {
+          "d": 4,
+          "t": 3,
+          "m": 2
+        },
+        "ratio": "auto",
+        "captions": "hover",
+        "filter": true,
+        "lightbox": true,
+        "lazy": true,
+        "urlPrefix": "",
+        "title": {
+          "tr": "Galeri",
+          "en": "Gallery",
+          "ar": "المعرض"
+        },
+        "description": {
+          "tr": "Çalışmalarımızdan seçilmiş kareler. Kategoriye göre süzün, büyütmek için dokunun.",
+          "en": "A selection of frames from our work. Filter by category and tap to enlarge.",
+          "ar": "مختارات من أعمالنا. صفِّ حسب الفئة، وانقر على الصورة لتكبيرها."
+        },
+        "allLabel": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "filterLabel": {
+          "tr": "Kategoriye göre filtrele",
+          "en": "Filter by category",
+          "ar": "التصفية حسب الفئة"
+        },
+        "countText": {
+          "zero": {
+            "ar": "لا توجد صور"
+          },
+          "one": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photo",
+            "ar": "صورة واحدة"
+          },
+          "two": {
+            "ar": "صورتان"
+          },
+          "few": {
+            "ar": "{n} صور"
+          },
+          "many": {
+            "ar": "{n} صورة"
+          },
+          "other": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photos",
+            "ar": "{n} صورة"
+          }
+        },
+        "emptyText": {
+          "tr": "Henüz gösterilecek görsel yok.",
+          "en": "There are no images to show yet.",
+          "ar": "لا توجد صور لعرضها بعد."
+        },
+        "lightboxLabels": {
+          "dialog": {
+            "tr": "Görsel görüntüleyici",
+            "en": "Image viewer",
+            "ar": "عارض الصور"
+          },
+          "close": {
+            "tr": "Kapat",
+            "en": "Close",
+            "ar": "إغلاق"
+          },
+          "prev": {
+            "tr": "Önceki görsel",
+            "en": "Previous image",
+            "ar": "الصورة السابقة"
+          },
+          "next": {
+            "tr": "Sonraki görsel",
+            "en": "Next image",
+            "ar": "الصورة التالية"
+          },
+          "counter": {
+            "tr": "{i} / {n}",
+            "en": "{i} / {n}",
+            "ar": "{i} من {n}"
+          }
+        },
+        "cats": [
+          {
+            "id": "mekan",
+            "name": {
+              "tr": "Mekan",
+              "en": "Spaces",
+              "ar": "المساحات"
+            }
+          },
+          {
+            "id": "detay",
+            "name": {
+              "tr": "Detay",
+              "en": "Details",
+              "ar": "التفاصيل"
+            }
+          },
+          {
+            "id": "surec",
+            "name": {
+              "tr": "Süreç",
+              "en": "Process",
+              "ar": "سير العمل"
+            }
+          }
+        ]
+      },
+      "version": "1.0.0",
+      "icon": "photo_library",
+      "data": [
+        {
+          "img": "",
+          "title": {
+            "tr": "Giriş alanı",
+            "en": "Entrance area",
+            "ar": "منطقة المدخل"
+          },
+          "cat": "mekan",
+          "w": 800,
+          "h": 1000,
+          "alt": {
+            "tr": "Aydınlık giriş alanı",
+            "en": "Bright entrance area",
+            "ar": "منطقة مدخل مضيئة"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Ana salon",
+            "en": "Main hall",
+            "ar": "القاعة الرئيسية"
+          },
+          "cat": "mekan",
+          "w": 1200,
+          "h": 800,
+          "alt": {
+            "tr": "Geniş ana salon",
+            "en": "Spacious main hall",
+            "ar": "قاعة رئيسية واسعة"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Malzeme seçimi",
+            "en": "Material selection",
+            "ar": "اختيار المواد"
+          },
+          "cat": "detay",
+          "w": 1000,
+          "h": 1000,
+          "alt": {
+            "tr": "Yakın çekim doku",
+            "en": "Close-up texture",
+            "ar": "نسيج بلقطة مقرّبة"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Aydınlatma",
+            "en": "Lighting",
+            "ar": "الإضاءة"
+          },
+          "cat": "detay",
+          "w": 800,
+          "h": 1000,
+          "alt": {
+            "tr": "Sıcak ışıklı detay",
+            "en": "Warm-lit detail",
+            "ar": "تفصيل بإضاءة دافئة"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Çizim masası",
+            "en": "Drafting table",
+            "ar": "طاولة الرسم"
+          },
+          "cat": "surec",
+          "w": 1200,
+          "h": 800,
+          "alt": {
+            "tr": "Çalışma masasında planlar",
+            "en": "Plans on the work table",
+            "ar": "مخططات على طاولة العمل"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Uygulama",
+            "en": "On site",
+            "ar": "التنفيذ"
+          },
+          "cat": "surec",
+          "w": 1000,
+          "h": 1000,
+          "alt": {
+            "tr": "Uygulama aşaması",
+            "en": "Installation stage",
+            "ar": "مرحلة التنفيذ"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Teslim",
+            "en": "Handover",
+            "ar": "التسليم"
+          },
+          "cat": "mekan",
+          "w": 800,
+          "h": 1000,
+          "alt": {
+            "tr": "Teslim edilen mekan",
+            "en": "Finished space",
+            "ar": "المساحة بعد التسليم"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Son dokunuşlar",
+            "en": "Finishing touches",
+            "ar": "اللمسات الأخيرة"
+          },
+          "cat": "detay",
+          "w": 1200,
+          "h": 800,
+          "alt": {
+            "tr": "Son dokunuş detayı",
+            "en": "Finishing detail",
+            "ar": "تفصيل اللمسات الأخيرة"
+          }
+        }
+      ],
+      "index": 9
+    },
+    {
+      "name": "Demo Kredi Şeridi",
+      "description": "Demo sitelerin alt bilgisinde duran kredi şeridi: «Bu demo Webyapar tarafından hazırlanmıştır — Bu temayı iste». Marka adı çevrilmez (Latin, dir=ltr izole), bağlantı demo adına göre webyapar.com/temalar#<slug>. Üç dil (TR/EN/AR), mantıksal CSS (RTL), mobilde sarar, reduced-motion'a saygılı.",
+      "version": "1.0.0",
+      "icon": "campaign",
+      "category": "demo",
+      "tags": [
+        "demo",
+        "footer",
+        "kredi",
+        "rtl"
+      ],
+      "desing": {
+        "href": "https://webyapar.com/temalar#arackiralama-3",
+        "brand": "Webyapar",
+        "text": {
+          "tr": "Bu demo {brand} tarafından hazırlanmıştır —",
+          "en": "This demo was prepared by {brand} —",
+          "ar": "تم إعداد هذا العرض التجريبي بواسطة {brand} —"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "ariaLabel": {
+          "tr": "Demo bilgisi",
+          "en": "Demo credit",
+          "ar": "معلومات العرض التجريبي"
+        }
+      },
+      "id": "cbz3sn",
+      "path": "demo-kredi",
+      "local": "footer",
+      "data": [],
+      "index": 10
+    },
+    {
+      "name": "Menu 2",
+      "desing": {
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "activebgcolor": "var(--mx-site-primary, #2563eb)",
+        "activecolor": "var(--mx-site-primary-contrast, #ffffff)",
+        "height": "84px",
+        "ariaToggle": {
+          "tr": "Menüyü aç/kapat",
+          "en": "Toggle menu",
+          "ar": "فتح/إغلاق القائمة"
+        },
+        "ariaClose": {
+          "tr": "Menüyü kapat",
+          "en": "Close menu",
+          "ar": "إغلاق القائمة"
+        },
+        "logobg": "transparent",
+        "logoborder": "none",
+        "logoradius": "0",
+        "logopad": "0",
+        "logopadmobil": "0",
+        "logomaxh": "60px",
+        "logoimg": "",
+        "langcolor": "currentColor",
+        "langbg": "transparent",
+        "tekSatir": ""
+      },
+      "category": "menu",
+      "description": "Sticky header navigasyon menüsü. Logo, sayfa linkleri ve mobil hamburger menü içerir. 16 farklı projede kullanılır: üretim, e-ticaret, kurumsal, eğitim, ajans ve hizmet sektörü firmalarında. Scroll animasyonu, aktif sayfa vurgulama ve responsive menü geçişi özellikleri vardır.",
+      "version": "1.0.0",
+      "icon": "menu",
+      "id": "jndpzb",
+      "path": "menu-2",
+      "local": "header",
+      "data": [],
+      "index": 11
+    },
+    {
+      "name": {
+        "tr": "Hero 4 — Bölünmüş",
+        "en": "Hero 4 — Split",
+        "ar": "هيرو 4 — مقسّم"
+      },
+      "description": {
+        "tr": "İki sütunlu hero: solda üst etiket, h1, paragraf, iki CTA (dolgu + çerçeve) ve güven satırı (data[]: ikon + metin); sağda görsel, arkasında token renkli organik şekil ve yüzen istatistik rozeti. desing.stil: blob | kare-kesit | cerceveli. Mobilde görsel üstte. Renkler yalnız desing anahtarı + var(--mx-site-*) — koyu mod otomatik. Üç dil + RTL.",
+        "en": "Two-column hero: eyebrow, h1, paragraph, two CTAs (filled + outline) and a trust row (data[]: icon + text) on the start side; image with a token-coloured organic shape and a floating stat badge on the end side. desing.stil: blob | kare-kesit | cerceveli. Image stacks on top on mobile. Colours come only from desing keys + var(--mx-site-*) — dark mode automatic. Three languages + RTL.",
+        "ar": "هيرو بعمودين: تسمية علوية وعنوان h1 وفقرة وزرّان (ممتلئ + إطار) وسطر الثقة (data[]: أيقونة + نص) في جهة البداية؛ صورة خلفها شكل عضوي بلون الرمز وشارة إحصائية عائمة في جهة النهاية. desing.stil: blob | kare-kesit | cerceveli. على الجوال تظهر الصورة أولًا. الألوان من مفاتيح desing و var(--mx-site-*) فقط — الوضع الداكن تلقائي. ثلاث لغات + RTL."
+      },
+      "version": "1.0.0",
+      "icon": "view_sidebar",
+      "category": "hero",
+      "tags": [
+        "hero",
+        "split",
+        "bolunmus",
+        "cta",
+        "guven",
+        "blob",
+        "ar"
+      ],
+      "desing": {
+        "stil": "kare-kesit",
+        "max": "1200px",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "text": "var(--mx-site-text, #1b1b1b)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
+        "radius": "20px",
+        "eyebrow": {
+          "tr": "Sade kiralama · net fiyat",
+          "en": "Simple rental · clear price",
+          "ar": "تأجير بسيط · سعر واضح"
+        },
+        "title": {
+          "tr": "Gereksiz hiçbir şey yok: araç, tarih, teslim",
+          "en": "Nothing unnecessary: car, dates, hand-over",
+          "ar": "لا شيء زائد: السيارة والتاريخ والتسليم"
+        },
+        "metin": {
+          "tr": "Kuzey Rent, üç araç sınıfını tek tabloda karşılaştırmanızı sağlayan kurgusal bir demo kiralama markasıdır. Günlük fiyat, km sınırı ve iptal koşulu baştan yazılıdır; kapora alınmaz.",
+          "en": "Kuzey Rent is a fictional demo rental brand that lets you compare three vehicle classes in one table. Daily price, km allowance and cancellation terms are stated up front; no deposit is taken online.",
+          "ar": "كوزي رنت علامة تأجير تجريبية افتراضية تتيح لك مقارنة ثلاث فئات مركبات في جدول واحد. السعر اليومي وحد الكيلومترات وشروط الإلغاء مذكورة منذ البداية؛ ولا يُؤخذ عربون عبر الإنترنت."
+        },
+        "cta1": {
+          "tr": "Araçları gör",
+          "en": "Browse vehicles",
+          "ar": "تصفح المركبات"
+        },
+        "cta1_url": "araclar",
+        "cta2": {
+          "tr": "Rezervasyon talebi",
+          "en": "Reservation request",
+          "ar": "طلب حجز"
+        },
+        "cta2_url": "rezervasyon",
+        "img": "arackiralama-arac-1.webp",
+        "alt": {
+          "tr": "Beyaz ekonomik hatchback",
+          "en": "A white economy hatchback",
+          "ar": "هاتشباك اقتصادية بيضاء"
+        },
+        "badge_icon": "directions_car",
+        "badge_value": "6",
+        "badge_label": {
+          "tr": "Örnek araç",
+          "en": "Sample vehicles",
+          "ar": "مركبات تجريبية"
+        }
+      },
+      "data": [
+        {
+          "icon": "today",
+          "text": {
+            "tr": "Günlük kiralama",
+            "en": "Daily rental",
+            "ar": "تأجير يومي"
+          }
+        },
+        {
+          "icon": "date_range",
+          "text": {
+            "tr": "Uzun dönem",
+            "en": "Long-term rental",
+            "ar": "تأجير طويل الأمد"
+          }
+        },
+        {
+          "icon": "business_center",
+          "text": {
+            "tr": "Kurumsal filo",
+            "en": "Corporate fleet",
+            "ar": "أسطول الشركات"
+          }
+        }
+      ],
+      "id": "y27xaw",
+      "path": "hero-4",
+      "local": "body",
+      "index": 12
+    },
+    {
+      "name": "Kurumsal Değerler 1",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "badgebg": "#2E6BFF",
+        "badgecolor": "#ffffff",
+        "badge": {
+          "tr": "Seçenekler",
+          "en": "Options",
+          "ar": "الخيارات"
+        },
+        "title": {
+          "tr": "Süreye ve ihtiyaca göre kiralama",
+          "en": "Rental by duration and need",
+          "ar": "تأجير بحسب المدة والحاجة"
+        },
+        "description": {
+          "tr": "Belirli bir tarih için yapılan araç kiralamada cayma hakkı bulunmaz (6502 sayılı Kanun md. 15/g); iptal, değişiklik ve depozito koşulları Kiralama Koşulları sayfasındadır. Kapora alınmaz; ödeme teslimde yapılır.",
+          "en": "There is no right of withdrawal for vehicle rental booked for a specific date (Law No. 6502 art. 15/g); cancellation, change and deposit terms are on the Rental Terms page. No deposit is taken online; payment is made at pick-up.",
+          "ar": "لا يوجد حق عدول في تأجير المركبات المحدد بتاريخ معيّن (المادة 15/ز من القانون التركي رقم 6502)؛ وشروط الإلغاء والتعديل والتأمين في صفحة شروط التأجير. لا تُؤخذ عربون عبر الإنترنت ويتم الدفع عند الاستلام."
+        }
+      },
+      "data": [
+        {
+          "icon": "today",
+          "name": {
+            "tr": "Günlük kiralama",
+            "en": "Daily rental",
+            "ar": "تأجير يومي"
+          },
+          "description": {
+            "tr": "Kısa süreli seyahat ve iş gezileri için esnek kiralama.",
+            "en": "Flexible rental for short trips and business travel.",
+            "ar": "تأجير مرن للرحلات القصيرة وسفر العمل."
+          }
+        },
+        {
+          "icon": "date_range",
+          "name": {
+            "tr": "Uzun dönem",
+            "en": "Long-term rental",
+            "ar": "تأجير طويل الأمد"
+          },
+          "description": {
+            "tr": "Aylık ve yıllık planlar; bakım dahil seçenekler.",
+            "en": "Monthly and annual plans; options with maintenance included.",
+            "ar": "خطط شهرية وسنوية؛ وخيارات تشمل الصيانة."
+          }
+        },
+        {
+          "icon": "business_center",
+          "name": {
+            "tr": "Kurumsal filo",
+            "en": "Corporate fleet",
+            "ar": "أسطول الشركات"
+          },
+          "description": {
+            "tr": "Şirketler için çoklu araç ve fatura düzeni.",
+            "en": "Multi-vehicle and invoicing arrangements for companies.",
+            "ar": "ترتيبات متعددة المركبات والفوترة للشركات."
+          }
+        },
+        {
+          "icon": "flight_land",
+          "name": {
+            "tr": "Havalimanı teslim",
+            "en": "Airport pick-up",
+            "ar": "الاستلام من المطار"
+          },
+          "description": {
+            "tr": "Uçuş saatine göre havalimanında teslim ve iade.",
+            "en": "Pick-up and return at the airport according to flight times.",
+            "ar": "استلام وإعادة في المطار بحسب مواعيد الرحلات."
+          }
+        }
+      ],
+      "category": "values",
+      "description": "Kurumsal değer kartları (MLA tarzı dört sütun). Rakam yok; ikon, başlık ve kısa açıklama. Animasyon, mobil tek sütun ve prefers-reduced-motion destekler.",
+      "version": "1.0.0",
+      "icon": "diamond",
+      "id": "2erah3",
+      "path": "values-1",
+      "local": "body",
+      "index": 13
+    },
+    {
+      "name": "Kurumsal Değerler 1",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "badgebg": "#2E6BFF",
+        "badgecolor": "#ffffff",
+        "badge": {
+          "tr": "Seçenekler",
+          "en": "Options",
+          "ar": "الخيارات"
+        },
+        "title": {
+          "tr": "Süreye ve ihtiyaca göre kiralama",
+          "en": "Rental by duration and need",
+          "ar": "تأجير بحسب المدة والحاجة"
+        },
+        "description": {
+          "tr": "Belirli bir tarih için yapılan araç kiralamada cayma hakkı bulunmaz (6502 sayılı Kanun md. 15/g); iptal, değişiklik ve depozito koşulları Kiralama Koşulları sayfasındadır. Kapora alınmaz; ödeme teslimde yapılır.",
+          "en": "There is no right of withdrawal for vehicle rental booked for a specific date (Law No. 6502 art. 15/g); cancellation, change and deposit terms are on the Rental Terms page. No deposit is taken online; payment is made at pick-up.",
+          "ar": "لا يوجد حق عدول في تأجير المركبات المحدد بتاريخ معيّن (المادة 15/ز من القانون التركي رقم 6502)؛ وشروط الإلغاء والتعديل والتأمين في صفحة شروط التأجير. لا تُؤخذ عربون عبر الإنترنت ويتم الدفع عند الاستلام."
+        }
+      },
+      "data": [
+        {
+          "icon": "today",
+          "name": {
+            "tr": "Günlük kiralama",
+            "en": "Daily rental",
+            "ar": "تأجير يومي"
+          },
+          "description": {
+            "tr": "Kısa süreli seyahat ve iş gezileri için esnek kiralama.",
+            "en": "Flexible rental for short trips and business travel.",
+            "ar": "تأجير مرن للرحلات القصيرة وسفر العمل."
+          }
+        },
+        {
+          "icon": "date_range",
+          "name": {
+            "tr": "Uzun dönem",
+            "en": "Long-term rental",
+            "ar": "تأجير طويل الأمد"
+          },
+          "description": {
+            "tr": "Aylık ve yıllık planlar; bakım dahil seçenekler.",
+            "en": "Monthly and annual plans; options with maintenance included.",
+            "ar": "خطط شهرية وسنوية؛ وخيارات تشمل الصيانة."
+          }
+        },
+        {
+          "icon": "business_center",
+          "name": {
+            "tr": "Kurumsal filo",
+            "en": "Corporate fleet",
+            "ar": "أسطول الشركات"
+          },
+          "description": {
+            "tr": "Şirketler için çoklu araç ve fatura düzeni.",
+            "en": "Multi-vehicle and invoicing arrangements for companies.",
+            "ar": "ترتيبات متعددة المركبات والفوترة للشركات."
+          }
+        },
+        {
+          "icon": "flight_land",
+          "name": {
+            "tr": "Havalimanı teslim",
+            "en": "Airport pick-up",
+            "ar": "الاستلام من المطار"
+          },
+          "description": {
+            "tr": "Uçuş saatine göre havalimanında teslim ve iade.",
+            "en": "Pick-up and return at the airport according to flight times.",
+            "ar": "استلام وإعادة في المطار بحسب مواعيد الرحلات."
+          }
+        },
+        {
+          "icon": "child_friendly",
+          "name": {
+            "tr": "Ek ürünler",
+            "en": "Extras",
+            "ar": "إضافات"
+          },
+          "description": {
+            "tr": "Çocuk koltuğu, navigasyon ve ek sürücü.",
+            "en": "Child seats, navigation and an additional driver.",
+            "ar": "مقاعد أطفال وملاحة وسائق إضافي."
+          }
+        },
+        {
+          "icon": "shield",
+          "name": {
+            "tr": "Sigorta ve yol yardım",
+            "en": "Insurance and roadside help",
+            "ar": "التأمين والمساعدة على الطريق"
+          },
+          "description": {
+            "tr": "Temel sigorta kiralama bedeline dahildir; kapsam sözleşmede yazılıdır.",
+            "en": "Basic insurance is included in the rental price; coverage is stated in the contract.",
+            "ar": "التأمين الأساسي مشمول بسعر التأجير؛ والتغطية مذكورة في العقد."
+          }
+        }
+      ],
+      "category": "values",
+      "description": "Kurumsal değer kartları (MLA tarzı dört sütun). Rakam yok; ikon, başlık ve kısa açıklama. Animasyon, mobil tek sütun ve prefers-reduced-motion destekler.",
+      "version": "1.0.0",
+      "icon": "diamond",
+      "id": "d0y25j",
+      "path": "values-1",
+      "local": "body",
+      "index": 14
+    },
+    {
+      "name": "Sekmeli Hizmetler",
+      "description": "Hizmet anlatımı sekmelerle: sol/üst sekme listesi (ikon + ad), seçili hizmetin görseli + açıklama + madde listesi + CTA. Mobilde akordeon. ARIA tabs kalıbı (ok tuşları, Home/End, RTL'de yön ters). desing.stil: dikey | yatay-ust | kart-gecis. Veri: data[] = [{ikon, ad{tr,en,ar}, ozet{}, maddeler[{}], img, alt{}, url}]. Renkler yalnız token (var(--mx-site-*)); koyu mod otomatik. Üç dil + RTL.",
+      "version": "1.0.0",
+      "icon": "view_sidebar",
+      "category": "hizmet",
+      "tags": [
+        "hizmet",
+        "sekme",
+        "tabs",
+        "akordeon",
+        "services",
+        "ar"
+      ],
+      "desing": {
+        "stil": "yatay-ust",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "16px",
+        "eyebrow": {
+          "tr": "Seçenekler",
+          "en": "Options",
+          "ar": "الخيارات"
+        },
+        "title": {
+          "tr": "Süreye ve ihtiyaca göre kiralama",
+          "en": "Rental by duration and need",
+          "ar": "تأجير بحسب المدة والحاجة"
+        },
+        "description": {
+          "tr": "Belirli bir tarih için yapılan araç kiralamada cayma hakkı bulunmaz (6502 sayılı Kanun md. 15/g); iptal, değişiklik ve depozito koşulları Kiralama Koşulları sayfasındadır. Kapora alınmaz; ödeme teslimde yapılır.",
+          "en": "There is no right of withdrawal for vehicle rental booked for a specific date (Law No. 6502 art. 15/g); cancellation, change and deposit terms are on the Rental Terms page. No deposit is taken online; payment is made at pick-up.",
+          "ar": "لا يوجد حق عدول في تأجير المركبات المحدد بتاريخ معيّن (المادة 15/ز من القانون التركي رقم 6502)؛ وشروط الإلغاء والتعديل والتأمين في صفحة شروط التأجير. لا تُؤخذ عربون عبر الإنترنت ويتم الدفع عند الاستلام."
+        },
+        "ctaLabel": {
+          "tr": "Detaylı bilgi",
+          "en": "Learn more",
+          "ar": "مزيد من التفاصيل"
+        },
+        "tabsLabel": {
+          "tr": "Hizmet sekmeleri",
+          "en": "Service tabs",
+          "ar": "تبويبات الخدمات"
+        },
+        "featuresLabel": {
+          "tr": "Neler dahil?",
+          "en": "What's included?",
+          "ar": "ماذا يشمل؟"
+        }
+      },
+      "data": [
+        {
+          "ikon": "today",
+          "ad": {
+            "tr": "Günlük kiralama",
+            "en": "Daily rental",
+            "ar": "تأجير يومي"
+          },
+          "ozet": {
+            "tr": "Kısa süreli seyahat ve iş gezileri için esnek kiralama.",
+            "en": "Flexible rental for short trips and business travel.",
+            "ar": "تأجير مرن للرحلات القصيرة وسفر العمل."
+          },
+          "maddeler": [],
+          "img": "arackiralama-ofis.webp",
+          "alt": {
+            "tr": "Sade bir kiralama teslim ofisi",
+            "en": "A plain rental pick-up desk",
+            "ar": "مكتب استلام تأجير بسيط"
+          },
+          "url": "secenekler"
+        },
+        {
+          "ikon": "date_range",
+          "ad": {
+            "tr": "Uzun dönem",
+            "en": "Long-term rental",
+            "ar": "تأجير طويل الأمد"
+          },
+          "ozet": {
+            "tr": "Aylık ve yıllık planlar; bakım dahil seçenekler.",
+            "en": "Monthly and annual plans; options with maintenance included.",
+            "ar": "خطط شهرية وسنوية؛ وخيارات تشمل الصيانة."
+          },
+          "maddeler": [],
+          "img": "arackiralama-anahtar.webp",
+          "alt": {
+            "tr": "Masa üzerinde araç anahtarı ve sözleşme",
+            "en": "A car key and contract on a desk",
+            "ar": "مفتاح سيارة وعقد على مكتب"
+          },
+          "url": "secenekler"
+        },
+        {
+          "ikon": "business_center",
+          "ad": {
+            "tr": "Kurumsal filo",
+            "en": "Corporate fleet",
+            "ar": "أسطول الشركات"
+          },
+          "ozet": {
+            "tr": "Şirketler için çoklu araç ve fatura düzeni.",
+            "en": "Multi-vehicle and invoicing arrangements for companies.",
+            "ar": "ترتيبات متعددة المركبات والفوترة للشركات."
+          },
+          "maddeler": [],
+          "img": "arackiralama-arac-1.webp",
+          "alt": {
+            "tr": "Beyaz ekonomik hatchback",
+            "en": "A white economy hatchback",
+            "ar": "هاتشباك اقتصادية بيضاء"
+          },
+          "url": "secenekler"
+        },
+        {
+          "ikon": "flight_land",
+          "ad": {
+            "tr": "Havalimanı teslim",
+            "en": "Airport pick-up",
+            "ar": "الاستلام من المطار"
+          },
+          "ozet": {
+            "tr": "Uçuş saatine göre havalimanında teslim ve iade.",
+            "en": "Pick-up and return at the airport according to flight times.",
+            "ar": "استلام وإعادة في المطار بحسب مواعيد الرحلات."
+          },
+          "maddeler": [],
+          "img": "arackiralama-arac-3.webp",
+          "alt": {
+            "tr": "Gri aile SUV’u",
+            "en": "A grey family SUV",
+            "ar": "SUV عائلية رمادية"
+          },
+          "url": "secenekler"
+        },
+        {
+          "ikon": "child_friendly",
+          "ad": {
+            "tr": "Ek ürünler",
+            "en": "Extras",
+            "ar": "إضافات"
+          },
+          "ozet": {
+            "tr": "Çocuk koltuğu, navigasyon ve ek sürücü.",
+            "en": "Child seats, navigation and an additional driver.",
+            "ar": "مقاعد أطفال وملاحة وسائق إضافي."
+          },
+          "maddeler": [],
+          "img": "arackiralama-arac-4.webp",
+          "alt": {
+            "tr": "Gümüş 7 kişilik minivan",
+            "en": "A silver 7-seat minivan",
+            "ar": "ميني فان فضية 7 مقاعد"
+          },
+          "url": "secenekler"
+        },
+        {
+          "ikon": "shield",
+          "ad": {
+            "tr": "Sigorta ve yol yardım",
+            "en": "Insurance and roadside help",
+            "ar": "التأمين والمساعدة على الطريق"
+          },
+          "ozet": {
+            "tr": "Temel sigorta kiralama bedeline dahildir; kapsam sözleşmede yazılıdır.",
+            "en": "Basic insurance is included in the rental price; coverage is stated in the contract.",
+            "ar": "التأمين الأساسي مشمول بسعر التأجير؛ والتغطية مذكورة في العقد."
+          },
+          "maddeler": [],
+          "img": "arackiralama-hero-filo.webp",
+          "alt": {
+            "tr": "Sıralı kiralık araçlar",
+            "en": "Rental cars lined up",
+            "ar": "سيارات تأجير مصطفة"
+          },
+          "url": "secenekler"
+        }
+      ],
+      "id": "hgpkkm",
+      "path": "hizmet-sekmeli",
+      "local": "body",
+      "index": 15
+    },
+    {
+      "name": "Zigzag Özellik",
+      "description": "Görsel-metin sırası satır satır değişen (sol/sağ) özellik anlatımı: numara rozeti, h3, paragraf, mini CTA; görsel kenarında dekoratif çerçeve/gölge. Kaydırmada satırlar sırayla belirir (IntersectionObserver; reduced-motion ya da JS yoksa hep görünür). desing.stil: cerceve | yuzen | sade. RTL'de sıra kendiliğinden aynalanır. Veri: data[] = [{baslik{tr,en,ar}, metin{}, img, alt{}, url, ctaLabel{}?}]. Renkler yalnız token; koyu mod otomatik.",
+      "version": "1.0.0",
+      "icon": "view_agenda",
+      "category": "ozellik",
+      "tags": [
+        "özellik",
+        "zigzag",
+        "features",
+        "görsel-metin",
+        "ar"
+      ],
+      "desing": {
+        "stil": "sade",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "20px",
+        "numara": true,
+        "eyebrow": {
+          "tr": "Seçenekler",
+          "en": "Options",
+          "ar": "الخيارات"
+        },
+        "title": {
+          "tr": "Süreye ve ihtiyaca göre kiralama",
+          "en": "Rental by duration and need",
+          "ar": "تأجير بحسب المدة والحاجة"
+        },
+        "description": {
+          "tr": "Belirli bir tarih için yapılan araç kiralamada cayma hakkı bulunmaz (6502 sayılı Kanun md. 15/g); iptal, değişiklik ve depozito koşulları Kiralama Koşulları sayfasındadır. Kapora alınmaz; ödeme teslimde yapılır.",
+          "en": "There is no right of withdrawal for vehicle rental booked for a specific date (Law No. 6502 art. 15/g); cancellation, change and deposit terms are on the Rental Terms page. No deposit is taken online; payment is made at pick-up.",
+          "ar": "لا يوجد حق عدول في تأجير المركبات المحدد بتاريخ معيّن (المادة 15/ز من القانون التركي رقم 6502)؛ وشروط الإلغاء والتعديل والتأمين في صفحة شروط التأجير. لا تُؤخذ عربون عبر الإنترنت ويتم الدفع عند الاستلام."
+        },
+        "ctaLabel": {
+          "tr": "Daha fazla",
+          "en": "Read more",
+          "ar": "اقرأ المزيد"
+        }
+      },
+      "data": [
+        {
+          "baslik": {
+            "tr": "Günlük kiralama",
+            "en": "Daily rental",
+            "ar": "تأجير يومي"
+          },
+          "metin": {
+            "tr": "Kısa süreli seyahat ve iş gezileri için esnek kiralama.",
+            "en": "Flexible rental for short trips and business travel.",
+            "ar": "تأجير مرن للرحلات القصيرة وسفر العمل."
+          },
+          "img": "arackiralama-ofis.webp",
+          "alt": {
+            "tr": "Sade bir kiralama teslim ofisi",
+            "en": "A plain rental pick-up desk",
+            "ar": "مكتب استلام تأجير بسيط"
+          },
+          "url": "secenekler"
+        },
+        {
+          "baslik": {
+            "tr": "Uzun dönem",
+            "en": "Long-term rental",
+            "ar": "تأجير طويل الأمد"
+          },
+          "metin": {
+            "tr": "Aylık ve yıllık planlar; bakım dahil seçenekler.",
+            "en": "Monthly and annual plans; options with maintenance included.",
+            "ar": "خطط شهرية وسنوية؛ وخيارات تشمل الصيانة."
+          },
+          "img": "arackiralama-anahtar.webp",
+          "alt": {
+            "tr": "Masa üzerinde araç anahtarı ve sözleşme",
+            "en": "A car key and contract on a desk",
+            "ar": "مفتاح سيارة وعقد على مكتب"
+          },
+          "url": "secenekler"
+        },
+        {
+          "baslik": {
+            "tr": "Kurumsal filo",
+            "en": "Corporate fleet",
+            "ar": "أسطول الشركات"
+          },
+          "metin": {
+            "tr": "Şirketler için çoklu araç ve fatura düzeni.",
+            "en": "Multi-vehicle and invoicing arrangements for companies.",
+            "ar": "ترتيبات متعددة المركبات والفوترة للشركات."
+          },
+          "img": "arackiralama-arac-1.webp",
+          "alt": {
+            "tr": "Beyaz ekonomik hatchback",
+            "en": "A white economy hatchback",
+            "ar": "هاتشباك اقتصادية بيضاء"
+          },
+          "url": "secenekler"
+        }
+      ],
+      "id": "7hyqvo",
+      "path": "ozellik-zigzag",
+      "local": "body",
+      "index": 16
+    },
+    {
+      "name": "Zaman Çizelgesi 1",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "badge": {
+          "tr": "Süreç",
+          "en": "Process",
+          "ar": "الإجراءات"
+        },
+        "title": {
+          "tr": "Rezervasyondan iadeye",
+          "en": "From booking to return",
+          "ar": "من الحجز إلى الإعادة"
+        },
+        "description": {
+          "tr": "Dört adımda kiralama.",
+          "en": "Renting in four steps.",
+          "ar": "التأجير في أربع خطوات."
+        },
+        "accentText": "#ffffff",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
+      },
+      "data": [
+        {
+          "year": "01",
+          "title": {
+            "tr": "Araç ve tarih",
+            "en": "Vehicle and dates",
+            "ar": "المركبة والتواريخ"
+          },
+          "text": {
+            "tr": "Aracı ve teslim-iade tarihlerini seçin.",
+            "en": "Choose the vehicle and the pick-up and return dates.",
+            "ar": "اختر المركبة وتاريخي الاستلام والإعادة."
+          }
+        },
+        {
+          "year": "02",
+          "title": {
+            "tr": "Talep ve onay",
+            "en": "Request and confirmation",
+            "ar": "الطلب والتأكيد"
+          },
+          "text": {
+            "tr": "Talebiniz teyit edilir; kapora alınmaz.",
+            "en": "Your request is confirmed; no deposit is taken.",
+            "ar": "يُؤكَّد طلبك ولا يُؤخذ عربون."
+          }
+        },
+        {
+          "year": "03",
+          "title": {
+            "tr": "Teslim alma",
+            "en": "Pick-up",
+            "ar": "الاستلام"
+          },
+          "text": {
+            "tr": "Kimlik ve ehliyetle teslim alınır, depozito provizyonu yapılır.",
+            "en": "Pick up with ID and licence; a deposit pre-authorisation is made.",
+            "ar": "تستلم بالهوية والرخصة ويُحجز مبلغ التأمين."
+          }
+        },
+        {
+          "year": "04",
+          "title": {
+            "tr": "İade",
+            "en": "Return",
+            "ar": "الإعادة"
+          },
+          "text": {
+            "tr": "Araç iade edilir, depozito serbest bırakılır.",
+            "en": "The vehicle is returned and the deposit is released.",
+            "ar": "تُعاد المركبة ويُفرَج عن مبلغ التأمين."
+          }
+        }
+      ],
+      "category": "timeline",
+      "description": "Zaman çizelgesi modülü. Kurumsal tarihçe, süreç adımları veya yol haritasını dikey çizgi + yıl rozetiyle listeler. Çok dilli başlık/metin ve animasyonlu giriş içerir.",
+      "version": "1.0.0",
+      "icon": "timeline",
+      "id": "td9m4p",
+      "path": "timeline-1",
+      "local": "body",
+      "index": 17
+    },
+    {
+      "name": "Süreç Adımları",
+      "description": "3–6 adımlık süreç anlatımı: çizgi/ok ile bağlı daire numaralar, altında başlık + metin. Aktif adım vurgusu kaydırmayla ilerler (IntersectionObserver; JS yoksa tüm adımlar düz görünür). desing.stil: yatay (çizgiyle bağlı sıra; mobilde dikey zaman çizgisi) | dikey (iki yanlı zaman çizgisi) | kartli (kart + ok ayraç). Veri: data[] = [{no?, baslik{tr,en,ar}, metin{}, ikon?}]. Renkler yalnız token; koyu mod otomatik; RTL'de ok/çizgi yönü aynalanır.",
+      "version": "1.0.0",
+      "icon": "timeline",
+      "category": "surec",
+      "tags": [
+        "süreç",
+        "adım",
+        "zaman çizgisi",
+        "process",
+        "steps",
+        "ar"
+      ],
+      "desing": {
+        "stil": "yatay",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "16px",
+        "eyebrow": {
+          "tr": "Süreç",
+          "en": "Process",
+          "ar": "الإجراءات"
+        },
+        "title": {
+          "tr": "Rezervasyondan iadeye",
+          "en": "From booking to return",
+          "ar": "من الحجز إلى الإعادة"
+        },
+        "description": {
+          "tr": "Dört adımda kiralama.",
+          "en": "Renting in four steps.",
+          "ar": "التأجير في أربع خطوات."
+        },
+        "stepLabel": {
+          "tr": "Adım {n}",
+          "en": "Step {n}",
+          "ar": "الخطوة {n}"
+        },
+        "listLabel": {
+          "tr": "Süreç adımları",
+          "en": "Process steps",
+          "ar": "خطوات العملية"
+        }
+      },
+      "data": [
+        {
+          "baslik": {
+            "tr": "Araç ve tarih",
+            "en": "Vehicle and dates",
+            "ar": "المركبة والتواريخ"
+          },
+          "metin": {
+            "tr": "Aracı ve teslim-iade tarihlerini seçin.",
+            "en": "Choose the vehicle and the pick-up and return dates.",
+            "ar": "اختر المركبة وتاريخي الاستلام والإعادة."
+          },
+          "ikon": "forum"
+        },
+        {
+          "baslik": {
+            "tr": "Talep ve onay",
+            "en": "Request and confirmation",
+            "ar": "الطلب والتأكيد"
+          },
+          "metin": {
+            "tr": "Talebiniz teyit edilir; kapora alınmaz.",
+            "en": "Your request is confirmed; no deposit is taken.",
+            "ar": "يُؤكَّد طلبك ولا يُؤخذ عربون."
+          },
+          "ikon": "draw"
+        },
+        {
+          "baslik": {
+            "tr": "Teslim alma",
+            "en": "Pick-up",
+            "ar": "الاستلام"
+          },
+          "metin": {
+            "tr": "Kimlik ve ehliyetle teslim alınır, depozito provizyonu yapılır.",
+            "en": "Pick up with ID and licence; a deposit pre-authorisation is made.",
+            "ar": "تستلم بالهوية والرخصة ويُحجز مبلغ التأمين."
+          },
+          "ikon": "construction"
+        },
+        {
+          "baslik": {
+            "tr": "İade",
+            "en": "Return",
+            "ar": "الإعادة"
+          },
+          "metin": {
+            "tr": "Araç iade edilir, depozito serbest bırakılır.",
+            "en": "The vehicle is returned and the deposit is released.",
+            "ar": "تُعاد المركبة ويُفرَج عن مبلغ التأمين."
+          },
+          "ikon": "task_alt"
+        }
+      ],
+      "id": "bu7lgh",
+      "path": "surec-adimlar",
+      "local": "body",
+      "index": 18
+    },
+    {
+      "name": "İstatistik Bandı 1",
+      "desing": {
+        "stil": "serit-renkli",
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "numbercolor": "#ffffff",
+        "labelcolor": "rgba(255,255,255,.88)",
+        "iconsize": "56px",
+        "iconbox": "88px"
+      },
+      "data": [
+        {
+          "number": 6,
+          "suffix": "",
+          "label": {
+            "tr": "Örnek araç",
+            "en": "Sample vehicles",
+            "ar": "مركبات تجريبية"
+          },
+          "icon": "directions_car"
+        },
+        {
+          "number": 24,
+          "suffix": "sa",
+          "label": {
+            "tr": "İptal süresi",
+            "en": "Cancellation window",
+            "ar": "مهلة الإلغاء"
+          },
+          "icon": "event_busy"
+        },
+        {
+          "number": 21,
+          "suffix": "",
+          "label": {
+            "tr": "Asgari yaş",
+            "en": "Minimum age",
+            "ar": "الحد الأدنى للعمر"
+          },
+          "icon": "badge"
+        },
+        {
+          "number": 16,
+          "suffix": "sa",
+          "label": {
+            "tr": "Günlük hizmet",
+            "en": "Hours open per day",
+            "ar": "ساعات العمل يوميًا"
+          },
+          "icon": "schedule"
+        }
+      ],
+      "category": "stats",
+      "description": "İstatistik / sayaç bandı modülü. Rakamlar görünür olduğunda 0'dan hedefe animasyonlu sayar (IntersectionObserver + easeOutCubic; prefers-reduced-motion'da animasyonsuz). İkon, sonek (+, /7) ve çok dilli etiket destekler. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (gradient bant, numbercolor/labelcolor, bugünkü görünüm) · \"kartli\" (sayfa zemininde yüzey kartları, üstte primary çizgi, hover'da yükselir) · \"serit-renkli\" (tek renk primary/primary-contrast şeridi, ikon solda rakam+etiket yanında, dikey ayraçlar). Varyant renkleri yalnız var(--mx-site-*) token çiftleri.",
+      "version": "1.1.0",
+      "icon": "monitoring",
+      "id": "depdzr",
+      "path": "stats-1",
+      "local": "body",
+      "index": 19
+    },
+    {
+      "name": "Sayaç Şeridi (Stats 2)",
+      "description": "Tam genişlik renkli şerit (bgcolor/textcolor ÇİFT token), 3–5 sayaç: sayılar görünürken yukarı sayar (IntersectionObserver; reduced-motion ya da JS yoksa son değer doğrudan), önek/sonek (+, %, ₺), kısa açıklama, isteğe bağlı CSS desen (noktalar | cizgiler | yok). Sayı biçimi dile göre (Arapçada Latin hane). desing.stil: serit | kartli | ayrik-cizgili. Veri: data[] = [{deger, onek, sonek, ondalik?, etiket{tr,en,ar}, aciklama{}, ikon?}]. Koyu mod paletten; RTL mantıksal CSS.",
+      "version": "1.0.0",
+      "icon": "insights",
+      "category": "stats",
+      "tags": [
+        "istatistik",
+        "sayaç",
+        "stats",
+        "counter",
+        "şerit",
+        "ar"
+      ],
+      "desing": {
+        "stil": "ayrik-cizgili",
+        "desen": "noktalar",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-primary, #2563eb)",
+        "textcolor": "var(--mx-site-primary-contrast, #ffffff)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 90%, var(--mx-site-primary, #2563eb))",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 26%, transparent)",
+        "radius": "16px",
+        "sure": 1000,
+        "title": {
+          "tr": "Rakamlarla",
+          "en": "By the numbers",
+          "ar": "بالأرقام"
+        },
+        "description": {
+          "tr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      "data": [
+        {
+          "deger": 6,
+          "onek": "",
+          "sonek": "",
+          "etiket": {
+            "tr": "Örnek araç",
+            "en": "Sample vehicles",
+            "ar": "مركبات تجريبية"
+          },
+          "aciklama": {
+            "tr": "",
+            "en": "",
+            "ar": ""
+          },
+          "ikon": "directions_car"
+        },
+        {
+          "deger": 24,
+          "onek": "",
+          "sonek": "sa",
+          "etiket": {
+            "tr": "İptal süresi",
+            "en": "Cancellation window",
+            "ar": "مهلة الإلغاء"
+          },
+          "aciklama": {
+            "tr": "",
+            "en": "",
+            "ar": ""
+          },
+          "ikon": "event_busy"
+        },
+        {
+          "deger": 21,
+          "onek": "",
+          "sonek": "",
+          "etiket": {
+            "tr": "Asgari yaş",
+            "en": "Minimum age",
+            "ar": "الحد الأدنى للعمر"
+          },
+          "aciklama": {
+            "tr": "",
+            "en": "",
+            "ar": ""
+          },
+          "ikon": "badge"
+        },
+        {
+          "deger": 16,
+          "onek": "",
+          "sonek": "sa",
+          "etiket": {
+            "tr": "Günlük hizmet",
+            "en": "Hours open per day",
+            "ar": "ساعات العمل يوميًا"
+          },
+          "aciklama": {
+            "tr": "",
+            "en": "",
+            "ar": ""
+          },
+          "ikon": "schedule"
+        }
+      ],
+      "id": "hwz9dk",
+      "path": "stats-2",
+      "local": "body",
+      "index": 20
+    },
+    {
+      "name": "CTA Şerit 1",
+      "desing": {
+        "stil": "kart-yuzen",
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "btnbg": "#ffffff",
+        "btncolor": "#10203A",
+        "title": {
+          "tr": "Rezervasyon talebinizi gönderin",
+          "en": "Send your reservation request",
+          "ar": "أرسل طلب الحجز"
+        },
+        "description": {
+          "tr": "Belirli bir tarih için yapılan araç kiralamada cayma hakkı bulunmaz (6502 sayılı Kanun md. 15/g); iptal, değişiklik ve depozito koşulları Kiralama Koşulları sayfasındadır. Kapora alınmaz; ödeme teslimde yapılır.",
+          "en": "There is no right of withdrawal for vehicle rental booked for a specific date (Law No. 6502 art. 15/g); cancellation, change and deposit terms are on the Rental Terms page. No deposit is taken online; payment is made at pick-up.",
+          "ar": "لا يوجد حق عدول في تأجير المركبات المحدد بتاريخ معيّن (المادة 15/ز من القانون التركي رقم 6502)؛ وشروط الإلغاء والتعديل والتأمين في صفحة شروط التأجير. لا تُؤخذ عربون عبر الإنترنت ويتم الدفع عند الاستلام."
+        },
+        "btn1Text": {
+          "tr": "Rezervasyon talebi",
+          "en": "Reservation request",
+          "ar": "طلب حجز"
+        },
+        "btn1Url": "rezervasyon",
+        "btn2Text": {
+          "tr": "Kiralama koşulları",
+          "en": "Rental terms",
+          "ar": "شروط التأجير"
+        },
+        "btn2Url": "kiralama-kosullari"
+      },
+      "category": "cta",
+      "description": "Harekete geçirici çağrı (CTA) şerit modülü. Gradient arka plan üzerinde başlık, açıklama ve iki buton gösterir. Buton URL'leri dil öneki olmadan pathnext (iletisim, urunler) — site routing ekler. Çok dilli metin ve animasyonlu giriş içerir. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (gradient anahtarı tam genişlik bant, bugünkü görünüm) · \"gradient\" (token gradient primary→koyu, yuvarlak köşeli iç bant, ortalı yığın, ışık daireleri, hap düğmeler) · \"kart-yuzen\" (sayfa zemininde yüzen yüzey kartı, dekoratif primary daireler, sol vurgu çizgisi). Varyant renkleri yalnız var(--mx-site-*) token çiftleri.",
+      "version": "1.2.0",
+      "icon": "campaign",
+      "id": "4w5dvi",
+      "path": "cta-1",
+      "local": "body",
+      "data": [],
+      "index": 21
+    },
+    {
+      "name": "Bant CTA (zengin) — CTA 3",
+      "description": "Tam genişlik iki sütunlu çağrı bandı: sol h2 + metin + 2 buton; sağ görsel/illüstrasyon ya da telefon-WhatsApp kartı (numara, saat). Arka plan: token zemin + hafif gradient katmanı + dekoratif daireler (CSS). desing.stil: gradient | gorselli (sağ sütun tam yükseklik görsel) | cerceveli-kart (içerik sayfa zemini üstünde yüzen kart). desing.sag: whatsapp | gorsel | yok. Zemin + yazı ÇİFT token (bgcolor = birincil, textcolor = birincil kontrast); WhatsApp kartı opak yüzey (cardbg/cardtext). Üç dil + RTL; koyu mod paletten.",
+      "version": "1.0.0",
+      "icon": "campaign",
+      "category": "cta",
+      "tags": [
+        "cta",
+        "çağrı",
+        "whatsapp",
+        "bant",
+        "banner",
+        "ar"
+      ],
+      "desing": {
+        "stil": "cerceveli-kart",
+        "sag": "whatsapp",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-primary, #2563eb)",
+        "textcolor": "var(--mx-site-primary-contrast, #ffffff)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 90%, var(--mx-site-primary, #2563eb))",
+        "pagebg": "var(--mx-site-bg, #ffffff)",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "cardtext": "var(--mx-site-text, #1b1b1b)",
+        "cardmuted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-surface, #ffffff))",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
+        "radius": "24px",
+        "title": {
+          "tr": "Rezervasyon talebinizi gönderin",
+          "en": "Send your reservation request",
+          "ar": "أرسل طلب الحجز"
+        },
+        "text": {
+          "tr": "Belirli bir tarih için yapılan araç kiralamada cayma hakkı bulunmaz (6502 sayılı Kanun md. 15/g); iptal, değişiklik ve depozito koşulları Kiralama Koşulları sayfasındadır. Kapora alınmaz; ödeme teslimde yapılır.",
+          "en": "There is no right of withdrawal for vehicle rental booked for a specific date (Law No. 6502 art. 15/g); cancellation, change and deposit terms are on the Rental Terms page. No deposit is taken online; payment is made at pick-up.",
+          "ar": "لا يوجد حق عدول في تأجير المركبات المحدد بتاريخ معيّن (المادة 15/ز من القانون التركي رقم 6502)؛ وشروط الإلغاء والتعديل والتأمين في صفحة شروط التأجير. لا تُؤخذ عربون عبر الإنترنت ويتم الدفع عند الاستلام."
+        },
+        "btn1Label": {
+          "tr": "Rezervasyon talebi",
+          "en": "Reservation request",
+          "ar": "طلب حجز"
+        },
+        "btn1Url": "rezervasyon",
+        "btn2Label": {
+          "tr": "Kiralama koşulları",
+          "en": "Rental terms",
+          "ar": "شروط التأجير"
+        },
+        "btn2Url": "kiralama-kosullari",
+        "number": "903420000000",
+        "numberText": "+90 342 000 00 00",
+        "waLabel": {
+          "tr": "WhatsApp'tan yazın",
+          "en": "Message us on WhatsApp",
+          "ar": "راسلنا عبر واتساب"
+        },
+        "waTitle": {
+          "tr": "Hemen ulaşın",
+          "en": "Reach us now",
+          "ar": "تواصل معنا الآن"
+        },
+        "hours": {
+          "tr": "Her gün 07:00 – 23:00 · Havalimanı teslim noktası uçuşlara göre",
+          "en": "Daily 07:00 – 23:00 · Airport desk follows flight times",
+          "ar": "يوميًا 07:00 – 23:00 · مكتب المطار بحسب الرحلات"
+        },
+        "hoursLabel": {
+          "tr": "Çalışma saatleri",
+          "en": "Opening hours",
+          "ar": "ساعات العمل"
+        },
+        "waMessage": {
+          "tr": "Merhaba, demo siteniz üzerinden ulaşıyorum.",
+          "en": "Hello, I am reaching out via your demo site.",
+          "ar": "مرحبًا، أتواصل معكم عبر موقعكم التجريبي."
+        },
+        "img": "arackiralama-ofis.webp",
+        "alt": {
+          "tr": "Beyaz ekonomik hatchback",
+          "en": "A white economy hatchback",
+          "ar": "هاتشباك اقتصادية بيضاء"
+        }
+      },
+      "data": [],
+      "id": "5vpgz6",
+      "path": "cta-3",
+      "local": "body",
+      "index": 22
+    },
+    {
+      "name": "Karşılaştırma / Paket Tablosu",
+      "description": "Sütun = paket (2–4), satır = özellik; hücre ✓ / ✗ / metin; «önerilen» sütun vurgusu (token); mobilde sütunlar yatay kaydırılır, ilk sütun sabit (position: sticky); altta CTA satırı. desing.stil: cizgili (zebra + çizgi) | kartli-sutun (her sütun ayrı kart) | sade. Veri: desing.paketler[] = [{id, ad{tr,en,ar}, fiyat, fiyatNot{}, onerilen, ctaLabel{}?, url}], data[] = satırlar [{ad{}, degerler[]}] (deger: true/false/sayı/metin/{tr,en,ar}). Renkler yalnız token; koyu mod otomatik; RTL mantıksal CSS.",
+      "version": "1.0.0",
+      "icon": "table_chart",
+      "category": "fiyat",
+      "tags": [
+        "karşılaştırma",
+        "paket",
+        "fiyat",
+        "tablo",
+        "pricing",
+        "compare",
+        "ar"
+      ],
+      "desing": {
+        "stil": "sade",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "16px",
+        "eyebrow": {
+          "tr": "Araç sınıfları",
+          "en": "Vehicle classes",
+          "ar": "فئات المركبات"
+        },
+        "title": {
+          "tr": "Üç sınıf, tek tablo",
+          "en": "Three classes, one table",
+          "ar": "ثلاث فئات في جدول واحد"
+        },
+        "description": {
+          "tr": "Günlük fiyatlar kurgusal ve KDV dahildir. Belirli tarihli kiralamada cayma hakkı yoktur (md. 15/g); iptal ve depozito koşulları Kiralama Koşulları sayfasındadır.",
+          "en": "Daily prices are fictional and include VAT. There is no right of withdrawal for date-specific rentals (art. 15/g); cancellation and deposit terms are on the Rental Terms page.",
+          "ar": "الأسعار اليومية افتراضية وشاملة الضريبة. لا يوجد حق عدول في التأجير المحدد بتاريخ (المادة 15/ز)؛ وشروط الإلغاء والتأمين في صفحة شروط التأجير."
+        },
+        "featureHeader": {
+          "tr": "Özellik",
+          "en": "Feature",
+          "ar": "الميزة"
+        },
+        "recommendedLabel": {
+          "tr": "En çok tercih edilen",
+          "en": "Most chosen",
+          "ar": "الأكثر اختيارًا"
+        },
+        "yesLabel": {
+          "tr": "Dahil",
+          "en": "Included",
+          "ar": "مشمول"
+        },
+        "noLabel": {
+          "tr": "Dahil değil",
+          "en": "Not included",
+          "ar": "غير مشمول"
+        },
+        "ctaLabel": {
+          "tr": "Araçları gör",
+          "en": "See vehicles",
+          "ar": "شاهد المركبات"
+        },
+        "tableLabel": {
+          "tr": "Araç sınıfı karşılaştırma tablosu",
+          "en": "Vehicle class comparison table",
+          "ar": "جدول مقارنة فئات المركبات"
+        },
+        "scrollHint": {
+          "tr": "Tabloyu yana kaydırın",
+          "en": "Swipe the table sideways",
+          "ar": "اسحب الجدول جانبيًا"
+        },
+        "paketler": [
+          {
+            "id": "ekonomi",
+            "ad": {
+              "tr": "Ekonomi",
+              "en": "Economy",
+              "ar": "اقتصادية"
+            },
+            "fiyat": "1.150 ₺",
+            "fiyatNot": {
+              "tr": "/ gün, KDV dahil",
+              "en": "/ day, VAT incl.",
+              "ar": "/ يوميًا شامل الضريبة"
+            },
+            "onerilen": false,
+            "url": "araclar"
+          },
+          {
+            "id": "sedan",
+            "ad": {
+              "tr": "Sedan",
+              "en": "Sedan",
+              "ar": "سيدان"
+            },
+            "fiyat": "1.650 ₺",
+            "fiyatNot": {
+              "tr": "/ gün, KDV dahil",
+              "en": "/ day, VAT incl.",
+              "ar": "/ يوميًا شامل الضريبة"
+            },
+            "onerilen": true,
+            "url": "araclar"
+          },
+          {
+            "id": "suv",
+            "ad": {
+              "tr": "SUV",
+              "en": "SUV",
+              "ar": "SUV"
+            },
+            "fiyat": "2.450 ₺",
+            "fiyatNot": {
+              "tr": "/ gün, KDV dahil",
+              "en": "/ day, VAT incl.",
+              "ar": "/ يوميًا شامل الضريبة"
+            },
+            "onerilen": false,
+            "url": "araclar"
+          }
+        ]
+      },
+      "data": [
+        {
+          "ad": {
+            "tr": "Vites",
+            "en": "Gearbox",
+            "ar": "ناقل الحركة"
+          },
+          "degerler": [
+            {
+              "tr": "Manuel",
+              "en": "Manual",
+              "ar": "يدوي"
+            },
+            {
+              "tr": "Otomatik",
+              "en": "Automatic",
+              "ar": "أوتوماتيكي"
+            },
+            {
+              "tr": "Otomatik",
+              "en": "Automatic",
+              "ar": "أوتوماتيكي"
+            }
+          ]
+        },
+        {
+          "ad": {
+            "tr": "Günlük km sınırı",
+            "en": "Daily km allowance",
+            "ar": "حد الكيلومترات اليومي"
+          },
+          "degerler": [
+            "300 km",
+            "300 km",
+            "350 km"
+          ]
+        },
+        {
+          "ad": {
+            "tr": "Yolcu kapasitesi",
+            "en": "Passenger capacity",
+            "ar": "سعة الركاب"
+          },
+          "degerler": [
+            "5",
+            "5",
+            "5–7"
+          ]
+        },
+        {
+          "ad": {
+            "tr": "Temel sigorta",
+            "en": "Basic insurance",
+            "ar": "التأمين الأساسي"
+          },
+          "degerler": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "ad": {
+            "tr": "Havalimanı teslim",
+            "en": "Airport hand-over",
+            "ar": "التسليم في المطار"
+          },
+          "degerler": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "ad": {
+            "tr": "Teslimden 24 saat öncesine kadar ücretsiz iptal",
+            "en": "Free cancellation up to 24 h before pick-up",
+            "ar": "إلغاء مجاني حتى 24 ساعة قبل الاستلام"
+          },
+          "degerler": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "ad": {
+            "tr": "Navigasyon",
+            "en": "Navigation",
+            "ar": "الملاحة"
+          },
+          "degerler": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "ad": {
+            "tr": "Ek sürücü (ücretsiz)",
+            "en": "Additional driver (free)",
+            "ar": "سائق إضافي (مجانًا)"
+          },
+          "degerler": [
+            false,
+            false,
+            true
+          ]
+        }
+      ],
+      "id": "traz5l",
+      "path": "karsilastirma-tablo",
+      "local": "body",
+      "index": 23
+    },
+    {
+      "name": "Tanıtım Modülü",
+      "local": "body",
+      "desing": {
+        "stil": "cerceve-ofset",
+        "name": {
+          "tr": "Kuzey Rent",
+          "en": "Kuzey Rent",
+          "ar": "كوزي رنت"
+        },
+        "description": {
+          "tr": "Kuzey Rent, az sözle çok şey anlatmayı seçen kurgusal bir demo kiralama firmasıdır: her araç sınıfının fiyatı, km sınırı ve iptal koşulu tek tabloda okunur. Bu sitedeki araçlar, fiyatlar ve adresler kurgusaldır.",
+          "en": "Kuzey Rent is a fictional demo rental company that prefers saying a lot with few words: the price, km allowance and cancellation terms of every class can be read in one table. Vehicles, prices and addresses on this site are fictional.",
+          "ar": "كوزي رنت شركة تأجير تجريبية افتراضية تفضّل قول الكثير بكلمات قليلة: يُقرأ سعر كل فئة وحد الكيلومترات وشروط الإلغاء في جدول واحد. المركبات والأسعار والعناوين في هذا الموقع افتراضية."
+        },
+        "name2": {
+          "tr": "Açık koşullar",
+          "en": "Clear terms",
+          "ar": "شروط واضحة"
+        },
+        "spot2": {
+          "tr": "Depozito, iptal ve km sınırı rezervasyondan önce yazılıdır.",
+          "en": "Deposit, cancellation and km allowance are stated before booking.",
+          "ar": "يُذكر التأمين والإلغاء وحد الكيلومترات قبل الحجز."
+        },
+        "icon2": "fact_check",
+        "name3": {
+          "tr": "Bakımlı filo",
+          "en": "A maintained fleet",
+          "ar": "أسطول مصان"
+        },
+        "spot3": {
+          "tr": "Her araç teslim öncesi kontrol edilir.",
+          "en": "Every vehicle is checked before hand-over.",
+          "ar": "تُفحص كل مركبة قبل التسليم."
+        },
+        "icon3": "build_circle",
+        "img": "arackiralama-ofis.webp",
+        "bgcolor": "var(--mx-site-surface-2, #ececea)",
+        "fontcolor": "var(--mx-site-text, #1b1b1b)",
+        "margintop": "20",
+        "marginbotton": "20",
+        "title": {
+          "tr": "Hakkımızda",
+          "en": "About us",
+          "ar": "من نحن"
+        }
+      },
+      "category": "module",
+      "description": "Kurumsal tanıtım ve hakkımızda modülü. Firma tanıtımı, vizyon, misyon metinlerini görsel ile birlikte sunar. Ana sayfa şeridi ve temalar için varsayılan cok dilli metinler. İki kolonlu responsive tasarım, W2 animasyon ve icon desteği içerir. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (beyaz çerçeveli yuvarlak görsel, bugünkü görünüm) · \"yuzen-gorsel\" (dik kart görsel bandın dışına taşar, gölgeli, hafif eğik) · \"cerceve-ofset\" (kare görsel, arkasında kaymış primary renk çerçeve) · \"ikon-liste\" (yatay görsel + vizyon/misyon ikonlu madde listesi; ikon icon2/icon3). Bant zemini/yazısı bgcolor/fontcolor çifti kalır; eklenen renkler yalnız var(--mx-site-*) token.",
+      "version": "1.2.0",
+      "icon": "business",
+      "id": "7d06id",
+      "path": "module-1",
+      "data": [],
+      "index": 24
+    },
+    {
+      "name": "Galeri Masonry (Filtre + Lightbox)",
+      "description": "Masonry (sütun) ya da sabit oranlı ızgara galeri: kategori çipleriyle filtre (?cat= URL durumu, aria-pressed), lightbox (klavye, filtrelenmişte yalnız görünenler gezilir), lazy yükleme (width/height ile CLS yok), görselsiz öğede nötr yer tutucu. gap:0 ile kenarsız ızgara, hover başlık. Öğeler data[] içinde {img, thumb?, title{tr,en,ar}, cat, w, h, alt{tr,en,ar}}; kategoriler desing.cats[]. Üç dil + RTL.",
+      "version": "1.0.0",
+      "icon": "photo_library",
+      "category": "galeri",
+      "tags": [
+        "galeri",
+        "masonry",
+        "filtre",
+        "lightbox",
+        "portfolyo",
+        "gallery",
+        "ar"
+      ],
+      "desing": {
+        "max": "1280px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "gap": "12px",
+        "radius": "0px",
+        "columns": {
+          "d": 3,
+          "t": 3,
+          "m": 2
+        },
+        "ratio": "auto",
+        "captions": "hover",
+        "filter": true,
+        "lightbox": true,
+        "lazy": true,
+        "urlPrefix": "",
+        "title": {
+          "tr": "Filodan kareler",
+          "en": "From the fleet",
+          "ar": "لقطات من الأسطول"
+        },
+        "description": {
+          "tr": "Filo, teslim noktası ve ofisten görüntüler.",
+          "en": "Views of the fleet, the pick-up point and the office.",
+          "ar": "صور من الأسطول ونقطة الاستلام والمكتب."
+        },
+        "allLabel": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "filterLabel": {
+          "tr": "Kategoriye göre filtrele",
+          "en": "Filter by category",
+          "ar": "التصفية حسب الفئة"
+        },
+        "countText": {
+          "zero": {
+            "ar": "لا توجد صور"
+          },
+          "one": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photo",
+            "ar": "صورة واحدة"
+          },
+          "two": {
+            "ar": "صورتان"
+          },
+          "few": {
+            "ar": "{n} صور"
+          },
+          "many": {
+            "ar": "{n} صورة"
+          },
+          "other": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photos",
+            "ar": "{n} صورة"
+          }
+        },
+        "emptyText": {
+          "tr": "Henüz gösterilecek görsel yok.",
+          "en": "There are no images to show yet.",
+          "ar": "لا توجد صور لعرضها بعد."
+        },
+        "lightboxLabels": {
+          "dialog": {
+            "tr": "Görsel görüntüleyici",
+            "en": "Image viewer",
+            "ar": "عارض الصور"
+          },
+          "close": {
+            "tr": "Kapat",
+            "en": "Close",
+            "ar": "إغلاق"
+          },
+          "prev": {
+            "tr": "Önceki görsel",
+            "en": "Previous image",
+            "ar": "الصورة السابقة"
+          },
+          "next": {
+            "tr": "Sonraki görsel",
+            "en": "Next image",
+            "ar": "الصورة التالية"
+          },
+          "counter": {
+            "tr": "{i} / {n}",
+            "en": "{i} / {n}",
+            "ar": "{i} من {n}"
+          }
+        },
+        "cats": [
+          {
+            "id": "arac",
+            "name": {
+              "tr": "Araçlar",
+              "en": "Vehicles",
+              "ar": "المركبات"
+            }
+          },
+          {
+            "id": "ofis",
+            "name": {
+              "tr": "Ofis ve teslim",
+              "en": "Office and pick-up",
+              "ar": "المكتب والاستلام"
+            }
+          }
+        ]
+      },
+      "data": [
+        {
+          "img": "arackiralama-hero-filo.webp",
+          "cat": "ofis",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Filo sahası",
+            "en": "Fleet yard",
+            "ar": "ساحة الأسطول"
+          },
+          "alt": {
+            "tr": "Sıralı kiralık araçlar",
+            "en": "Rental cars lined up",
+            "ar": "سيارات تأجير مصطفة"
+          }
+        },
+        {
+          "img": "arackiralama-ofis.webp",
+          "cat": "ofis",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Teslim ofisi",
+            "en": "Pick-up desk",
+            "ar": "مكتب الاستلام"
+          },
+          "alt": {
+            "tr": "Sade bir kiralama teslim ofisi",
+            "en": "A plain rental pick-up desk",
+            "ar": "مكتب استلام تأجير بسيط"
+          }
+        },
+        {
+          "img": "arackiralama-anahtar.webp",
+          "cat": "ofis",
+          "w": 600,
+          "h": 800,
+          "title": {
+            "tr": "Anahtar teslimi",
+            "en": "Key hand-over",
+            "ar": "تسليم المفاتيح"
+          },
+          "alt": {
+            "tr": "Masa üzerinde araç anahtarı ve sözleşme",
+            "en": "A car key and contract on a desk",
+            "ar": "مفتاح سيارة وعقد على مكتب"
+          }
+        },
+        {
+          "img": "arackiralama-arac-1.webp",
+          "cat": "arac",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Ekonomik",
+            "en": "Economy",
+            "ar": "اقتصادية"
+          },
+          "alt": {
+            "tr": "Beyaz ekonomik hatchback",
+            "en": "A white economy hatchback",
+            "ar": "هاتشباك اقتصادية بيضاء"
+          }
+        },
+        {
+          "img": "arackiralama-arac-3.webp",
+          "cat": "arac",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "SUV",
+            "en": "SUV",
+            "ar": "SUV"
+          },
+          "alt": {
+            "tr": "Gri aile SUV’u",
+            "en": "A grey family SUV",
+            "ar": "SUV عائلية رمادية"
+          }
+        },
+        {
+          "img": "arackiralama-arac-4.webp",
+          "cat": "arac",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Minivan",
+            "en": "Minivan",
+            "ar": "ميني فان"
+          },
+          "alt": {
+            "tr": "Gümüş 7 kişilik minivan",
+            "en": "A silver 7-seat minivan",
+            "ar": "ميني فان فضية 7 مقاعد"
+          }
+        }
+      ],
+      "id": "jmmejy",
+      "path": "galeri-masonry",
+      "local": "body",
+      "index": 25
+    },
+    {
+      "name": "Randevu / Rezervasyon Formu",
+      "description": "Statik randevu ve rezervasyon sihirbazı (30 Eki 2026): hizmet → uzman → tarih → saat → bilgi → onay; masa kipi (kişi sayısı + bölüm) ve gösterim kipi. Sunucusuz: gönderim WhatsApp hazır mesaj, mailto veya .ics dosyası. Kendi takvimi (Pazartesi/Cumartesi hafta başı, kapalı günler, mola, bekleme günü), üç dil (tr/en/ar, RTL), KVKK onayı, demo kipinde tarayıcıda 'randevularım' listesi.",
+      "version": "1.0.0",
+      "icon": "event_available",
+      "category": "randevu",
+      "tags": [
+        "randevu",
+        "rezervasyon",
+        "takvim",
+        "form",
+        "whatsapp",
+        "ics"
+      ],
+      "desing": {
+        "max": "960px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "errcolor": "color-mix(in srgb, #c81e1e 72%, var(--mx-site-text, #1b1b1b))",
+        "mode": "randevu",
+        "submit": "whatsapp",
+        "demo": true,
+        "weekStart": "auto",
+        "leadDays": 0,
+        "maxDays": 90,
+        "maxPartySize": 8,
+        "masaDuration": 90,
+        "requireEmail": false,
+        "phone": "+90 342 000 00 00",
+        "email": "rezervasyon@kuzeyrent.example",
+        "location": {
+          "tr": "Havalimanı Cd. No: 2, Oğuzeli, Gaziantep (kurgusal adres)",
+          "en": "2 Havalimani Street, Oguzeli, Gaziantep (fictional address)",
+          "ar": "شارع المطار رقم 2، أوغوزيلي، غازي عنتاب (عنوان افتراضي)"
+        },
+        "badge": {
+          "tr": "Rezervasyon",
+          "en": "Reservation",
+          "ar": "حجز"
+        },
+        "title": {
+          "tr": "Araç rezervasyon talebi",
+          "en": "Vehicle reservation request",
+          "ar": "طلب حجز مركبة"
+        },
+        "description": {
+          "tr": "Segmenti ve teslim gününü seçin; talebiniz bu demo sitede yalnızca tarayıcınızda oluşturulur. Kapora alınmaz.",
+          "en": "Choose the segment and pick-up day; on this demo site your request is created only in your browser. No deposit is taken.",
+          "ar": "اختر الفئة ويوم الاستلام؛ يُنشأ طلبك في متصفحك فقط. لا يُؤخذ عربون."
+        },
+        "noscript": {
+          "tr": "Randevu formunu kullanmak için tarayıcınızda JavaScript açık olmalıdır. Bunun yerine bizi arayabilirsiniz.",
+          "en": "JavaScript must be enabled in your browser to use the booking form. You can call us instead.",
+          "ar": "يجب تفعيل JavaScript في المتصفح لاستخدام نموذج الحجز. يمكنك الاتصال بنا بدلًا من ذلك."
+        },
+        "services": [
+          {
+            "id": "s1",
+            "name": {
+              "tr": "Ekonomi segment",
+              "en": "Economy segment",
+              "ar": "فئة اقتصادية"
+            },
+            "duration": 30
+          },
+          {
+            "id": "s2",
+            "name": {
+              "tr": "Sedan",
+              "en": "Sedan",
+              "ar": "سيدان"
+            },
+            "duration": 30
+          },
+          {
+            "id": "s3",
+            "name": {
+              "tr": "SUV",
+              "en": "SUV",
+              "ar": "SUV"
+            },
+            "duration": 30
+          },
+          {
+            "id": "s4",
+            "name": {
+              "tr": "Minivan",
+              "en": "Minivan",
+              "ar": "ميني فان"
+            },
+            "duration": 30
+          }
+        ],
+        "staff": [
+          {
+            "id": "p1",
+            "name": {
+              "tr": "Elif Yıldız",
+              "en": "Elif Yildiz",
+              "ar": "إليف يلدز"
+            },
+            "role": {
+              "tr": "Kıdemli danışman",
+              "en": "Senior advisor",
+              "ar": "مستشارة أولى"
+            },
+            "services": [
+              "s1",
+              "s2",
+              "s3"
+            ]
+          },
+          {
+            "id": "p2",
+            "name": {
+              "tr": "Murat Kaya",
+              "en": "Murat Kaya",
+              "ar": "مراد قايا"
+            },
+            "role": {
+              "tr": "Danışman",
+              "en": "Advisor",
+              "ar": "مستشار"
+            },
+            "services": [
+              "s1",
+              "s2"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "id": "ic",
+            "name": {
+              "tr": "İç salon",
+              "en": "Indoor",
+              "ar": "الصالة الداخلية"
+            }
+          },
+          {
+            "id": "bahce",
+            "name": {
+              "tr": "Bahçe",
+              "en": "Garden",
+              "ar": "الحديقة"
+            }
+          }
+        ],
+        "hours": {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "08:00",
+          "end": "21:00",
+          "slot": 60,
+          "breaks": []
+        },
+        "closed": [
+          "2026-12-31",
+          "2027-01-01"
+        ],
+        "kvkk": {
+          "text": {
+            "tr": "Kişisel verilerimin bu talebin oluşturulması amacıyla işlenmesine ilişkin aydınlatma metnini okudum, anladım.",
+            "en": "I have read and understood the privacy notice on how my personal data is processed to create this request.",
+            "ar": "لقد قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية لإنشاء هذا الطلب وفهمته."
+          },
+          "href": "kisiselveriler"
+        },
+        "successText": {
+          "tr": "Talebiniz alındı. Araç müsaitliği teyit edilerek size bildirilecektir.",
+          "en": "Your request has been received. Vehicle availability will be confirmed to you.",
+          "ar": "تم استلام طلبك، وسيُؤكَّد لك توفر المركبة."
+        },
+        "ui": {
+          "stepsLabel": {
+            "tr": "Adımlar",
+            "en": "Steps",
+            "ar": "الخطوات"
+          },
+          "stepOf": {
+            "tr": "Adım {n} / {m}",
+            "en": "Step {n} of {m}",
+            "ar": "الخطوة {n} من {m}"
+          },
+          "s_service": {
+            "tr": "Hizmet",
+            "en": "Service",
+            "ar": "الخدمة"
+          },
+          "s_staff": {
+            "tr": "Uzman",
+            "en": "Specialist",
+            "ar": "المختص"
+          },
+          "s_party": {
+            "tr": "Kişi",
+            "en": "Guests",
+            "ar": "الضيوف"
+          },
+          "s_date": {
+            "tr": "Tarih",
+            "en": "Date",
+            "ar": "التاريخ"
+          },
+          "s_time": {
+            "tr": "Saat",
+            "en": "Time",
+            "ar": "الوقت"
+          },
+          "s_info": {
+            "tr": "Bilgiler",
+            "en": "Details",
+            "ar": "البيانات"
+          },
+          "s_confirm": {
+            "tr": "Onay",
+            "en": "Confirm",
+            "ar": "التأكيد"
+          },
+          "back": {
+            "tr": "Geri",
+            "en": "Back",
+            "ar": "رجوع"
+          },
+          "next": {
+            "tr": "Devam",
+            "en": "Continue",
+            "ar": "متابعة"
+          },
+          "reqNote": {
+            "tr": "* ile işaretli alanlar zorunludur.",
+            "en": "Fields marked * are required.",
+            "ar": "الحقول المميزة بعلامة * إلزامية."
+          },
+          "t_service": {
+            "tr": "Hizmet seçin",
+            "en": "Choose a service",
+            "ar": "اختر الخدمة"
+          },
+          "minUnit": {
+            "tr": "{n} dk",
+            "en": "{n} min",
+            "ar": "{n} دقيقة"
+          },
+          "t_staff": {
+            "tr": "Uzman seçin",
+            "en": "Choose a specialist",
+            "ar": "اختر المختص"
+          },
+          "anyStaff": {
+            "tr": "Fark etmez",
+            "en": "No preference",
+            "ar": "لا تفضيل"
+          },
+          "anyStaffHint": {
+            "tr": "Uygun olan uzman atanır.",
+            "en": "The first available specialist is assigned.",
+            "ar": "يُسنَد الموعد إلى أول مختص متاح."
+          },
+          "t_party": {
+            "tr": "Kaç kişisiniz?",
+            "en": "How many guests?",
+            "ar": "كم عدد الضيوف؟"
+          },
+          "partyMinus": {
+            "tr": "Kişi sayısını azalt",
+            "en": "Decrease guests",
+            "ar": "تقليل عدد الضيوف"
+          },
+          "partyPlus": {
+            "tr": "Kişi sayısını artır",
+            "en": "Increase guests",
+            "ar": "زيادة عدد الضيوف"
+          },
+          "partyCount": {
+            "tr": {
+              "one": "{n} kişi",
+              "other": "{n} kişi"
+            },
+            "en": {
+              "one": "{n} guest",
+              "other": "{n} guests"
+            },
+            "ar": {
+              "zero": "{n} ضيف",
+              "one": "ضيف واحد",
+              "two": "ضيفان",
+              "few": "{n} ضيوف",
+              "many": "{n} ضيفًا",
+              "other": "{n} ضيف"
+            }
+          },
+          "groupHint": {
+            "tr": "{n} kişiden büyük gruplar için lütfen bizi arayın.",
+            "en": "For groups larger than {n}, please call us.",
+            "ar": "للمجموعات التي يزيد عددها عن {n}، يُرجى الاتصال بنا."
+          },
+          "t_section": {
+            "tr": "Bölüm tercihi",
+            "en": "Seating preference",
+            "ar": "تفضيل الجلسة"
+          },
+          "anySection": {
+            "tr": "Fark etmez",
+            "en": "No preference",
+            "ar": "لا تفضيل"
+          },
+          "t_date": {
+            "tr": "Tarih seçin",
+            "en": "Choose a date",
+            "ar": "اختر التاريخ"
+          },
+          "prevMonth": {
+            "tr": "Önceki ay",
+            "en": "Previous month",
+            "ar": "الشهر السابق"
+          },
+          "nextMonth": {
+            "tr": "Sonraki ay",
+            "en": "Next month",
+            "ar": "الشهر التالي"
+          },
+          "calHint": {
+            "tr": "Gezinmek için ok tuşlarını, seçmek için Enter tuşunu kullanın. Kapalı günler seçilemez.",
+            "en": "Use the arrow keys to move and Enter to select. Unavailable days cannot be chosen.",
+            "ar": "استخدم مفاتيح الأسهم للتنقل ومفتاح Enter للاختيار. لا يمكن اختيار الأيام غير المتاحة."
+          },
+          "dayUnavailable": {
+            "tr": "uygun değil",
+            "en": "unavailable",
+            "ar": "غير متاح"
+          },
+          "selectedDate": {
+            "tr": "Seçilen tarih: {d}",
+            "en": "Selected date: {d}",
+            "ar": "التاريخ المختار: {d}"
+          },
+          "t_time": {
+            "tr": "Saat seçin",
+            "en": "Choose a time",
+            "ar": "اختر الوقت"
+          },
+          "timesFor": {
+            "tr": "{d} için uygun saatler",
+            "en": "Available times for {d}",
+            "ar": "الأوقات المتاحة ليوم {d}"
+          },
+          "p_morning": {
+            "tr": "Sabah",
+            "en": "Morning",
+            "ar": "الصباح"
+          },
+          "p_afternoon": {
+            "tr": "Öğleden sonra",
+            "en": "Afternoon",
+            "ar": "بعد الظهر"
+          },
+          "p_evening": {
+            "tr": "Akşam",
+            "en": "Evening",
+            "ar": "المساء"
+          },
+          "slotTaken": {
+            "tr": "dolu",
+            "en": "booked",
+            "ar": "محجوز"
+          },
+          "noSlots": {
+            "tr": "Bu tarihte uygun saat kalmadı. Lütfen başka bir gün seçin.",
+            "en": "No times are left on this date. Please choose another day.",
+            "ar": "لا توجد أوقات متاحة في هذا اليوم. يُرجى اختيار يوم آخر."
+          },
+          "t_info": {
+            "tr": "İletişim bilgileriniz",
+            "en": "Your contact details",
+            "ar": "بيانات التواصل"
+          },
+          "fName": {
+            "tr": "Ad soyad",
+            "en": "Full name",
+            "ar": "الاسم الكامل"
+          },
+          "fPhone": {
+            "tr": "Telefon",
+            "en": "Phone",
+            "ar": "رقم الهاتف"
+          },
+          "fEmail": {
+            "tr": "E-posta",
+            "en": "E-mail",
+            "ar": "البريد الإلكتروني"
+          },
+          "fEmailOpt": {
+            "tr": "E-posta (isteğe bağlı)",
+            "en": "E-mail (optional)",
+            "ar": "البريد الإلكتروني (اختياري)"
+          },
+          "fNote": {
+            "tr": "Not (isteğe bağlı)",
+            "en": "Note (optional)",
+            "ar": "ملاحظة (اختياري)"
+          },
+          "eService": {
+            "tr": "Lütfen bir hizmet seçin.",
+            "en": "Please choose a service.",
+            "ar": "يُرجى اختيار خدمة."
+          },
+          "eDate": {
+            "tr": "Lütfen uygun bir tarih seçin.",
+            "en": "Please choose an available date.",
+            "ar": "يُرجى اختيار تاريخ متاح."
+          },
+          "eTime": {
+            "tr": "Lütfen bir saat seçin.",
+            "en": "Please choose a time.",
+            "ar": "يُرجى اختيار وقت."
+          },
+          "eName": {
+            "tr": "Lütfen adınızı ve soyadınızı yazın.",
+            "en": "Please enter your full name.",
+            "ar": "يُرجى كتابة اسمك الكامل."
+          },
+          "ePhone": {
+            "tr": "Geçerli bir telefon numarası yazın.",
+            "en": "Please enter a valid phone number.",
+            "ar": "يُرجى كتابة رقم هاتف صحيح."
+          },
+          "eEmail": {
+            "tr": "Geçerli bir e-posta adresi yazın.",
+            "en": "Please enter a valid e-mail address.",
+            "ar": "يُرجى كتابة بريد إلكتروني صحيح."
+          },
+          "eKvkk": {
+            "tr": "Devam etmek için aydınlatma metnini onaylamanız gerekir.",
+            "en": "You need to accept the privacy notice to continue.",
+            "ar": "يجب الموافقة على إشعار الخصوصية للمتابعة."
+          },
+          "t_confirm": {
+            "tr": "Özet ve onay",
+            "en": "Review and confirm",
+            "ar": "المراجعة والتأكيد"
+          },
+          "sum_service": {
+            "tr": "Hizmet",
+            "en": "Service",
+            "ar": "الخدمة"
+          },
+          "sum_staff": {
+            "tr": "Uzman",
+            "en": "Specialist",
+            "ar": "المختص"
+          },
+          "sum_party": {
+            "tr": "Kişi sayısı",
+            "en": "Guests",
+            "ar": "عدد الضيوف"
+          },
+          "sum_section": {
+            "tr": "Bölüm",
+            "en": "Seating",
+            "ar": "الجلسة"
+          },
+          "sum_date": {
+            "tr": "Tarih",
+            "en": "Date",
+            "ar": "التاريخ"
+          },
+          "sum_time": {
+            "tr": "Saat",
+            "en": "Time",
+            "ar": "الوقت"
+          },
+          "sum_name": {
+            "tr": "Ad soyad",
+            "en": "Name",
+            "ar": "الاسم"
+          },
+          "sum_phone": {
+            "tr": "Telefon",
+            "en": "Phone",
+            "ar": "الهاتف"
+          },
+          "sum_email": {
+            "tr": "E-posta",
+            "en": "E-mail",
+            "ar": "البريد الإلكتروني"
+          },
+          "sum_note": {
+            "tr": "Not",
+            "en": "Note",
+            "ar": "ملاحظة"
+          },
+          "kvkkLink": {
+            "tr": "Aydınlatma metni",
+            "en": "Privacy notice",
+            "ar": "إشعار الخصوصية"
+          },
+          "submit_whatsapp": {
+            "tr": "WhatsApp ile gönder",
+            "en": "Send via WhatsApp",
+            "ar": "إرسال عبر واتساب"
+          },
+          "submit_mailto": {
+            "tr": "E-posta ile gönder",
+            "en": "Send by e-mail",
+            "ar": "إرسال بالبريد الإلكتروني"
+          },
+          "submit_ics": {
+            "tr": "Takvim dosyasını indir",
+            "en": "Download calendar file",
+            "ar": "تنزيل ملف التقويم"
+          },
+          "showcaseNote": {
+            "tr": "Bu bölüm bir gösterimdir: girdiğiniz bilgiler hiçbir yere gönderilmez. Gerçek talep için bizi arayabilirsiniz.",
+            "en": "This is a showcase: nothing you enter is sent anywhere. To make a real request, please call us.",
+            "ar": "هذا القسم للعرض فقط: لا تُرسَل أي بيانات تدخلها. لتقديم طلب فعلي يُرجى الاتصال بنا."
+          },
+          "callUs": {
+            "tr": "Bizi arayın",
+            "en": "Call us",
+            "ar": "اتصل بنا"
+          },
+          "restart": {
+            "tr": "Başa dön",
+            "en": "Start over",
+            "ar": "العودة إلى البداية"
+          },
+          "doneTitle_randevu": {
+            "tr": "Randevu talebiniz hazır",
+            "en": "Your appointment request is ready",
+            "ar": "طلب موعدك جاهز"
+          },
+          "doneTitle_masa": {
+            "tr": "Rezervasyon talebiniz hazır",
+            "en": "Your reservation request is ready",
+            "ar": "طلب حجزك جاهز"
+          },
+          "doneHint_whatsapp": {
+            "tr": "Mesaj WhatsApp'ta hazır olarak açıldı. Talebin bize ulaşması için mesajı göndermeyi unutmayın.",
+            "en": "The message opened in WhatsApp, ready to send. Remember to send it so your request reaches us.",
+            "ar": "فُتحت الرسالة جاهزة في واتساب. لا تنسَ إرسالها كي يصلنا طلبك."
+          },
+          "doneHint_mailto": {
+            "tr": "E-posta uygulamanızda hazır bir taslak açıldı. Göndermeyi unutmayın.",
+            "en": "A draft e-mail opened in your mail app. Remember to send it.",
+            "ar": "فُتحت مسودة رسالة في تطبيق البريد. لا تنسَ إرسالها."
+          },
+          "doneHint_ics": {
+            "tr": "Takvim dosyası indirildi. Kaydı takvim uygulamanıza ekleyebilirsiniz.",
+            "en": "The calendar file was downloaded. You can add the booking to your calendar app.",
+            "ar": "تم تنزيل ملف التقويم. يمكنك إضافة الحجز إلى تطبيق التقويم."
+          },
+          "reopen": {
+            "tr": "Mesajı yeniden aç",
+            "en": "Open the message again",
+            "ar": "فتح الرسالة مرة أخرى"
+          },
+          "reopen_ics": {
+            "tr": "Dosyayı yeniden indir",
+            "en": "Download again",
+            "ar": "إعادة التنزيل"
+          },
+          "addCal": {
+            "tr": "Takvime ekle",
+            "en": "Add to calendar",
+            "ar": "إضافة إلى التقويم"
+          },
+          "newBooking_randevu": {
+            "tr": "Yeni randevu",
+            "en": "New appointment",
+            "ar": "موعد جديد"
+          },
+          "newBooking_masa": {
+            "tr": "Yeni rezervasyon",
+            "en": "New reservation",
+            "ar": "حجز جديد"
+          },
+          "demoNote": {
+            "tr": "Demo: bilgileriniz yalnızca bu tarayıcıda saklanır, hiçbir sunucuya gönderilmez.",
+            "en": "Demo: your details stay in this browser only and are never sent to a server.",
+            "ar": "عرض تجريبي: تبقى بياناتك في هذا المتصفح فقط ولا تُرسَل إلى أي خادم."
+          },
+          "myTitle_randevu": {
+            "tr": "Randevularım",
+            "en": "My appointments",
+            "ar": "مواعيدي"
+          },
+          "myTitle_masa": {
+            "tr": "Rezervasyonlarım",
+            "en": "My reservations",
+            "ar": "حجوزاتي"
+          },
+          "cancel": {
+            "tr": "İptal et",
+            "en": "Cancel",
+            "ar": "إلغاء"
+          },
+          "cancelAria": {
+            "tr": "{d} saat {t} kaydını iptal et",
+            "en": "Cancel the booking on {d} at {t}",
+            "ar": "إلغاء الحجز بتاريخ {d} الساعة {t}"
+          },
+          "cancelled": {
+            "tr": "Kayıt iptal edildi.",
+            "en": "Booking cancelled.",
+            "ar": "تم إلغاء الحجز."
+          },
+          "svcFallback_randevu": {
+            "tr": "Randevu",
+            "en": "Appointment",
+            "ar": "موعد"
+          },
+          "msg_randevu_head": {
+            "tr": "Merhaba, {name} adına {date} saat {time} için {service} randevusu almak istiyorum.",
+            "en": "Hello, I would like to book {service} on {date} at {time} under the name {name}.",
+            "ar": "مرحبًا، أود حجز موعد ({service}) بتاريخ {date} الساعة {time} باسم {name}."
+          },
+          "msg_randevu_head_nosvc": {
+            "tr": "Merhaba, {name} adına {date} saat {time} için randevu almak istiyorum.",
+            "en": "Hello, I would like to book an appointment on {date} at {time} under the name {name}.",
+            "ar": "مرحبًا، أود حجز موعد بتاريخ {date} الساعة {time} باسم {name}."
+          },
+          "msg_masa_head": {
+            "tr": "Merhaba, {name} adına {date} saat {time} için {party} masa rezervasyonu yapmak istiyorum.",
+            "en": "Hello, I would like to reserve a table for {party} on {date} at {time} under the name {name}.",
+            "ar": "مرحبًا، أود حجز طاولة لـ {party} بتاريخ {date} الساعة {time} باسم {name}."
+          },
+          "msg_staff": {
+            "tr": "Tercih edilen uzman: {staff}",
+            "en": "Preferred specialist: {staff}",
+            "ar": "المختص المفضل: {staff}"
+          },
+          "msg_section": {
+            "tr": "Bölüm: {section}",
+            "en": "Seating: {section}",
+            "ar": "الجلسة: {section}"
+          },
+          "msg_phone": {
+            "tr": "Telefon: {phone}",
+            "en": "Phone: {phone}",
+            "ar": "الهاتف: {phone}"
+          },
+          "msg_email": {
+            "tr": "E-posta: {email}",
+            "en": "E-mail: {email}",
+            "ar": "البريد الإلكتروني: {email}"
+          },
+          "msg_note": {
+            "tr": "Not: {note}",
+            "en": "Note: {note}",
+            "ar": "ملاحظة: {note}"
+          },
+          "mailSubject_randevu": {
+            "tr": "Randevu talebi – {name}",
+            "en": "Appointment request – {name}",
+            "ar": "طلب موعد – {name}"
+          },
+          "mailSubject_masa": {
+            "tr": "Rezervasyon talebi – {name}",
+            "en": "Reservation request – {name}",
+            "ar": "طلب حجز – {name}"
+          },
+          "icsSummary_randevu": {
+            "tr": "Randevu: {service}",
+            "en": "Appointment: {service}",
+            "ar": "موعد: {service}"
+          },
+          "icsSummary_masa": {
+            "tr": "Masa rezervasyonu – {party}",
+            "en": "Table reservation – {party}",
+            "ar": "حجز طاولة – {party}"
+          }
+        }
+      },
+      "id": "rc194k",
+      "path": "randevu-formu",
+      "local": "body",
+      "data": [],
+      "index": 26
+    },
+    {
+      "name": "Page Desing 5",
+      "desing": {
+        "stil": "yatay-kart",
+        "height": "200",
+        "opacity": "0.5",
+        "font-size": "32",
+        "backgroundcolor": "#000",
+        "menu-active": "var(--mx-site-primary, #2563eb)",
+        "activetext": "var(--mx-site-primary-contrast, #ffffff)",
+        "textcolor": "#fff",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "border_radius": "0px",
+        "card_shadow": "none",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "colortitle": "var(--mx-site-text, #1b1b1b)",
+        "coloractive": "var(--mx-site-primary, #2563eb)",
+        "ui": {
+          "tr": {
+            "home": "Anasayfa",
+            "products": "Sayfalar",
+            "dimensions": "Ölçüler",
+            "dimNote": "Standart üretim referansıdır; proje bazında özelleştirilebilir.",
+            "quote": "İletişim",
+            "whatsapp": "WhatsApp",
+            "prev": "Önceki",
+            "next": "Sonraki"
+          },
+          "en": {
+            "home": "Home",
+            "products": "Pages",
+            "dimensions": "Dimensions",
+            "dimNote": "Standard production reference; customizable per project.",
+            "quote": "Contact",
+            "whatsapp": "WhatsApp",
+            "prev": "Previous",
+            "next": "Next"
+          },
+          "ar": {
+            "home": "الرئيسية",
+            "products": "الصفحات",
+            "dimensions": "الأبعاد",
+            "dimNote": "مرجع إنتاج قياسي؛ قابل للتخصيص حسب المشروع.",
+            "quote": "اتصل بنا",
+            "whatsapp": "واتساب",
+            "prev": "السابق",
+            "next": "التالي"
+          }
+        },
+        "noTitle": {
+          "tr": "Başlık Yok",
+          "en": "No title",
+          "ar": "بدون عنوان"
+        },
+        "productNavAria": {
+          "tr": "Ürün navigasyonu",
+          "en": "Product navigation",
+          "ar": "تنقل المنتج"
+        }
+      },
+      "category": "page",
+      "description": "Sayfa basligi, yan menu ve icerik alani. Urun detayinda breadcrumb, olcu kartlari, teklif/WhatsApp CTA, onceki/sonraki urun navigasyonu. Kategori menusu ve responsive slide-in menu. Görsel varyant desing.stil (31 Eki 2026, yan menü bağlantıları): \"\" klasik (kutulu liste, bugünkü görünüm) · \"ikon-ustte-yuvarlak\" (ortalı karo, üstte daire ikon) · \"yatay-kart\" (ikon solda/RTL sağda, metin yanında, ayrı kartlar) · \"kenar-cizgili\" (kutu yok, başta ince çizgi; hover/aktifte primary çizgi ve içe kayma). Kart zemini bgcolor (31 Eki) korunur; eklenen renkler var(--mx-site-primary) türevi.",
+      "version": "1.4.0",
+      "icon": "web",
+      "id": "pjd51h",
+      "path": "page-desing-5",
+      "local": "body",
+      "data": [],
+      "index": 27
+    },
+    {
+      "name": {
+        "tr": "İletişim 7 — Bölünmüş panel",
+        "en": "Contact 7 — Split panel",
+        "ar": "اتصال 7 — لوحة مقسّمة"
+      },
+      "description": {
+        "tr": "Bölünmüş iletişim: koyu bilgi paneli (adres · telefon · e-posta · saat · sosyal · harita bağlantısı) + form (ad, e-posta, telefon, konu, mesaj, zorunlu KVKK onayı). Gönderim mailto: ya da WhatsApp hazır mesaj (desing.gonderim). Üç görsel varyant (desing.stil): bolunmus · kart-ustte · harita-arka (iframe arka plan, yüzen form). Üç dil, RTL, koyu mod token'larla.",
+        "en": "Split contact section: dark info panel (address · phone · e-mail · hours · social · map link) + form (name, e-mail, phone, subject, message, required privacy consent). Submission via mailto: or WhatsApp prefilled message (desing.gonderim). Three visual variants (desing.stil): bolunmus · kart-ustte · harita-arka (iframe background, floating form). Three languages, RTL, dark mode via tokens.",
+        "ar": "قسم اتصال مقسّم: لوحة معلومات داكنة (العنوان · الهاتف · البريد · ساعات العمل · التواصل الاجتماعي · رابط الخريطة) + نموذج (الاسم، البريد، الهاتف، الموضوع، الرسالة، موافقة خصوصية إلزامية). الإرسال عبر mailto: أو رسالة واتساب جاهزة. ثلاثة أنماط مرئية، ثلاث لغات، RTL، وضع داكن."
+      },
+      "version": "1.0.0",
+      "icon": "contact_mail",
+      "category": "contact",
+      "tags": [
+        "iletisim",
+        "contact",
+        "form",
+        "whatsapp",
+        "mailto",
+        "kvkk",
+        "ar"
+      ],
+      "desing": {
+        "max": "1200px",
+        "stil": "kart-ustte",
+        "gonderim": "mailto",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "panelbg": "color-mix(in srgb, #0f172a 82%, var(--mx-site-primary, #2563eb))",
+        "paneltext": "#f1f5f9",
+        "panelmuted": "color-mix(in srgb, #f1f5f9 74%, transparent)",
+        "errcolor": "var(--mx-color-danger, #b42318)",
+        "radius": "2px",
+        "title": {
+          "tr": "Bize Ulaşın",
+          "en": "Get in Touch",
+          "ar": "تواصل معنا"
+        },
+        "description": {
+          "tr": "Sorularınız, teklif talepleriniz ve iş birlikleri için formu doldurun; en kısa sürede dönüş yapalım.",
+          "en": "Fill in the form for questions, quote requests and partnerships; we will get back to you shortly.",
+          "ar": "املأ النموذج لأسئلتك وطلبات عروض الأسعار والشراكات؛ سنعود إليك في أقرب وقت."
+        },
+        "panelTitle": {
+          "tr": "İletişim Bilgileri",
+          "en": "Contact Details",
+          "ar": "بيانات الاتصال"
+        },
+        "panelText": {
+          "tr": "Ofisimize uğrayın, arayın ya da yazın — size yardımcı olmaktan mutluluk duyarız.",
+          "en": "Drop by our office, call or write — we are happy to help.",
+          "ar": "تفضّل بزيارة مكتبنا أو اتصل بنا أو اكتب لنا — يسعدنا مساعدتك."
+        },
+        "address": {
+          "tr": "Havalimanı Cd. No: 2, Oğuzeli, Gaziantep (kurgusal adres)",
+          "en": "2 Havalimani Street, Oguzeli, Gaziantep (fictional address)",
+          "ar": "شارع المطار رقم 2، أوغوزيلي، غازي عنتاب (عنوان افتراضي)"
+        },
+        "phone": "+90 342 000 00 00",
+        "whatsapp": "",
+        "email": "rezervasyon@kuzeyrent.example",
+        "hours": {
+          "tr": "Her gün 07:00 – 23:00 · Havalimanı teslim noktası uçuşlara göre",
+          "en": "Daily 07:00 – 23:00 · Airport desk follows flight times",
+          "ar": "يوميًا 07:00 – 23:00 · مكتب المطار بحسب الرحلات"
+        },
+        "mapUrl": "",
+        "mapEmbed": "",
+        "addressTitle": {
+          "tr": "Adres",
+          "en": "Address",
+          "ar": "العنوان"
+        },
+        "phoneTitle": {
+          "tr": "Telefon",
+          "en": "Phone",
+          "ar": "الهاتف"
+        },
+        "emailTitle": {
+          "tr": "E-posta",
+          "en": "E-mail",
+          "ar": "البريد الإلكتروني"
+        },
+        "hoursTitle": {
+          "tr": "Çalışma Saatleri",
+          "en": "Working Hours",
+          "ar": "ساعات العمل"
+        },
+        "mapLink": {
+          "tr": "Haritada gör",
+          "en": "View on map",
+          "ar": "عرض على الخريطة"
+        },
+        "mapTitle": {
+          "tr": "Konum haritası",
+          "en": "Location map",
+          "ar": "خريطة الموقع"
+        },
+        "socialTitle": {
+          "tr": "Bizi takip edin",
+          "en": "Follow us",
+          "ar": "تابعنا"
+        },
+        "social": [
+          {
+            "ad": "Instagram",
+            "url": "https://instagram.com/",
+            "icon": "photo_camera"
+          },
+          {
+            "ad": "LinkedIn",
+            "url": "https://linkedin.com/",
+            "icon": "work"
+          },
+          {
+            "ad": "YouTube",
+            "url": "https://youtube.com/",
+            "icon": "play_circle"
+          }
+        ],
+        "formTitle": {
+          "tr": "Mesaj Gönderin",
+          "en": "Send a Message",
+          "ar": "أرسل رسالة"
+        },
+        "nameLabel": {
+          "tr": "Ad Soyad",
+          "en": "Full name",
+          "ar": "الاسم الكامل"
+        },
+        "emailLabel": {
+          "tr": "E-posta",
+          "en": "E-mail",
+          "ar": "البريد الإلكتروني"
+        },
+        "phoneLabel": {
+          "tr": "Telefon",
+          "en": "Phone",
+          "ar": "الهاتف"
+        },
+        "subjectLabel": {
+          "tr": "Konu",
+          "en": "Subject",
+          "ar": "الموضوع"
+        },
+        "subjectPlaceholder": {
+          "tr": "Konu seçin",
+          "en": "Choose a subject",
+          "ar": "اختر الموضوع"
+        },
+        "subjects": [
+          {
+            "id": "teklif",
+            "name": {
+              "tr": "Teklif talebi",
+              "en": "Quote request",
+              "ar": "طلب عرض سعر"
+            }
+          },
+          {
+            "id": "bilgi",
+            "name": {
+              "tr": "Bilgi almak istiyorum",
+              "en": "I would like information",
+              "ar": "أرغب في الحصول على معلومات"
+            }
+          },
+          {
+            "id": "destek",
+            "name": {
+              "tr": "Destek",
+              "en": "Support",
+              "ar": "الدعم"
+            }
+          },
+          {
+            "id": "diger",
+            "name": {
+              "tr": "Diğer",
+              "en": "Other",
+              "ar": "أخرى"
+            }
+          }
+        ],
+        "messageLabel": {
+          "tr": "Mesajınız",
+          "en": "Your message",
+          "ar": "رسالتك"
+        },
+        "kvkkText": {
+          "tr": "Kişisel verilerimin iletişim amacıyla işlenmesine ilişkin aydınlatma metnini okudum, onaylıyorum.",
+          "en": "I have read and accept the privacy notice on processing my personal data for contact purposes.",
+          "ar": "قرأتُ إشعار الخصوصية بشأن معالجة بياناتي الشخصية لأغراض التواصل وأوافق عليه."
+        },
+        "kvkkLinkText": {
+          "tr": "Aydınlatma metni",
+          "en": "Privacy notice",
+          "ar": "إشعار الخصوصية"
+        },
+        "kvkkHref": "kisiselveriler",
+        "submitText": {
+          "tr": "Gönder",
+          "en": "Send",
+          "ar": "إرسال"
+        },
+        "submitWhatsappText": {
+          "tr": "WhatsApp ile gönder",
+          "en": "Send via WhatsApp",
+          "ar": "إرسال عبر واتساب"
+        },
+        "mailSubject": {
+          "tr": "Web sitesi iletişim formu",
+          "en": "Website contact form",
+          "ar": "نموذج الاتصال بالموقع"
+        },
+        "optionalText": {
+          "tr": "isteğe bağlı",
+          "en": "optional",
+          "ar": "اختياري"
+        },
+        "errRequired": {
+          "tr": "Bu alan zorunludur.",
+          "en": "This field is required.",
+          "ar": "هذا الحقل إلزامي."
+        },
+        "errEmail": {
+          "tr": "Geçerli bir e-posta adresi girin.",
+          "en": "Enter a valid e-mail address.",
+          "ar": "أدخل بريدًا إلكترونيًا صالحًا."
+        },
+        "errPhone": {
+          "tr": "Geçerli bir telefon numarası girin.",
+          "en": "Enter a valid phone number.",
+          "ar": "أدخل رقم هاتف صالحًا."
+        },
+        "errKvkk": {
+          "tr": "Devam etmek için onay kutusunu işaretleyin.",
+          "en": "Tick the consent box to continue.",
+          "ar": "حدّد خانة الموافقة للمتابعة."
+        },
+        "errSummary": {
+          "tr": "Lütfen işaretli alanları düzeltin.",
+          "en": "Please fix the highlighted fields.",
+          "ar": "يرجى تصحيح الحقول المحددة."
+        },
+        "okText": {
+          "tr": "E-posta uygulamanız açılıyor; mesajı oradan gönderebilirsiniz.",
+          "en": "Your e-mail app is opening; you can send the message from there.",
+          "ar": "يتم فتح تطبيق البريد الإلكتروني؛ يمكنك إرسال الرسالة من هناك."
+        },
+        "okWhatsappText": {
+          "tr": "WhatsApp açılıyor; hazır mesajı gönderebilirsiniz.",
+          "en": "WhatsApp is opening; you can send the prepared message.",
+          "ar": "يتم فتح واتساب؛ يمكنك إرسال الرسالة الجاهزة."
+        },
+        "waIntro": {
+          "tr": "Merhaba, web sitenizden yazıyorum.",
+          "en": "Hello, I am writing from your website.",
+          "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
+        }
+      },
+      "data": [],
+      "id": "a46h9y",
+      "path": "contact-7",
+      "local": "body",
+      "index": 28
+    },
+    {
+      "name": "Maps",
+      "desing": {
+        "stil": "yan-bilgi",
+        "height": "200",
+        "opacity": "0.5",
+        "backgroundcolor": "#ffffff",
+        "color": "#1e3046",
+        "img": "map.png",
+        "externalUrl": "",
+        "address": {
+          "tr": "Havalimanı Cd. No: 2, Oğuzeli, Gaziantep (kurgusal adres)",
+          "en": "2 Havalimani Street, Oguzeli, Gaziantep (fictional address)",
+          "ar": "شارع المطار رقم 2، أوغوزيلي، غازي عنتاب (عنوان افتراضي)"
+        },
+        "phone": "+90 342 000 00 00",
+        "email": "rezervasyon@kuzeyrent.example",
+        "badgeText": {
+          "tr": "Konumumuz",
+          "en": "Our Location",
+          "ar": "موقعنا"
+        },
+        "infoTitle": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact Us",
+          "ar": "اتصل بنا"
+        },
+        "directions": {
+          "tr": "Yol tarifi al",
+          "en": "Get directions",
+          "ar": "احصل على الاتجاهات"
+        }
+      },
+      "category": "map",
+      "description": "Google Maps konum gösterim modülü. Firmanın fiziksel konumunu interaktif harita ile sergiler. 20 farklı projede kullanılır: kurumsal şirketler, restoranlar, sağlık kuruluşları, üretim firmaları ve hizmet sektöründe. Yol tarifi ve harita üzerinde zoom özellikleri vardır. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (dalgalı kenar, tam genişlik, bugünkü görünüm) · \"cerceveli\" (yuvarlak köşe + gölge + yüzey çerçeve, üstte adres rozeti: address ya da badgeText) · \"yan-bilgi\" (harita 2/3, yanda bilgi kartı: infoTitle, address/phone/email — boşsa setting'den — ve directions düğmesi). Kök eleman <a> olduğundan kartta ikinci bağlantı yok. Renkler var(--mx-site-*) token; backgroundcolor #ffffff kuralı değişmedi.",
+      "version": "1.1.0",
+      "icon": "map",
+      "id": "3x01t3",
+      "path": "map",
+      "local": "body",
+      "data": [],
+      "index": 29
+    },
+    {
+      "name": {
+        "tr": "Footer 10 — Mega footer (CTA bantlı)",
+        "en": "Footer 10 — Mega footer (CTA band)",
+        "ar": "تذييل 10 — تذييل ضخم (شريط دعوة)"
+      },
+      "description": {
+        "tr": "Mega alt bilgi: üstte bülten/CTA bandı (e-posta kutusu + düğme — gönderim mailto ya da kapalı; KVKK notu), altında 5 sütun (marka + açıklama + sosyal · sayfalar (maxpages) · hizmetler · iletişim · çalışma saatleri; boş sütun basılmaz, sütun sınıfı otomatik), en altta telif + yasal bağlantılar + dil seçici + «yukarı» düğmesi. Üç varyant (desing.stil): koyu · acik · gradient-ust. Üç dil, RTL, koyu mod token'larla.",
+        "en": "Mega footer: newsletter/CTA band on top (e-mail box + button — mailto submission or disabled; privacy note), 5 columns below (brand + about + social · pages (maxpages) · services · contact · opening hours; empty columns are omitted, column class is automatic), bottom bar with copyright + legal links + language switcher + «back to top». Three variants (desing.stil): koyu · acik · gradient-ust. Three languages, RTL, dark mode via tokens.",
+        "ar": "تذييل ضخم: شريط نشرة بريدية/دعوة في الأعلى (حقل بريد + زر؛ إرسال mailto أو معطّل؛ ملاحظة خصوصية)، 5 أعمدة (العلامة + نبذة + تواصل · الصفحات · الخدمات · الاتصال · ساعات العمل)، شريط سفلي بحقوق النشر والروابط القانونية ومبدّل اللغة وزر «إلى الأعلى». ثلاثة أنماط، ثلاث لغات، RTL، وضع داكن."
+      },
+      "version": "1.0.0",
+      "icon": "footer",
+      "category": "footer",
+      "tags": [
+        "footer",
+        "bulten",
+        "newsletter",
+        "mega",
+        "ar"
+      ],
+      "desing": {
+        "stil": "acik",
+        "showlang": true,
+        "maxpages": 8,
+        "koyubg": "color-mix(in srgb, #0f172a 86%, var(--mx-site-primary, #2563eb))",
+        "koyutext": "#f1f5f9",
+        "acikbg": "var(--mx-site-surface, #f6f6f4)",
+        "aciktext": "var(--mx-site-text, #1b1b1b)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "errcolor": "var(--mx-color-danger, #b42318)",
+        "radius": "2px",
+        "logo_maxh": "52px",
+        "logo_plate": false,
+        "about": {
+          "tr": "Kuzey Rent: günlük ve uzun dönem araç kiralama, havalimanı teslim ve açık kiralama koşulları. (Demo site)",
+          "en": "Kuzey Rent: daily and long-term car rental, airport pick-up and clear rental terms. (Demo site)",
+          "ar": "كوزي رنت: تأجير يومي وطويل الأمد واستلام من المطار وشروط تأجير واضحة. (موقع تجريبي)"
+        },
+        "nlShow": true,
+        "nlGonderim": "mailto",
+        "nlEmail": "rezervasyon@kuzeyrent.example",
+        "nlTitle": {
+          "tr": "Gelişmelerden haberdar olun",
+          "en": "Stay in the loop",
+          "ar": "ابقَ على اطلاع"
+        },
+        "nlText": {
+          "tr": "Ayda bir bülten; kampanya ve yeniliklerden ilk siz haberdar olun.",
+          "en": "One newsletter a month; be the first to hear about offers and news.",
+          "ar": "نشرة واحدة شهريًا؛ كن أول من يعرف بالعروض والمستجدات."
+        },
+        "nlLabel": {
+          "tr": "E-posta adresiniz",
+          "en": "Your e-mail address",
+          "ar": "بريدك الإلكتروني"
+        },
+        "nlBtn": {
+          "tr": "Abone ol",
+          "en": "Subscribe",
+          "ar": "اشترك"
+        },
+        "nlKvkk": {
+          "tr": "Abone olarak e-posta adresinizin bülten amacıyla işlenmesini kabul edersiniz. İstediğiniz an ayrılabilirsiniz.",
+          "en": "By subscribing you agree to the processing of your e-mail address for the newsletter. You can unsubscribe at any time.",
+          "ar": "بالاشتراك توافق على معالجة بريدك الإلكتروني لأغراض النشرة. يمكنك إلغاء الاشتراك في أي وقت."
+        },
+        "nlSubject": {
+          "tr": "Bülten aboneliği",
+          "en": "Newsletter subscription",
+          "ar": "الاشتراك في النشرة"
+        },
+        "nlBody": {
+          "tr": "Merhaba, bültene abone olmak istiyorum.",
+          "en": "Hello, I would like to subscribe to the newsletter.",
+          "ar": "مرحبًا، أرغب في الاشتراك في النشرة البريدية."
+        },
+        "nlErr": {
+          "tr": "Geçerli bir e-posta adresi girin.",
+          "en": "Enter a valid e-mail address.",
+          "ar": "أدخل بريدًا إلكترونيًا صالحًا."
+        },
+        "nlOk": {
+          "tr": "E-posta uygulamanız açılıyor; aboneliği oradan onaylayın.",
+          "en": "Your e-mail app is opening; confirm the subscription there.",
+          "ar": "يتم فتح تطبيق البريد؛ أكّد الاشتراك من هناك."
+        },
+        "title_pages": {
+          "tr": "Sayfalar",
+          "en": "Pages",
+          "ar": "الصفحات"
+        },
+        "title_services": {
+          "tr": "Hizmetler",
+          "en": "Services",
+          "ar": "الخدمات"
+        },
+        "title_contact": {
+          "tr": "İletişim",
+          "en": "Contact",
+          "ar": "اتصل بنا"
+        },
+        "title_hours": {
+          "tr": "Çalışma Saatleri",
+          "en": "Opening Hours",
+          "ar": "ساعات العمل"
+        },
+        "title_social": {
+          "tr": "Bizi takip edin",
+          "en": "Follow us",
+          "ar": "تابعنا"
+        },
+        "services": [
+          {
+            "name": {
+              "tr": "Günlük kiralama",
+              "en": "Daily rental",
+              "ar": "تأجير يومي"
+            },
+            "href": "secenekler"
+          },
+          {
+            "name": {
+              "tr": "Uzun dönem",
+              "en": "Long-term rental",
+              "ar": "تأجير طويل الأمد"
+            },
+            "href": "secenekler"
+          },
+          {
+            "name": {
+              "tr": "Kurumsal filo",
+              "en": "Corporate fleet",
+              "ar": "أسطول الشركات"
+            },
+            "href": "secenekler"
+          },
+          {
+            "name": {
+              "tr": "Havalimanı teslim",
+              "en": "Airport pick-up",
+              "ar": "الاستلام من المطار"
+            },
+            "href": "secenekler"
+          },
+          {
+            "name": {
+              "tr": "Ek ürünler",
+              "en": "Extras",
+              "ar": "إضافات"
+            },
+            "href": "secenekler"
+          }
+        ],
+        "hours": [
+          {
+            "days": {
+              "tr": "Çalışma saatleri",
+              "en": "Opening hours",
+              "ar": "ساعات العمل"
+            },
+            "time": {
+              "tr": "Her gün 07:00 – 23:00 · Havalimanı teslim noktası uçuşlara göre",
+              "en": "Daily 07:00 – 23:00 · Airport desk follows flight times",
+              "ar": "يوميًا 07:00 – 23:00 · مكتب المطار بحسب الرحلات"
+            }
+          }
+        ],
+        "address": {
+          "tr": "Havalimanı Cd. No: 2, Oğuzeli, Gaziantep (kurgusal adres)",
+          "en": "2 Havalimani Street, Oguzeli, Gaziantep (fictional address)",
+          "ar": "شارع المطار رقم 2، أوغوزيلي، غازي عنتاب (عنوان افتراضي)"
+        },
+        "phone": "+90 342 000 00 00",
+        "email": "rezervasyon@kuzeyrent.example",
+        "social": [],
+        "legal": [
+          {
+            "text": {
+              "tr": "Gizlilik Politikası",
+              "en": "Privacy Policy",
+              "ar": "سياسة الخصوصية"
+            },
+            "name": {
+              "tr": "Gizlilik Politikası",
+              "en": "Privacy Policy",
+              "ar": "سياسة الخصوصية"
+            },
+            "href": "gizlilikpolitikasi"
+          },
+          {
+            "text": {
+              "tr": "Kişisel Veriler",
+              "en": "Personal Data",
+              "ar": "البيانات الشخصية"
+            },
+            "name": {
+              "tr": "Kişisel Veriler",
+              "en": "Personal Data",
+              "ar": "البيانات الشخصية"
+            },
+            "href": "kisiselveriler"
+          },
+          {
+            "text": {
+              "tr": "Kullanıcı Hakları",
+              "en": "User Rights",
+              "ar": "حقوق المستخدم"
+            },
+            "name": {
+              "tr": "Kullanıcı Hakları",
+              "en": "User Rights",
+              "ar": "حقوق المستخدم"
+            },
+            "href": "kullanicahaklari"
+          },
+          {
+            "text": {
+              "tr": "Yasal Uyarı",
+              "en": "Legal Notice",
+              "ar": "إشعار قانوني"
+            },
+            "name": {
+              "tr": "Yasal Uyarı",
+              "en": "Legal Notice",
+              "ar": "إشعار قانوني"
+            },
+            "href": "yasaluyari"
+          }
+        ],
+        "rightsText": {
+          "tr": "Tüm hakları saklıdır.",
+          "en": "All rights reserved.",
+          "ar": "جميع الحقوق محفوظة."
+        },
+        "topLabel": {
+          "tr": "Yukarı çık",
+          "en": "Back to top",
+          "ar": "العودة إلى الأعلى"
+        }
+      },
+      "data": [],
+      "id": "w02py8",
+      "path": "footer-10",
+      "local": "footer",
+      "index": 30
+    },
+    {
+      "name": "İlan Filtre (Emlak İlan Listesi)",
+      "description": "Emlak ilan listesi: satılık/kiralık sekmeleri, tür, oda sayısı (çoklu), m² ve fiyat aralığı, semt, metin arama, sıralama ve sayfalama. Durum URL'de tutulur (?q=&deal=&type=&rooms=&m2=&price=&district=&sort=&p=). Her ilan kartında yetki belgesi no görünür (yoksa üç dilli «demo» notu). Kartlar sunucuda üç dilde çizilir, süzme/sıralama ham mx-filtre.js ile yapılır. Mobilde filtre paneli açılır-kapanır; para tr-TR ayraçlı ve <bdi dir=ltr> içinde.",
+      "version": "1.0.0",
+      "icon": "real_estate_agent",
+      "category": "page-list",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "pageSize": 3,
+        "sort": "date",
+        "urlState": false,
+        "title": {
+          "tr": "Öne çıkan araçlar",
+          "en": "Featured vehicles",
+          "ar": "مركبات مميزة"
+        },
+        "subtitle": {
+          "tr": "Bu hafta en çok kiralananlar. Tümü kurgusaldır.",
+          "en": "Most rented this week. All of them are fictional.",
+          "ar": "الأكثر تأجيرًا هذا الأسبوع. جميعها افتراضية."
+        },
+        "searchLabel": {
+          "tr": "Araç ara",
+          "en": "Search vehicles",
+          "ar": "ابحث عن مركبة"
+        },
+        "searchPlaceholder": {
+          "tr": "İlan başlığı…",
+          "en": "Listing title…",
+          "ar": "عنوان الإعلان…"
+        },
+        "dealGroupLabel": {
+          "tr": "Kiralama",
+          "en": "Rental",
+          "ar": "التأجير"
+        },
+        "dealAll": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "dealSale": {
+          "tr": "Satılık",
+          "en": "For sale",
+          "ar": "للبيع"
+        },
+        "dealRent": {
+          "tr": "Kiralık",
+          "en": "For rent",
+          "ar": "للإيجار"
+        },
+        "filtersTitle": {
+          "tr": "Filtreler",
+          "en": "Filters",
+          "ar": "التصفية"
+        },
+        "typeTitle": {
+          "tr": "Segment",
+          "en": "Segment",
+          "ar": "الفئة"
+        },
+        "roomsTitle": {
+          "tr": "Vites",
+          "en": "Gearbox",
+          "ar": "ناقل الحركة"
+        },
+        "m2Title": {
+          "tr": "Günlük km sınırı",
+          "en": "Daily km allowance",
+          "ar": "حد الكيلومترات اليومي"
+        },
+        "priceTitle": {
+          "tr": "Günlük fiyat",
+          "en": "Daily price",
+          "ar": "السعر اليومي"
+        },
+        "districtTitle": {
+          "tr": "Semt",
+          "en": "District",
+          "ar": "الحي"
+        },
+        "districtAll": {
+          "tr": "Tüm semtler",
+          "en": "All districts",
+          "ar": "كل الأحياء"
+        },
+        "minLabel": {
+          "tr": "En az",
+          "en": "Min",
+          "ar": "الحد الأدنى"
+        },
+        "maxLabel": {
+          "tr": "En çok",
+          "en": "Max",
+          "ar": "الحد الأقصى"
+        },
+        "m2Unit": {
+          "tr": "km",
+          "en": "km",
+          "ar": "كم"
+        },
+        "sortLabel": {
+          "tr": "Sırala",
+          "en": "Sort by",
+          "ar": "ترتيب حسب"
+        },
+        "sortDate": {
+          "tr": "En yeni",
+          "en": "Newest",
+          "ar": "الأحدث"
+        },
+        "sortPrice": {
+          "tr": "Fiyat: düşükten yükseğe",
+          "en": "Price: low to high",
+          "ar": "السعر: من الأقل إلى الأعلى"
+        },
+        "sortPriceDesc": {
+          "tr": "Fiyat: yüksekten düşüğe",
+          "en": "Price: high to low",
+          "ar": "السعر: من الأعلى إلى الأقل"
+        },
+        "sortM2": {
+          "tr": "Km sınırı: çoktan aza",
+          "en": "Allowance: high to low",
+          "ar": "الحد: من الأعلى إلى الأقل"
+        },
+        "sortM2Asc": {
+          "tr": "Km sınırı: azdan çoğa",
+          "en": "Allowance: low to high",
+          "ar": "الحد: من الأقل إلى الأعلى"
+        },
+        "resetFilters": {
+          "tr": "Filtreleri temizle",
+          "en": "Clear filters",
+          "ar": "مسح عوامل التصفية"
+        },
+        "resultCount": {
+          "tr": {
+            "one": "{n} araç bulundu",
+            "other": "{n} araç bulundu"
+          },
+          "en": {
+            "one": "{n} vehicle found",
+            "other": "{n} vehicles found"
+          },
+          "ar": {
+            "zero": "لم يتم العثور على مركبات",
+            "one": "تم العثور على مركبة واحدة",
+            "two": "تم العثور على مركبتين",
+            "few": "تم العثور على {n} مركبات",
+            "many": "تم العثور على {n} مركبة",
+            "other": "تم العثور على {n} مركبة"
+          }
+        },
+        "photoCount": {
+          "tr": {
+            "one": "{n} fotoğraf",
+            "other": "{n} fotoğraf"
+          },
+          "en": {
+            "one": "{n} photo",
+            "other": "{n} photos"
+          },
+          "ar": {
+            "one": "صورة واحدة",
+            "two": "صورتان",
+            "few": "{n} صور",
+            "many": "{n} صورة",
+            "other": "{n} صورة"
+          }
+        },
+        "noResultTitle": {
+          "tr": "Sonuç bulunamadı",
+          "en": "No results found",
+          "ar": "لم يتم العثور على نتائج"
+        },
+        "noResultText": {
+          "tr": "Filtreleri gevşetmeyi veya temizlemeyi deneyin.",
+          "en": "Try loosening or clearing your filters.",
+          "ar": "جرّب تخفيف عوامل التصفية أو مسحها."
+        },
+        "pagesLabel": {
+          "tr": "Sayfalama",
+          "en": "Pagination",
+          "ar": "التنقل بين الصفحات"
+        },
+        "prevPage": {
+          "tr": "Önceki sayfa",
+          "en": "Previous page",
+          "ar": "الصفحة السابقة"
+        },
+        "nextPage": {
+          "tr": "Sonraki sayfa",
+          "en": "Next page",
+          "ar": "الصفحة التالية"
+        },
+        "pageN": {
+          "tr": "Sayfa {n}",
+          "en": "Page {n}",
+          "ar": "الصفحة {n}"
+        },
+        "permitLabel": {
+          "tr": "Filo kayıt no",
+          "en": "Fleet record no.",
+          "ar": "رقم سجل الأسطول"
+        },
+        "permitDemo": {
+          "tr": "Filo kayıt no: örnek araç (DEMO)",
+          "en": "Fleet record no.: sample vehicle (DEMO)",
+          "ar": "رقم سجل الأسطول: مركبة تجريبية (DEMO)"
+        },
+        "perMonth": {
+          "tr": "/ gün",
+          "en": "/ day",
+          "ar": "/ يوميًا"
+        },
+        "details": {
+          "tr": "Araç detayı",
+          "en": "View vehicle",
+          "ar": "تفاصيل المركبة"
+        },
+        "dateLabel": {
+          "tr": "Eklenme tarihi",
+          "en": "Added on",
+          "ar": "تاريخ الإضافة"
+        },
+        "demoNote": {
+          "tr": "Bu sayfadaki araçlar ve fiyatlar kurgusaldır. Belirli tarihli kiralamada cayma hakkı yoktur (md. 15/g); koşullar Kiralama Koşulları sayfasındadır.",
+          "en": "Vehicles and prices on this page are fictional. There is no right of withdrawal for date-specific rentals (art. 15/g); terms are on the Rental Terms page.",
+          "ar": "المركبات والأسعار في هذه الصفحة افتراضية. لا يوجد حق عدول في التأجير المحدد بتاريخ (المادة 15/ز)؛ والشروط في صفحة شروط التأجير."
+        }
+      },
+      "data": {
+        "facets": [],
+        "typeLabels": {
+          "ekonomi": {
+            "tr": "Ekonomi",
+            "en": "Economy",
+            "ar": "اقتصادية"
+          },
+          "sedan": {
+            "tr": "Sedan",
+            "en": "Sedan",
+            "ar": "سيدان"
+          },
+          "suv": {
+            "tr": "SUV",
+            "en": "SUV",
+            "ar": "SUV"
+          },
+          "minivan": {
+            "tr": "Minivan",
+            "en": "Minivan",
+            "ar": "ميني فان"
+          }
+        },
+        "listings": [
+          {
+            "id": "kira-001",
+            "title": {
+              "tr": "Ekonomik hatchback, manuel vites",
+              "en": "Economy hatchback, manual",
+              "ar": "هاتشباك اقتصادية، ناقل يدوي"
+            },
+            "deal": "rent",
+            "type": "ekonomi",
+            "rooms": "Manuel",
+            "m2": 300,
+            "price": 1150,
+            "currency": "TRY",
+            "city": {
+              "tr": "Gaziantep",
+              "en": "Gaziantep",
+              "ar": "غازي عنتاب"
+            },
+            "district": {
+              "tr": "Havalimanı teslim",
+              "en": "Airport pick-up",
+              "ar": "استلام المطار"
+            },
+            "img": [
+              "arackiralama-arac-1.webp"
+            ],
+            "permitNo": "DEMO-KR-0001",
+            "url": "",
+            "date": "2026-10-28",
+            "badge": {
+              "tr": "Uygun",
+              "en": "Value",
+              "ar": "اقتصادية"
+            }
+          },
+          {
+            "id": "kira-002",
+            "title": {
+              "tr": "Kompakt sedan, otomatik vites",
+              "en": "Compact sedan, automatic",
+              "ar": "سيدان صغيرة، ناقل أوتوماتيكي"
+            },
+            "deal": "rent",
+            "type": "sedan",
+            "rooms": "Otomatik",
+            "m2": 300,
+            "price": 1650,
+            "currency": "TRY",
+            "city": {
+              "tr": "Gaziantep",
+              "en": "Gaziantep",
+              "ar": "غازي عنتاب"
+            },
+            "district": {
+              "tr": "Havalimanı teslim",
+              "en": "Airport pick-up",
+              "ar": "استلام المطار"
+            },
+            "img": [
+              "arackiralama-arac-2.webp"
+            ],
+            "permitNo": "DEMO-KR-0002",
+            "url": "",
+            "date": "2026-10-27"
+          },
+          {
+            "id": "kira-003",
+            "title": {
+              "tr": "Aile SUV’u, otomatik vites",
+              "en": "Family SUV, automatic",
+              "ar": "SUV عائلية، ناقل أوتوماتيكي"
+            },
+            "deal": "rent",
+            "type": "suv",
+            "rooms": "Otomatik",
+            "m2": 350,
+            "price": 2450,
+            "currency": "TRY",
+            "city": {
+              "tr": "Gaziantep",
+              "en": "Gaziantep",
+              "ar": "غازي عنتاب"
+            },
+            "district": {
+              "tr": "Havalimanı teslim",
+              "en": "Airport pick-up",
+              "ar": "استلام المطار"
+            },
+            "img": [
+              "arackiralama-arac-3.webp"
+            ],
+            "permitNo": "DEMO-KR-0003",
+            "url": "",
+            "date": "2026-10-26",
+            "badge": {
+              "tr": "Popüler",
+              "en": "Popular",
+              "ar": "شائعة"
+            }
+          }
+        ]
+      },
+      "tags": [
+        "emlak",
+        "ilan",
+        "filtre",
+        "real-estate",
+        "listing",
+        "rtl"
+      ],
+      "id": "bt0j95",
+      "path": "ilan-filtre",
+      "local": "body",
+      "index": 31
+    },
+    {
+      "name": "İlan Filtre (Emlak İlan Listesi)",
+      "description": "Emlak ilan listesi: satılık/kiralık sekmeleri, tür, oda sayısı (çoklu), m² ve fiyat aralığı, semt, metin arama, sıralama ve sayfalama. Durum URL'de tutulur (?q=&deal=&type=&rooms=&m2=&price=&district=&sort=&p=). Her ilan kartında yetki belgesi no görünür (yoksa üç dilli «demo» notu). Kartlar sunucuda üç dilde çizilir, süzme/sıralama ham mx-filtre.js ile yapılır. Mobilde filtre paneli açılır-kapanır; para tr-TR ayraçlı ve <bdi dir=ltr> içinde.",
+      "version": "1.0.0",
+      "icon": "real_estate_agent",
+      "category": "page-list",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "pageSize": 6,
+        "sort": "date",
+        "urlState": true,
+        "title": {
+          "tr": "Kiralık araçlar",
+          "en": "Vehicles for rent",
+          "ar": "مركبات للإيجار"
+        },
+        "subtitle": {
+          "tr": "Segment, vites ve günlük km sınırına göre süzün. Fiyatlar kurgusal, günlük ve KDV dahildir.",
+          "en": "Filter by segment, gearbox and daily km allowance. Prices are fictional, daily, VAT included.",
+          "ar": "صفِّ حسب الفئة وناقل الحركة وحد الكيلومترات اليومي. الأسعار افتراضية يومية وشاملة الضريبة."
+        },
+        "searchLabel": {
+          "tr": "Araç ara",
+          "en": "Search vehicles",
+          "ar": "ابحث عن مركبة"
+        },
+        "searchPlaceholder": {
+          "tr": "İlan başlığı…",
+          "en": "Listing title…",
+          "ar": "عنوان الإعلان…"
+        },
+        "dealGroupLabel": {
+          "tr": "Kiralama",
+          "en": "Rental",
+          "ar": "التأجير"
+        },
+        "dealAll": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "dealSale": {
+          "tr": "Satılık",
+          "en": "For sale",
+          "ar": "للبيع"
+        },
+        "dealRent": {
+          "tr": "Kiralık",
+          "en": "For rent",
+          "ar": "للإيجار"
+        },
+        "filtersTitle": {
+          "tr": "Filtreler",
+          "en": "Filters",
+          "ar": "التصفية"
+        },
+        "typeTitle": {
+          "tr": "Segment",
+          "en": "Segment",
+          "ar": "الفئة"
+        },
+        "roomsTitle": {
+          "tr": "Vites",
+          "en": "Gearbox",
+          "ar": "ناقل الحركة"
+        },
+        "m2Title": {
+          "tr": "Günlük km sınırı",
+          "en": "Daily km allowance",
+          "ar": "حد الكيلومترات اليومي"
+        },
+        "priceTitle": {
+          "tr": "Günlük fiyat",
+          "en": "Daily price",
+          "ar": "السعر اليومي"
+        },
+        "districtTitle": {
+          "tr": "Semt",
+          "en": "District",
+          "ar": "الحي"
+        },
+        "districtAll": {
+          "tr": "Tüm semtler",
+          "en": "All districts",
+          "ar": "كل الأحياء"
+        },
+        "minLabel": {
+          "tr": "En az",
+          "en": "Min",
+          "ar": "الحد الأدنى"
+        },
+        "maxLabel": {
+          "tr": "En çok",
+          "en": "Max",
+          "ar": "الحد الأقصى"
+        },
+        "m2Unit": {
+          "tr": "km",
+          "en": "km",
+          "ar": "كم"
+        },
+        "sortLabel": {
+          "tr": "Sırala",
+          "en": "Sort by",
+          "ar": "ترتيب حسب"
+        },
+        "sortDate": {
+          "tr": "En yeni",
+          "en": "Newest",
+          "ar": "الأحدث"
+        },
+        "sortPrice": {
+          "tr": "Fiyat: düşükten yükseğe",
+          "en": "Price: low to high",
+          "ar": "السعر: من الأقل إلى الأعلى"
+        },
+        "sortPriceDesc": {
+          "tr": "Fiyat: yüksekten düşüğe",
+          "en": "Price: high to low",
+          "ar": "السعر: من الأعلى إلى الأقل"
+        },
+        "sortM2": {
+          "tr": "Km sınırı: çoktan aza",
+          "en": "Allowance: high to low",
+          "ar": "الحد: من الأعلى إلى الأقل"
+        },
+        "sortM2Asc": {
+          "tr": "Km sınırı: azdan çoğa",
+          "en": "Allowance: low to high",
+          "ar": "الحد: من الأقل إلى الأعلى"
+        },
+        "resetFilters": {
+          "tr": "Filtreleri temizle",
+          "en": "Clear filters",
+          "ar": "مسح عوامل التصفية"
+        },
+        "resultCount": {
+          "tr": {
+            "one": "{n} araç bulundu",
+            "other": "{n} araç bulundu"
+          },
+          "en": {
+            "one": "{n} vehicle found",
+            "other": "{n} vehicles found"
+          },
+          "ar": {
+            "zero": "لم يتم العثور على مركبات",
+            "one": "تم العثور على مركبة واحدة",
+            "two": "تم العثور على مركبتين",
+            "few": "تم العثور على {n} مركبات",
+            "many": "تم العثور على {n} مركبة",
+            "other": "تم العثور على {n} مركبة"
+          }
+        },
+        "photoCount": {
+          "tr": {
+            "one": "{n} fotoğraf",
+            "other": "{n} fotoğraf"
+          },
+          "en": {
+            "one": "{n} photo",
+            "other": "{n} photos"
+          },
+          "ar": {
+            "one": "صورة واحدة",
+            "two": "صورتان",
+            "few": "{n} صور",
+            "many": "{n} صورة",
+            "other": "{n} صورة"
+          }
+        },
+        "noResultTitle": {
+          "tr": "Sonuç bulunamadı",
+          "en": "No results found",
+          "ar": "لم يتم العثور على نتائج"
+        },
+        "noResultText": {
+          "tr": "Filtreleri gevşetmeyi veya temizlemeyi deneyin.",
+          "en": "Try loosening or clearing your filters.",
+          "ar": "جرّب تخفيف عوامل التصفية أو مسحها."
+        },
+        "pagesLabel": {
+          "tr": "Sayfalama",
+          "en": "Pagination",
+          "ar": "التنقل بين الصفحات"
+        },
+        "prevPage": {
+          "tr": "Önceki sayfa",
+          "en": "Previous page",
+          "ar": "الصفحة السابقة"
+        },
+        "nextPage": {
+          "tr": "Sonraki sayfa",
+          "en": "Next page",
+          "ar": "الصفحة التالية"
+        },
+        "pageN": {
+          "tr": "Sayfa {n}",
+          "en": "Page {n}",
+          "ar": "الصفحة {n}"
+        },
+        "permitLabel": {
+          "tr": "Filo kayıt no",
+          "en": "Fleet record no.",
+          "ar": "رقم سجل الأسطول"
+        },
+        "permitDemo": {
+          "tr": "Filo kayıt no: örnek araç (DEMO)",
+          "en": "Fleet record no.: sample vehicle (DEMO)",
+          "ar": "رقم سجل الأسطول: مركبة تجريبية (DEMO)"
+        },
+        "perMonth": {
+          "tr": "/ gün",
+          "en": "/ day",
+          "ar": "/ يوميًا"
+        },
+        "details": {
+          "tr": "Araç detayı",
+          "en": "View vehicle",
+          "ar": "تفاصيل المركبة"
+        },
+        "dateLabel": {
+          "tr": "Eklenme tarihi",
+          "en": "Added on",
+          "ar": "تاريخ الإضافة"
+        },
+        "demoNote": {
+          "tr": "Bu sayfadaki araçlar ve fiyatlar kurgusaldır. Belirli tarihli kiralamada cayma hakkı yoktur (md. 15/g); koşullar Kiralama Koşulları sayfasındadır.",
+          "en": "Vehicles and prices on this page are fictional. There is no right of withdrawal for date-specific rentals (art. 15/g); terms are on the Rental Terms page.",
+          "ar": "المركبات والأسعار في هذه الصفحة افتراضية. لا يوجد حق عدول في التأجير المحدد بتاريخ (المادة 15/ز)؛ والشروط في صفحة شروط التأجير."
+        }
+      },
+      "data": {
+        "facets": [
+          "type",
+          "rooms",
+          "m2",
+          "price"
+        ],
+        "typeLabels": {
+          "ekonomi": {
+            "tr": "Ekonomi",
+            "en": "Economy",
+            "ar": "اقتصادية"
+          },
+          "sedan": {
+            "tr": "Sedan",
+            "en": "Sedan",
+            "ar": "سيدان"
+          },
+          "suv": {
+            "tr": "SUV",
+            "en": "SUV",
+            "ar": "SUV"
+          },
+          "minivan": {
+            "tr": "Minivan",
+            "en": "Minivan",
+            "ar": "ميني فان"
+          }
+        },
+        "listings": [
+          {
+            "id": "kira-001",
+            "title": {
+              "tr": "Ekonomik hatchback, manuel vites",
+              "en": "Economy hatchback, manual",
+              "ar": "هاتشباك اقتصادية، ناقل يدوي"
+            },
+            "deal": "rent",
+            "type": "ekonomi",
+            "rooms": "Manuel",
+            "m2": 300,
+            "price": 1150,
+            "currency": "TRY",
+            "city": {
+              "tr": "Gaziantep",
+              "en": "Gaziantep",
+              "ar": "غازي عنتاب"
+            },
+            "district": {
+              "tr": "Havalimanı teslim",
+              "en": "Airport pick-up",
+              "ar": "استلام المطار"
+            },
+            "img": [
+              "arackiralama-arac-1.webp"
+            ],
+            "permitNo": "DEMO-KR-0001",
+            "url": "",
+            "date": "2026-10-28",
+            "badge": {
+              "tr": "Uygun",
+              "en": "Value",
+              "ar": "اقتصادية"
+            }
+          },
+          {
+            "id": "kira-002",
+            "title": {
+              "tr": "Kompakt sedan, otomatik vites",
+              "en": "Compact sedan, automatic",
+              "ar": "سيدان صغيرة، ناقل أوتوماتيكي"
+            },
+            "deal": "rent",
+            "type": "sedan",
+            "rooms": "Otomatik",
+            "m2": 300,
+            "price": 1650,
+            "currency": "TRY",
+            "city": {
+              "tr": "Gaziantep",
+              "en": "Gaziantep",
+              "ar": "غازي عنتاب"
+            },
+            "district": {
+              "tr": "Havalimanı teslim",
+              "en": "Airport pick-up",
+              "ar": "استلام المطار"
+            },
+            "img": [
+              "arackiralama-arac-2.webp"
+            ],
+            "permitNo": "DEMO-KR-0002",
+            "url": "",
+            "date": "2026-10-27"
+          },
+          {
+            "id": "kira-003",
+            "title": {
+              "tr": "Aile SUV’u, otomatik vites",
+              "en": "Family SUV, automatic",
+              "ar": "SUV عائلية، ناقل أوتوماتيكي"
+            },
+            "deal": "rent",
+            "type": "suv",
+            "rooms": "Otomatik",
+            "m2": 350,
+            "price": 2450,
+            "currency": "TRY",
+            "city": {
+              "tr": "Gaziantep",
+              "en": "Gaziantep",
+              "ar": "غازي عنتاب"
+            },
+            "district": {
+              "tr": "Havalimanı teslim",
+              "en": "Airport pick-up",
+              "ar": "استلام المطار"
+            },
+            "img": [
+              "arackiralama-arac-3.webp"
+            ],
+            "permitNo": "DEMO-KR-0003",
+            "url": "",
+            "date": "2026-10-26",
+            "badge": {
+              "tr": "Popüler",
+              "en": "Popular",
+              "ar": "شائعة"
+            }
+          },
+          {
+            "id": "kira-004",
+            "title": {
+              "tr": "7 kişilik minivan, otomatik vites",
+              "en": "7-seat minivan, automatic",
+              "ar": "ميني فان 7 مقاعد، ناقل أوتوماتيكي"
+            },
+            "deal": "rent",
+            "type": "minivan",
+            "rooms": "Otomatik",
+            "m2": 350,
+            "price": 2950,
+            "currency": "TRY",
+            "city": {
+              "tr": "Gaziantep",
+              "en": "Gaziantep",
+              "ar": "غازي عنتاب"
+            },
+            "district": {
+              "tr": "Havalimanı teslim",
+              "en": "Airport pick-up",
+              "ar": "استلام المطار"
+            },
+            "img": [
+              "arackiralama-arac-4.webp"
+            ],
+            "permitNo": "DEMO-KR-0004",
+            "url": "",
+            "date": "2026-10-24"
+          },
+          {
+            "id": "kira-005",
+            "title": {
+              "tr": "Elektrikli şehir aracı",
+              "en": "Electric city car",
+              "ar": "سيارة مدينة كهربائية"
+            },
+            "deal": "rent",
+            "type": "ekonomi",
+            "rooms": "Otomatik",
+            "m2": 250,
+            "price": 2100,
+            "currency": "TRY",
+            "city": {
+              "tr": "Gaziantep",
+              "en": "Gaziantep",
+              "ar": "غازي عنتاب"
+            },
+            "district": {
+              "tr": "Havalimanı teslim",
+              "en": "Airport pick-up",
+              "ar": "استلام المطار"
+            },
+            "img": [
+              "arackiralama-arac-5.webp"
+            ],
+            "permitNo": "DEMO-KR-0005",
+            "url": "",
+            "date": "2026-10-22",
+            "badge": {
+              "tr": "Elektrikli",
+              "en": "Electric",
+              "ar": "كهربائية"
+            }
+          },
+          {
+            "id": "kira-006",
+            "title": {
+              "tr": "Üst sınıf sedan, otomatik vites",
+              "en": "Executive sedan, automatic",
+              "ar": "سيدان فاخرة، ناقل أوتوماتيكي"
+            },
+            "deal": "rent",
+            "type": "sedan",
+            "rooms": "Otomatik",
+            "m2": 300,
+            "price": 3600,
+            "currency": "TRY",
+            "city": {
+              "tr": "Gaziantep",
+              "en": "Gaziantep",
+              "ar": "غازي عنتاب"
+            },
+            "district": {
+              "tr": "Havalimanı teslim",
+              "en": "Airport pick-up",
+              "ar": "استلام المطار"
+            },
+            "img": [
+              "arackiralama-arac-6.webp"
+            ],
+            "permitNo": "DEMO-KR-0006",
+            "url": "",
+            "date": "2026-10-20"
+          }
+        ]
+      },
+      "tags": [
+        "emlak",
+        "ilan",
+        "filtre",
+        "real-estate",
+        "listing",
+        "rtl"
+      ],
+      "id": "79uq60",
+      "path": "ilan-filtre",
+      "local": "body",
+      "index": 32
+    },
+    {
+      "name": "Süreç Adımları",
+      "description": "3–6 adımlık süreç anlatımı: çizgi/ok ile bağlı daire numaralar, altında başlık + metin. Aktif adım vurgusu kaydırmayla ilerler (IntersectionObserver; JS yoksa tüm adımlar düz görünür). desing.stil: yatay (çizgiyle bağlı sıra; mobilde dikey zaman çizgisi) | dikey (iki yanlı zaman çizgisi) | kartli (kart + ok ayraç). Veri: data[] = [{no?, baslik{tr,en,ar}, metin{}, ikon?}]. Renkler yalnız token; koyu mod otomatik; RTL'de ok/çizgi yönü aynalanır.",
+      "version": "1.0.0",
+      "icon": "timeline",
+      "category": "surec",
+      "tags": [
+        "süreç",
+        "adım",
+        "zaman çizgisi",
+        "process",
+        "steps",
+        "ar"
+      ],
+      "desing": {
+        "stil": "dikey",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "16px",
+        "eyebrow": {
+          "tr": "Süreç",
+          "en": "Process",
+          "ar": "الإجراءات"
+        },
+        "title": {
+          "tr": "Rezervasyondan iadeye",
+          "en": "From booking to return",
+          "ar": "من الحجز إلى الإعادة"
+        },
+        "description": {
+          "tr": "Dört adımda kiralama.",
+          "en": "Renting in four steps.",
+          "ar": "التأجير في أربع خطوات."
+        },
+        "stepLabel": {
+          "tr": "Adım {n}",
+          "en": "Step {n}",
+          "ar": "الخطوة {n}"
+        },
+        "listLabel": {
+          "tr": "Süreç adımları",
+          "en": "Process steps",
+          "ar": "خطوات العملية"
+        }
+      },
+      "data": [
+        {
+          "baslik": {
+            "tr": "Araç ve tarih",
+            "en": "Vehicle and dates",
+            "ar": "المركبة والتواريخ"
+          },
+          "metin": {
+            "tr": "Aracı ve teslim-iade tarihlerini seçin.",
+            "en": "Choose the vehicle and the pick-up and return dates.",
+            "ar": "اختر المركبة وتاريخي الاستلام والإعادة."
+          },
+          "ikon": "forum"
+        },
+        {
+          "baslik": {
+            "tr": "Talep ve onay",
+            "en": "Request and confirmation",
+            "ar": "الطلب والتأكيد"
+          },
+          "metin": {
+            "tr": "Talebiniz teyit edilir; kapora alınmaz.",
+            "en": "Your request is confirmed; no deposit is taken.",
+            "ar": "يُؤكَّد طلبك ولا يُؤخذ عربون."
+          },
+          "ikon": "draw"
+        },
+        {
+          "baslik": {
+            "tr": "Teslim alma",
+            "en": "Pick-up",
+            "ar": "الاستلام"
+          },
+          "metin": {
+            "tr": "Kimlik ve ehliyetle teslim alınır, depozito provizyonu yapılır.",
+            "en": "Pick up with ID and licence; a deposit pre-authorisation is made.",
+            "ar": "تستلم بالهوية والرخصة ويُحجز مبلغ التأمين."
+          },
+          "ikon": "construction"
+        },
+        {
+          "baslik": {
+            "tr": "İade",
+            "en": "Return",
+            "ar": "الإعادة"
+          },
+          "metin": {
+            "tr": "Araç iade edilir, depozito serbest bırakılır.",
+            "en": "The vehicle is returned and the deposit is released.",
+            "ar": "تُعاد المركبة ويُفرَج عن مبلغ التأمين."
+          },
+          "ikon": "task_alt"
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "imjpc4",
+      "path": "surec-adimlar",
+      "local": "body",
+      "index": 33
+    }
+  ]
+}

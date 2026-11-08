@@ -1,0 +1,43 @@
+{
+  "id": "xfdkwir0te",
+  "name": {
+    "tr": "Kiralama Koşulları",
+    "en": "Rental Terms",
+    "ar": "شروط التأجير"
+  },
+  "description": {
+    "tr": "Kiracı şartları, depozito, iptal ve cayma hakkı bilgisi.",
+    "en": "Renter requirements, deposit, cancellation and withdrawal information.",
+    "ar": "شروط المستأجر والتأمين والإلغاء ومعلومات حق العدول."
+  },
+  "keyword": {
+    "tr": "kiralama koşulları",
+    "en": "rental terms",
+    "ar": "شروط التأجير"
+  },
+  "path": "kiralama-kosullari",
+  "icon": "gavel",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pjd51h"
+    ],
+    "footer": []
+  },
+  "index": 3,
+  "url": "",
+  "text": {
+    "tr": "<h2>Kiralama koşulları</h2><p><strong>Kiracı şartları:</strong> En az 21 yaş, 2 yıllık ehliyet ve geçerli kimlik gerekir.</p><p><strong>Depozito:</strong> Teslimde kart provizyonu alınır ve araç hasarsız iade edildiğinde serbest bırakılır.</p><p><strong>İptal ve değişiklik:</strong> Teslim saatinden 24 saat öncesine kadar ücretsiz iptal ve tarih değişikliği yapılabilir; sonrasında ilk gün bedeli tahsil edilir.</p><p><strong>Cayma:</strong> Belirli bir tarih için yapılan araç kiralamada cayma hakkı bulunmaz (6502 sayılı Kanun md. 15/g); iptal, değişiklik ve depozito koşulları Kiralama Koşulları sayfasındadır. Kapora alınmaz; ödeme teslimde yapılır.</p><p><em>Demo sitedir; koşullar örnektir.</em></p>",
+    "en": "<h2>Rental terms</h2><p><strong>Renter requirements:</strong> At least 21 years old, 2 years of driving licence and a valid ID.</p><p><strong>Deposit:</strong> A card pre-authorisation is taken at pick-up and released when the vehicle is returned undamaged.</p><p><strong>Cancellation and changes:</strong> Free cancellation and date changes are possible up to 24 hours before pick-up; after that the first day is charged.</p><p><strong>Withdrawal:</strong> There is no right of withdrawal for vehicle rental booked for a specific date (Law No. 6502 art. 15/g); cancellation, change and deposit terms are on the Rental Terms page. No deposit is taken online; payment is made at pick-up.</p><p><em>This is a demo site; the terms are examples.</em></p>",
+    "ar": "<h2>شروط التأجير</h2><p><strong>شروط المستأجر:</strong> 21 عامًا على الأقل ورخصة قيادة منذ عامين وهوية سارية.</p><p><strong>التأمين:</strong> يُحجز مبلغ على البطاقة عند الاستلام ويُفرَج عنه عند إعادة المركبة دون أضرار.</p><p><strong>الإلغاء والتعديل:</strong> يمكن الإلغاء وتغيير التاريخ مجانًا حتى 24 ساعة قبل الاستلام؛ وبعد ذلك يُحتسب اليوم الأول.</p><p><strong>العدول:</strong> لا يوجد حق عدول في تأجير المركبات المحدد بتاريخ معيّن (المادة 15/ز من القانون التركي رقم 6502)؛ وشروط الإلغاء والتعديل والتأمين في صفحة شروط التأجير. لا تُؤخذ عربون عبر الإنترنت ويتم الدفع عند الاستلام.</p><p><em>هذا موقع تجريبي والشروط أمثلة.</em></p>"
+  },
+  "title": {
+    "tr": "Kiralama Koşulları",
+    "en": "Rental Terms",
+    "ar": "شروط التأجير"
+  },
+  "date": "2026-10-31T14:38:35.571Z",
+  "update": "2026-11-05T19:38:43.339Z"
+}

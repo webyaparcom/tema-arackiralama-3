@@ -1,0 +1,59 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Kuzey Rent: günlük ve uzun dönem araç kiralama, havalimanı teslim ve açık kiralama koşulları. (Demo site)",
+    "en": "Kuzey Rent: daily and long-term car rental, airport pick-up and clear rental terms. (Demo site)",
+    "ar": "كوزي رنت: تأجير يومي وطويل الأمد واستلام من المطار وشروط تأجير واضحة. (موقع تجريبي)"
+  },
+  "keyword": {
+    "tr": "araç kiralama, rent a car, filo",
+    "en": "car rental, rent a car, fleet",
+    "ar": "تأجير سيارات، فلو"
+  },
+  "category": "Galeri",
+  "name": "Kuzey Rent",
+  "domain": "arackiralama-3.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "inter",
+    "heading": "inter",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#1C1C1C",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "0px",
+    "--mx-radius-md": "0px",
+    "--mx-radius-lg": "0px",
+    "--mx-radius-xl": "0px",
+    "--mx-shadow-md": "none",
+    "--mx-dur": "200ms"
+  },
+  "icon": "icon.png",
+  "phone": "+90 342 000 00 00",
+  "email": "rezervasyon@kuzeyrent.example",
+  "address": "Havalimanı Cd. No: 2, Oğuzeli, Gaziantep (kurgusal adres)"
+}

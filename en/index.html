@@ -1,0 +1,947 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <title>Kuzey Rent</title>
+  <meta name="description" content="Kuzey Rent: daily and long-term car rental, airport pick-up and clear rental terms. (Demo site)" />
+  <meta name="keywords" content="car rental, rent a car, fleet" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="canonical" href="https://arackiralama-3.webyapar.com/en/" />
+  <link rel="alternate" hreflang="tr" href="https://arackiralama-3.webyapar.com/tr/" />
+  <link rel="alternate" hreflang="en" href="https://arackiralama-3.webyapar.com/en/" />
+  <link rel="alternate" hreflang="ar" href="https://arackiralama-3.webyapar.com/ar/" />
+  <link rel="alternate" hreflang="x-default" href="https://arackiralama-3.webyapar.com/tr/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Kuzey Rent" />
+  <meta property="og:description" content="Kuzey Rent: daily and long-term car rental, airport pick-up and clear rental terms. (Demo site)" />
+  <meta property="og:url" content="https://arackiralama-3.webyapar.com/en/" />
+  <meta property="og:image" content="https://arackiralama-3.webyapar.com/img/logo.png" />
+  <meta property="og:image:alt" content="Kuzey Rent" />
+  <meta property="og:site_name" content="Kuzey Rent" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="tr_TR" />
+  <meta property="og:locale:alternate" content="ar_SA" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kuzey Rent" />
+  <meta name="twitter:description" content="Kuzey Rent: daily and long-term car rental, airport pick-up and clear rental terms. (Demo site)" />
+  <meta name="twitter:image" content="https://arackiralama-3.webyapar.com/img/logo.png" />
+
+  <meta name="theme-color" content="#1C1C1C" />
+  <meta name="mx-api-base" content="none" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/fonts/inter.css?v=i6eb5" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=i6eb5" />
+  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=i6eb5" />
+  <link rel="stylesheet" href="/src/rubik.css?v=i6eb5" />
+  <link rel="stylesheet" href="/src/css.css?v=i6eb5" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=i6eb5" />
+  
+  <link rel="stylesheet" href="/src/mx-ui.css?v=i6eb5" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=i6eb5" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=i6eb5" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=i6eb5" />
+  <link rel="shortcut icon" href="/img/icon.png?v=i6eb5" type="image/png" />
+  <link rel="apple-touch-icon" href="/img/icon.png" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://arackiralama-3.webyapar.com/#website",
+      "url": "https://arackiralama-3.webyapar.com/",
+      "name": "Kuzey Rent",
+      "description": "Kuzey Rent: daily and long-term car rental, airport pick-up and clear rental terms. (Demo site)",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://arackiralama-3.webyapar.com/#organization"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://arackiralama-3.webyapar.com/#organization",
+      "name": "Kuzey Rent",
+      "url": "https://arackiralama-3.webyapar.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://arackiralama-3.webyapar.com/img/logo.png"
+      },
+      "image": "https://arackiralama-3.webyapar.com/img/logo.png",
+      "description": "Kuzey Rent: daily and long-term car rental, airport pick-up and clear rental terms. (Demo site)",
+      "telephone": "+90 342 000 00 00",
+      "email": "rezervasyon@kuzeyrent.example",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Havalimanı Cd. No: 2, Oğuzeli, Gaziantep (kurgusal adres)"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "+90 342 000 00 00",
+        "email": "rezervasyon@kuzeyrent.example"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://arackiralama-3.webyapar.com/en/#webpage",
+      "url": "https://arackiralama-3.webyapar.com/en/",
+      "name": "Kuzey Rent",
+      "description": "Kuzey Rent: daily and long-term car rental, airport pick-up and clear rental terms. (Demo site)",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://arackiralama-3.webyapar.com/#website"
+      },
+      "about": {
+        "@id": "https://arackiralama-3.webyapar.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://arackiralama-3.webyapar.com/img/logo.png"
+      }
+    }
+  ]
+}
+</script>
+  
+<link rel="stylesheet" href="style.css?v=i6eb5">
+</head>
+
+<body>
+  <a class="mx-skip-link" href="#content">Skip to content</a>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
+  <div id="header"><div class="h0000-db" id="db-g3db01" role="region" aria-label="Demo site notice" data-tone="info" style="--db-bg:var(--mx-site-text, #1b1b1b);--db-fg:var(--mx-site-bg, #ffffff)">
+  <span class="material-symbols-outlined h0000-db-icon" aria-hidden="true">info</span>
+  <p class="h0000-db-text">This is a demo site — the content is fictional and no payment is taken</p>
+  <a class="h0000-db-cta" href="https://webyapar.com/temalar#arackiralama-3" target="_blank" rel="noopener noreferrer">
+    <span>Get this theme</span><span class="mx-visually-hidden"> (opens in a new tab)</span>
+    <span class="material-symbols-outlined mx-flip h0000-db-arrow" aria-hidden="true">arrow_forward</span>
+  </a>
+  
+</div>
+
+<script>
+  
+  (function () {
+    var kok = document.getElementById("db-g3db01");
+    if (!kok) {
+      return;
+    }
+    var itilenler = [];
+    var gorulen = [];
+
+    function ustaTasi() {
+      var govde = document.body;
+      if (!govde || kok.parentNode === govde) {
+        return;
+      }
+      var ilk = document.getElementById("header");
+      if (ilk && ilk.parentNode === govde) {
+        govde.insertBefore(kok, ilk);
+      } else {
+        govde.insertBefore(kok, govde.firstChild);
+      }
+    }
+
+    function adayMi(el) {
+      if (el === kok || kok.contains(el) || el.nodeType !== 1) {
+        return false;
+      }
+      var cs = window.getComputedStyle(el);
+      if ((cs.position !== "fixed" && cs.position !== "sticky") || cs.display === "none") {
+        return false;
+      }
+      
+      return parseFloat(cs.top) === 0 && el.offsetHeight > 0 && el.offsetHeight <= 200;
+    }
+
+    function it() {
+      var h = kok.offsetHeight;
+      document.documentElement.style.setProperty("--mx-demo-bandi-h", h + "px");
+      var liste = document.querySelectorAll("#header *, body > *");
+      for (var i = 0; i < liste.length; i++) {
+        var el = liste[i];
+        if (gorulen.indexOf(el) !== -1) {
+          continue;
+        }
+        if (adayMi(el)) {
+          gorulen.push(el);
+          itilenler.push(el);
+        }
+      }
+      for (var j = 0; j < itilenler.length; j++) {
+        itilenler[j].style.top = h + "px";
+      }
+    }
+
+    ustaTasi();
+    it();
+    window.addEventListener("load", function () {
+      ustaTasi();
+      it();
+      setTimeout(it, 400);
+      setTimeout(it, 1500);
+    });
+    window.addEventListener("resize", it);
+    if (window.ResizeObserver) {
+      new window.ResizeObserver(it).observe(kok);
+    }
+  })();
+</script>
+<div class="h0001">
+  <div class="h0001title">
+    <div class="h0001titlebody">
+      <div class="h0001titlebodylang">
+        <ul>
+          <li class="wm-lang-item"><a href="/tr/" hreflang="tr" lang="tr">TR</a></li><li class="wm-lang-item wm-lang-active"><a href="/en/" hreflang="en" lang="en" aria-current="true">EN</a></li><li class="wm-lang-item"><a href="/ar/" hreflang="ar" lang="ar">AR</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="h0001body">
+    <a href="/en/">
+      <img
+        src="/img/logo.png?v=okq6b"
+        alt="Kuzey Rent Logo"
+        class="h0001bodylogo"
+        loading="lazy"
+      />
+    </a>
+    
+    <details class="h0001-lang-top">
+      <summary aria-label="Language Selector">
+        <span class="h0001-lang-top-code">en</span>
+        <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
+      </summary>
+      <ul>
+        <li class="wm-lang-item"><a href="/tr/" hreflang="tr" lang="tr">TR</a></li><li class="wm-lang-item wm-lang-active"><a href="/en/" hreflang="en" lang="en" aria-current="true">EN</a></li><li class="wm-lang-item"><a href="/ar/" hreflang="ar" lang="ar">AR</a></li>
+      </ul>
+    </details>
+    <button type="button" class="h0001-mobile-toggle" onclick="menu2_toggle()" aria-label="Toggle menu">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
+  </div>
+  
+  <div class="h0001-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="h0001menubody">
+    <div class="h0001menu" id="menu-2-root">
+      <button type="button" class="h0001-menu2-drawer-close" onclick="menu2_toggle()" aria-label="Close menu">
+        <span class="material-symbols-outlined" aria-hidden="true">close</span>
+      </button>
+      <div class="h0001menulistbody">
+        <div class="h0001menulist">
+          <ul>
+            <a href="/en/">Home</a><a href="/en/araclar/">Vehicles</a><a href="/en/secenekler/">Options</a><a href="/en/rezervasyon/">Reservation</a><a href="/en/kiralama-kosullari/">Rental Terms</a><a href="/en/galeri/">Gallery</a><a href="/en/hakkimizda/">About</a><a href="/en/iletisim/">Contact</a>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="h0001languages-mobile">
+        <ul>
+          <li class="wm-lang-item"><a href="/tr/" hreflang="tr" lang="tr">TR</a></li><li class="wm-lang-item wm-lang-active"><a href="/en/" hreflang="en" lang="en" aria-current="true">EN</a></li><li class="wm-lang-item"><a href="/ar/" hreflang="ar" lang="ar">AR</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  
+  if (typeof menu2_isMobileLayout === "undefined") {
+    
+    function menu2_isMobileLayout() {
+      return window.innerWidth <= 1024;
+    }
+  }
+  if (typeof menu2_isTouchNav === "undefined") {
+    function menu2_isTouchNav() {
+      return window.innerWidth <= 1024;
+    }
+  }
+  if (typeof menu2_setBodyScroll === "undefined") {
+    function menu2_setBodyScroll(lock) {
+      if (!menu2_isMobileLayout()) {
+        document.body.style.overflow = "";
+        return;
+      }
+      document.body.style.overflow = lock ? "hidden" : "";
+    }
+  }
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      var wrapper = root.closest ? root.closest(".h0001") : null;
+      var target = wrapper || root;
+      if (target.classList.contains("h0001menu-open")) {
+        target.classList.remove("h0001menu-open");
+        menu2_setBodyScroll(false);
+      } else {
+        target.classList.add("h0001menu-open");
+        menu2_setBodyScroll(true);
+        menu2_openActiveBranch();
+      }
+    }
+  }
+  if (typeof menu2_closeDrawer === "undefined") {
+    function menu2_closeDrawer() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      var wrapper = root.closest ? root.closest(".h0001") : null;
+      var target = wrapper || root;
+      target.classList.remove("h0001menu-open");
+      menu2_setBodyScroll(false);
+    }
+  }
+  if (typeof menu2_openActiveBranch === "undefined") {
+    function menu2_openActiveBranch() {
+      if (!menu2_isMobileLayout()) {
+        return;
+      }
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      var activeWrap = root.querySelector(".h0001menulist-menu.dropdown-content-active-h0001");
+      if (activeWrap) {
+        activeWrap.classList.add("h0001-dropdown-open");
+      }
+    }
+  }
+  if (typeof menu2_setup === "undefined") {
+    function menu2_setup() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      var dropdownLinks = root.querySelectorAll(".h0001menulist-menu > a");
+      for (var i = 0; i < dropdownLinks.length; i++) {
+        if (dropdownLinks[i].getAttribute("data-menu2-listener") === "true") {
+          continue;
+        }
+        dropdownLinks[i].setAttribute("data-menu2-listener", "true");
+        dropdownLinks[i].addEventListener("click", function(event) {
+          if (!menu2_isTouchNav()) {
+            return;
+          }
+          var parent = this.parentNode;
+          if (!parent || !parent.querySelector(".dropdown-content-h0001")) {
+            return;
+          }
+          event.preventDefault();
+          var menuRoot = parent.parentNode;
+          var toggled = parent.classList.contains("h0001-dropdown-open");
+          var siblings = menuRoot.querySelectorAll(".h0001menulist-menu");
+          for (var j = 0; j < siblings.length; j++) {
+            siblings[j].classList.remove("h0001-dropdown-open");
+          }
+          if (!toggled) {
+            parent.classList.add("h0001-dropdown-open");
+          }
+        });
+      }
+      var navLinks = root.querySelectorAll(".h0001menulist a[href]");
+      for (var k = 0; k < navLinks.length; k++) {
+        if (navLinks[k].getAttribute("data-menu2-nav-close") === "true") {
+          continue;
+        }
+        navLinks[k].setAttribute("data-menu2-nav-close", "true");
+        navLinks[k].addEventListener("click", function(event) {
+          if (!menu2_isMobileLayout()) {
+            return;
+          }
+          if (event.defaultPrevented) {
+            return;
+          }
+          menu2_closeDrawer();
+        });
+      }
+      menu2_openActiveBranch();
+    }
+    function menu2_resetDropdowns() {
+      if (!menu2_isTouchNav()) {
+        var root = document.getElementById("menu-2-root");
+        if (!root) {
+          return;
+        }
+        var items = root.querySelectorAll(".h0001menulist-menu");
+        for (var i = 0; i < items.length; i++) {
+          items[i].classList.remove("h0001-dropdown-open");
+        }
+      }
+      if (!menu2_isMobileLayout()) {
+        menu2_setBodyScroll(false);
+        menu2_closeDrawer();
+      }
+    }
+    setTimeout(menu2_setup, 150);
+    window.addEventListener("resize", menu2_resetDropdowns);
+  }
+  if (typeof menu2_sigdir === "undefined") {
+    
+    function menu2_sigdir() {
+      var root = document.getElementById("menu-2-root");
+      var ul = root ? root.querySelector(".h0001menulist ul") : null;
+      if (!ul || !ul.firstElementChild) {
+        return;
+      }
+      ul.classList.remove("h0001-menu-sar");
+      if (!menu2_isMobileLayout() && ul.lastElementChild.offsetTop > ul.firstElementChild.offsetTop) {
+        ul.classList.add("h0001-menu-sar");
+      }
+    }
+    menu2_sigdir();
+    window.addEventListener("resize", menu2_sigdir);
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(menu2_sigdir);
+    }
+  }
+</script>
+</div>
+  <div id="content"><section class="b0000-h4 b0000-h4--kare-kesit" data-mx-hero="1" aria-labelledby="h4-y27xaw-baslik">
+  <div class="b0000-h4-wrap">
+    <div class="b0000-h4-icerik">
+      <p class="b0000-h4-eyebrow b0000-h4-in">Simple rental · clear price</p>
+      <h1 class="b0000-h4-baslik b0000-h4-in" id="h4-y27xaw-baslik">Nothing unnecessary: car, dates, hand-over</h1>
+      <p class="b0000-h4-metin b0000-h4-in">Kuzey Rent is a fictional demo rental brand that lets you compare three vehicle classes in one table. Daily price, km allowance and cancellation terms are stated up front; no deposit is taken online.</p>
+      <div class="b0000-h4-ctalar b0000-h4-in"><a class="b0000-h4-cta b0000-h4-cta--dolgu" href="/en/araclar/">Browse vehicles<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a><a class="b0000-h4-cta b0000-h4-cta--cerceve" href="/en/rezervasyon/">Reservation request</a></div>
+      <ul class="b0000-h4-guven b0000-h4-in"><li><span class="material-symbols-outlined" aria-hidden="true">today</span><span>Daily rental</span></li><li><span class="material-symbols-outlined" aria-hidden="true">date_range</span><span>Long-term rental</span></li><li><span class="material-symbols-outlined" aria-hidden="true">business_center</span><span>Corporate fleet</span></li></ul>
+    </div>
+    <div class="b0000-h4-gorsel b0000-h4-in">
+      <div class="b0000-h4-sekil" aria-hidden="true"></div>
+      <div class="b0000-h4-sekil2" aria-hidden="true"></div>
+      <div class="b0000-h4-cerceve"><img class="b0000-h4-img" src="/img/arackiralama-arac-1.webp" alt="A white economy hatchback" width="1000" height="800" loading="eager" fetchpriority="high" decoding="async" /></div>
+      <div class="b0000-h4-rozet"><span class="b0000-h4-rozet-ikon"><span class="material-symbols-outlined" aria-hidden="true">directions_car</span></span><span><bdi class="b0000-h4-rozet-deger">6</bdi><span class="b0000-h4-rozet-etiket">Sample vehicles</span></span></div>
+    </div>
+  </div>
+</section>
+
+
+<script>
+  (function () {
+    var kok = document.querySelector(".b0000-h4");
+    if (!kok) { return; }
+    var azalt = false;
+    try { azalt = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) { azalt = false; }
+    if (azalt || !("IntersectionObserver" in window)) { return; }
+    kok.classList.add("b0000-h4-js");
+    var io = new IntersectionObserver(function (girdiler) {
+      for (var i = 0; i < girdiler.length; i++) {
+        if (girdiler[i].isIntersecting) {
+          kok.classList.add("b0000-h4-goster");
+          io.disconnect();
+        }
+      }
+    }, { threshold: 0.15 });
+    io.observe(kok);
+    
+    setTimeout(function () { kok.classList.add("b0000-h4-goster"); }, 600);
+  })();
+</script>
+<section class="b0001-ilan" id="b0001-ilan-bt0j95" aria-labelledby="b0001-ilan-bt0j95-h">
+  <div class="b0001-ilan-wrap">
+    <header class="b0001-ilan-head">
+      <h2 class="b0001-ilan-h" id="b0001-ilan-bt0j95-h">Featured vehicles</h2>
+      <p class="b0001-ilan-sub">Most rented this week. All of them are fictional.</p>
+    </header>
+
+    <div class="b0001-ilan-bar">
+      <div class="b0001-ilan-tabs" role="group" aria-label="Rental">
+        <button type="button" class="b0001-ilan-tab is-on" data-ilan-deal="" aria-pressed="true">All<span class="b0001-ilan-tabn" data-ilan-count="deal:"></span></button>
+        <button type="button" class="b0001-ilan-tab" data-ilan-deal="sale" aria-pressed="false">For sale<span class="b0001-ilan-tabn" data-ilan-count="deal:sale"></span></button>
+        <button type="button" class="b0001-ilan-tab" data-ilan-deal="rent" aria-pressed="false">For rent<span class="b0001-ilan-tabn" data-ilan-count="deal:rent"></span></button>
+      </div>
+      <div class="b0001-ilan-tools">
+        <label class="b0001-ilan-search">
+          <span class="b0001-ilan-vh">Search vehicles</span>
+          <span class="material-symbols-outlined" aria-hidden="true">search</span>
+          <input type="search" data-ilan-q placeholder="Listing title…" autocomplete="off" />
+        </label>
+        <label class="b0001-ilan-sort">
+          <span class="b0001-ilan-sortl">Sort by</span>
+          <select class="b0001-ilan-select" data-ilan-sort><option value="date">Newest</option><option value="price">Price: low to high</option><option value="priceDesc">Price: high to low</option><option value="m2">Allowance: high to low</option><option value="m2Asc">Allowance: low to high</option></select>
+        </label>
+        <button type="button" class="b0001-ilan-toggle" data-ilan-toggle aria-expanded="false" aria-controls="b0001-ilan-bt0j95-panel">
+          <span class="material-symbols-outlined" aria-hidden="true">tune</span>
+          <span>Filters</span>
+          <span class="b0001-ilan-badge" data-ilan-active hidden></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="b0001-ilan-layout">
+      <aside class="b0001-ilan-panel" id="b0001-ilan-bt0j95-panel" aria-label="Filters">
+        <div class="b0001-ilan-panelhead">
+          <h3 class="b0001-ilan-ph3">Filters</h3>
+          <button type="button" class="b0001-ilan-reset" data-ilan-reset>Clear filters</button>
+        </div>
+        
+        
+        
+        
+        
+      </aside>
+
+      <div class="b0001-ilan-main">
+        <p class="b0001-ilan-status" role="status" aria-live="polite" data-ilan-status></p>
+        <p class="b0001-ilan-demo"><span class="material-symbols-outlined" aria-hidden="true">info</span><span>Vehicles and prices on this page are fictional. There is no right of withdrawal for date-specific rentals (art. 15/g); terms are on the Rental Terms page.</span></p>
+        <div class="b0001-ilan-list" data-ilan-list><article class="b0001-ilan-card" data-id="kira-001" data-deal="rent"><div class="b0001-ilan-media"><img src="/img/arackiralama-arac-1.webp" alt="Economy hatchback, manual" loading="lazy" decoding="async" /><span class="b0001-ilan-badges"><span class="b0001-ilan-deal b0001-ilan-deal-rent">For rent</span><span class="b0001-ilan-flag">Value</span></span></div><div class="b0001-ilan-body"><p class="b0001-ilan-price"><bdi dir="ltr">1.150 ₺</bdi> <span class="b0001-ilan-per">/ day</span></p><h3 class="b0001-ilan-title">Economy hatchback, manual</h3><p class="b0001-ilan-loc"><span class="material-symbols-outlined" aria-hidden="true">location_on</span>Airport pick-up, Gaziantep</p><ul class="b0001-ilan-meta"><li><span class="material-symbols-outlined" aria-hidden="true">home</span>Economy</li><li><span class="material-symbols-outlined" aria-hidden="true">bed</span><bdi dir="ltr">Manuel</bdi><span class="b0001-ilan-vh"> Gearbox</span></li><li><span class="material-symbols-outlined" aria-hidden="true">square_foot</span><bdi dir="ltr">300 km</bdi></li></ul><p class="b0001-ilan-foot"><span class="b0001-ilan-permit"><span class="material-symbols-outlined" aria-hidden="true">verified_user</span><span>Fleet record no.: <bdi dir="ltr" class="b0001-ilan-permitno">DEMO-KR-0001</bdi></span></span><span class="b0001-ilan-date">Added on: October 28, 2026</span></p></div></article><article class="b0001-ilan-card" data-id="kira-002" data-deal="rent"><div class="b0001-ilan-media"><img src="/img/arackiralama-arac-2.webp" alt="Compact sedan, automatic" loading="lazy" decoding="async" /><span class="b0001-ilan-badges"><span class="b0001-ilan-deal b0001-ilan-deal-rent">For rent</span></span></div><div class="b0001-ilan-body"><p class="b0001-ilan-price"><bdi dir="ltr">1.650 ₺</bdi> <span class="b0001-ilan-per">/ day</span></p><h3 class="b0001-ilan-title">Compact sedan, automatic</h3><p class="b0001-ilan-loc"><span class="material-symbols-outlined" aria-hidden="true">location_on</span>Airport pick-up, Gaziantep</p><ul class="b0001-ilan-meta"><li><span class="material-symbols-outlined" aria-hidden="true">home</span>Sedan</li><li><span class="material-symbols-outlined" aria-hidden="true">bed</span><bdi dir="ltr">Otomatik</bdi><span class="b0001-ilan-vh"> Gearbox</span></li><li><span class="material-symbols-outlined" aria-hidden="true">square_foot</span><bdi dir="ltr">300 km</bdi></li></ul><p class="b0001-ilan-foot"><span class="b0001-ilan-permit"><span class="material-symbols-outlined" aria-hidden="true">verified_user</span><span>Fleet record no.: <bdi dir="ltr" class="b0001-ilan-permitno">DEMO-KR-0002</bdi></span></span><span class="b0001-ilan-date">Added on: October 27, 2026</span></p></div></article><article class="b0001-ilan-card" data-id="kira-003" data-deal="rent"><div class="b0001-ilan-media"><img src="/img/arackiralama-arac-3.webp" alt="Family SUV, automatic" loading="lazy" decoding="async" /><span class="b0001-ilan-badges"><span class="b0001-ilan-deal b0001-ilan-deal-rent">For rent</span><span class="b0001-ilan-flag">Popular</span></span></div><div class="b0001-ilan-body"><p class="b0001-ilan-price"><bdi dir="ltr">2.450 ₺</bdi> <span class="b0001-ilan-per">/ day</span></p><h3 class="b0001-ilan-title">Family SUV, automatic</h3><p class="b0001-ilan-loc"><span class="material-symbols-outlined" aria-hidden="true">location_on</span>Airport pick-up, Gaziantep</p><ul class="b0001-ilan-meta"><li><span class="material-symbols-outlined" aria-hidden="true">home</span>SUV</li><li><span class="material-symbols-outlined" aria-hidden="true">bed</span><bdi dir="ltr">Otomatik</bdi><span class="b0001-ilan-vh"> Gearbox</span></li><li><span class="material-symbols-outlined" aria-hidden="true">square_foot</span><bdi dir="ltr">350 km</bdi></li></ul><p class="b0001-ilan-foot"><span class="b0001-ilan-permit"><span class="material-symbols-outlined" aria-hidden="true">verified_user</span><span>Fleet record no.: <bdi dir="ltr" class="b0001-ilan-permitno">DEMO-KR-0003</bdi></span></span><span class="b0001-ilan-date">Added on: October 26, 2026</span></p></div></article></div>
+        <div class="b0001-ilan-empty" data-ilan-empty hidden>
+          <span class="material-symbols-outlined" aria-hidden="true">search_off</span>
+          <h3 class="b0001-ilan-eh">No results found</h3>
+          <p>Try loosening or clearing your filters.</p>
+          <button type="button" class="b0001-ilan-btn" data-ilan-reset>Clear filters</button>
+        </div>
+        <nav class="b0001-ilan-pages" aria-label="Pagination" data-ilan-pages hidden></nav>
+      </div>
+    </div>
+    <script type="application/json" id="b0001-ilan-bt0j95-veri">{"cfg":{"lang":"en","pageSize":3,"sort":"date","url":false,"resultCount":{"tr":{"one":"{n} araç bulundu","other":"{n} araç bulundu"},"en":{"one":"{n} vehicle found","other":"{n} vehicles found"},"ar":{"zero":"لم يتم العثور على مركبات","one":"تم العثور على مركبة واحدة","two":"تم العثور على مركبتين","few":"تم العثور على {n} مركبات","many":"تم العثور على {n} مركبة","other":"تم العثور على {n} مركبة"}},"prevPage":"Previous page","nextPage":"Next page","pageN":"Page {n}"},"items":[{"id":"kira-001","deal":"rent","type":"ekonomi","rooms":"Manuel","m2":300,"price":1150,"dk":"havalimani-teslim","date":"2026-10-28","title":{"tr":"Ekonomik hatchback, manuel vites","en":"Economy hatchback, manual","ar":"هاتشباك اقتصادية، ناقل يدوي"},"district":{"tr":"Havalimanı teslim","en":"Airport pick-up","ar":"استلام المطار"},"city":{"tr":"Gaziantep","en":"Gaziantep","ar":"غازي عنتاب"},"permit":"DEMO-KR-0001"},{"id":"kira-002","deal":"rent","type":"sedan","rooms":"Otomatik","m2":300,"price":1650,"dk":"havalimani-teslim","date":"2026-10-27","title":{"tr":"Kompakt sedan, otomatik vites","en":"Compact sedan, automatic","ar":"سيدان صغيرة، ناقل أوتوماتيكي"},"district":{"tr":"Havalimanı teslim","en":"Airport pick-up","ar":"استلام المطار"},"city":{"tr":"Gaziantep","en":"Gaziantep","ar":"غازي عنتاب"},"permit":"DEMO-KR-0002"},{"id":"kira-003","deal":"rent","type":"suv","rooms":"Otomatik","m2":350,"price":2450,"dk":"havalimani-teslim","date":"2026-10-26","title":{"tr":"Aile SUV’u, otomatik vites","en":"Family SUV, automatic","ar":"SUV عائلية، ناقل أوتوماتيكي"},"district":{"tr":"Havalimanı teslim","en":"Airport pick-up","ar":"استلام المطار"},"city":{"tr":"Gaziantep","en":"Gaziantep","ar":"غازي عنتاب"},"permit":"DEMO-KR-0003"}]}</script>
+  </div>
+</section>
+<noscript><style>.b0001-ilan-card[hidden]{display:flex}.b0001-ilan-toggle{display:none}.b0001-ilan-panel{display:none}</style></noscript>
+
+
+
+<script>
+(function () {
+  var kok = document.getElementById("b0001-ilan-bt0j95");
+  var veriEl = document.getElementById("b0001-ilan-bt0j95-veri");
+  if (!kok || !veriEl) { return; }
+  var veri;
+  try { veri = JSON.parse(veriEl.textContent); } catch (e) { return; }
+  var cfg = veri.cfg || {};
+
+  function hazir(fn) {
+    if (window.mxLoad) { fn(); }
+    else if (document.readyState === "complete") { setTimeout(fn, 50); }
+    else { window.addEventListener("load", fn); }
+  }
+
+  function q(sel, ctx) { return (ctx || kok).querySelector(sel); }
+  function qa(sel, ctx) { return (ctx || kok).querySelectorAll(sel); }
+  function dizi(nl) { var o = []; for (var i = 0; i < nl.length; i++) { o.push(nl[i]); } return o; }
+
+  function basla() {
+    var MxF = window.MxFiltre;
+    if (!MxF) { return; }
+    var liste = q("[data-ilan-list]");
+    var bos = q("[data-ilan-empty]");
+    var durumEl = q("[data-ilan-status]");
+    var sayfaNav = q("[data-ilan-pages]");
+    var araEl = q("[data-ilan-q]");
+    var sirEl = q("[data-ilan-sort]");
+    var toggleEl = q("[data-ilan-toggle]");
+    var panel = q("[data-ilan-toggle]") ? document.getElementById(q("[data-ilan-toggle]").getAttribute("aria-controls")) : null;
+    var rozet = q("[data-ilan-active]");
+    var kartlar = {};
+    dizi(qa("[data-id]", liste)).forEach(function (el) { kartlar[el.getAttribute("data-id")] = el; });
+    var sonSayfa = 0;
+    var kullaniciSayfa = false;
+
+    var f = MxF.olustur({
+      items: veri.items || [],
+      arama: { alanlar: ["title", "district", "city", "permit"] },
+      facets: {
+        deal: { tip: "tek" },
+        type: { tip: "coklu" },
+        rooms: { tip: "coklu" },
+        m2: { tip: "aralik" },
+        price: { tip: "aralik" },
+        district: { tip: "tek", alan: "dk" }
+      },
+      siralama: {
+        date: { alan: "date", yon: -1, tip: "metin" },
+        price: { alan: "price", yon: 1 },
+        priceDesc: { alan: "price", yon: -1 },
+        m2: { alan: "m2", yon: -1 },
+        m2Asc: { alan: "m2", yon: 1 }
+      },
+      varsayilanSiralama: cfg.sort || "date",
+      sayfaBoyutu: cfg.pageSize || 9,
+      url: cfg.url !== false,
+      dil: cfg.lang || "tr"
+    });
+
+    
+    function topla(ad) {
+      var r = [];
+      dizi(qa('input[data-ilan-facet="' + ad + '"]')).forEach(function (c) { if (c.checked) { r.push(c.value); } });
+      return r;
+    }
+    function aralikOku(ad) {
+      var ins = qa('[data-ilan-range="' + ad + '"]');
+      var a = ins[0].value;
+      var b = ins[1].value;
+      if (a === "" && b === "") { return ""; }
+      return [a === "" ? null : Number(a), b === "" ? null : Number(b)];
+    }
+    var aralikZaman = null;
+    function aralikUygula(ad) {
+      if (aralikZaman) { clearTimeout(aralikZaman); }
+      aralikZaman = setTimeout(function () { var o = {}; o[ad] = aralikOku(ad); f.ayarla(o); }, 300);
+    }
+
+    kok.addEventListener("click", function (e) {
+      var t = e.target;
+      var el = t.closest ? t.closest("button") : null;
+      if (!el || !kok.contains(el)) { return; }
+      if (el.hasAttribute("data-ilan-deal")) {
+        f.ayarla({ deal: el.getAttribute("data-ilan-deal") });
+      } else if (el.hasAttribute("data-ilan-reset")) {
+        f.sifirla();
+        if (araEl) { araEl.value = ""; }
+      } else if (el.hasAttribute("data-ilan-toggle")) {
+        var acik = panel && panel.classList.toggle("is-open");
+        el.setAttribute("aria-expanded", acik ? "true" : "false");
+      } else if (el.hasAttribute("data-ilan-page")) {
+        kullaniciSayfa = true;
+        f.sayfaGit(Number(el.getAttribute("data-ilan-page")));
+      }
+    });
+    kok.addEventListener("change", function (e) {
+      var t = e.target;
+      if (t.hasAttribute("data-ilan-sort")) {
+        f.sirala(t.value);
+      } else if (t.getAttribute("data-ilan-facet") === "district") {
+        f.ayarla({ district: t.value });
+      } else if (t.getAttribute("data-ilan-facet")) {
+        var ad = t.getAttribute("data-ilan-facet");
+        var o = {};
+        o[ad] = topla(ad);
+        f.ayarla(o);
+      } else if (t.getAttribute("data-ilan-range")) {
+        aralikUygula(t.getAttribute("data-ilan-range"));
+      }
+    });
+    kok.addEventListener("input", function (e) {
+      var t = e.target;
+      if (t.getAttribute && t.getAttribute("data-ilan-range")) { aralikUygula(t.getAttribute("data-ilan-range")); }
+    });
+    if (araEl) { MxF.aramaBagla(araEl, f, 200); }
+
+    
+    function sayfaDugmesi(etiket, sayfa, ozellik) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "b0001-ilan-pg";
+      b.setAttribute("data-ilan-page", String(sayfa));
+      if (ozellik.aria) { b.setAttribute("aria-label", ozellik.aria); }
+      if (ozellik.simge) {
+        var ic = document.createElement("span");
+        ic.className = "material-symbols-outlined mx-flip";
+        ic.setAttribute("aria-hidden", "true");
+        ic.textContent = ozellik.simge;
+        b.appendChild(ic);
+      } else {
+        b.textContent = etiket;
+      }
+      if (ozellik.gecerli) { b.setAttribute("aria-current", "page"); }
+      if (ozellik.pasif) { b.disabled = true; }
+      return b;
+    }
+    function sayfalariCiz(s) {
+      sayfaNav.innerHTML = "";
+      if (s.sayfaSayisi <= 1) { sayfaNav.hidden = true; return; }
+      sayfaNav.hidden = false;
+      sayfaNav.appendChild(sayfaDugmesi("", s.sayfa - 1, { simge: "chevron_left", aria: cfg.prevPage, pasif: s.sayfa <= 1 }));
+      var son = 0;
+      for (var n = 1; n <= s.sayfaSayisi; n++) {
+        var goster = n === 1 || n === s.sayfaSayisi || Math.abs(n - s.sayfa) <= 1;
+        if (!goster) { continue; }
+        if (son && n - son > 1) {
+          var g = document.createElement("span");
+          g.className = "b0001-ilan-gap";
+          g.setAttribute("aria-hidden", "true");
+          g.textContent = "…";
+          sayfaNav.appendChild(g);
+        }
+        sayfaNav.appendChild(sayfaDugmesi(String(n), n, { aria: String(cfg.pageN || "").replace("{n}", String(n)), gecerli: n === s.sayfa }));
+        son = n;
+      }
+      sayfaNav.appendChild(sayfaDugmesi("", s.sayfa + 1, { simge: "chevron_right", aria: cfg.nextPage, pasif: s.sayfa >= s.sayfaSayisi }));
+    }
+
+    function guncelle(s) {
+      var d = s.durum;
+      var i;
+      
+      dizi(qa("[data-ilan-deal]")).forEach(function (b) {
+        var acik = (d.facet.deal || "") === b.getAttribute("data-ilan-deal");
+        b.classList.toggle("is-on", acik);
+        b.setAttribute("aria-pressed", acik ? "true" : "false");
+      });
+      
+      ["type", "rooms"].forEach(function (ad) {
+        var secili = d.facet[ad] || [];
+        dizi(qa('input[data-ilan-facet="' + ad + '"]')).forEach(function (c) { c.checked = secili.indexOf(c.value) > -1; });
+      });
+      var sem = q('select[data-ilan-facet="district"]');
+      if (sem) { sem.value = d.facet.district || ""; }
+      ["m2", "price"].forEach(function (ad) {
+        var ins = qa('[data-ilan-range="' + ad + '"]');
+        var r = d.facet[ad];
+        for (var k = 0; k < ins.length; k++) {
+          if (document.activeElement === ins[k]) { continue; }
+          ins[k].value = r && r[k] !== null && r[k] !== undefined ? r[k] : "";
+        }
+      });
+      if (sirEl) { sirEl.value = d.sirala; }
+      if (araEl && document.activeElement !== araEl) { araEl.value = d.q || ""; }
+      
+      var onbellek = {};
+      dizi(qa("[data-ilan-count]")).forEach(function (sp) {
+        var parca = sp.getAttribute("data-ilan-count").split(":");
+        var ad = parca[0];
+        var anahtar = parca[1];
+        if (!onbellek[ad]) { onbellek[ad] = f.sayim(ad); }
+        var n = 0;
+        if (anahtar === "") { for (var kk in onbellek[ad]) { if (Object.prototype.hasOwnProperty.call(onbellek[ad], kk)) { n += onbellek[ad][kk]; } } }
+        else { n = onbellek[ad][anahtar] || 0; }
+        sp.textContent = String(n);
+        var opt = sp.closest ? sp.closest(".b0001-ilan-opt") : null;
+        if (opt) { opt.classList.toggle("is-zero", n === 0); }
+      });
+      
+      for (var id in kartlar) { if (Object.prototype.hasOwnProperty.call(kartlar, id)) { kartlar[id].hidden = true; } }
+      for (i = 0; i < s.liste.length; i++) {
+        var el = kartlar[s.liste[i].id];
+        if (el) { el.hidden = false; liste.appendChild(el); }
+      }
+      liste.hidden = s.toplam === 0;
+      bos.hidden = s.toplam !== 0;
+      
+      var formlar = (cfg.resultCount && (cfg.resultCount[cfg.lang] || cfg.resultCount.tr)) || { other: "{n}" };
+      durumEl.textContent = MxF.cogul(s.toplam, formlar, cfg.lang);
+      sayfalariCiz(s);
+      
+      var say = d.q ? 1 : 0;
+      for (var fa in d.facet) { if (Object.prototype.hasOwnProperty.call(d.facet, fa)) { say++; } }
+      if (rozet) { rozet.hidden = say === 0; rozet.textContent = String(say); }
+      dizi(qa("[data-ilan-reset]")).forEach(function (b) { if (!b.closest || !b.closest("[data-ilan-empty]")) { b.hidden = !f.filtreVar(); } });
+      
+      if (kullaniciSayfa && sonSayfa && s.sayfa !== sonSayfa) {
+        var azalt = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        var ust = liste.getBoundingClientRect().top;
+        if (ust < 0 || ust > window.innerHeight) { durumEl.scrollIntoView({ behavior: azalt ? "auto" : "smooth", block: "start" }); }
+      }
+      kullaniciSayfa = false;
+      sonSayfa = s.sayfa;
+    }
+    f.abone(guncelle);
+    guncelle(f.sonuc());
+  }
+
+  hazir(function () {
+    if (window.MxFiltre) { basla(); }
+    else if (window.mxLoad) { window.mxLoad("mxfiltre").then(basla, function () {}); }
+  });
+})();
+</script>
+<section class="b0002-kt b0002-kt-sade" id="kt-traz5l">
+  <div class="b0002-kt-wrap">
+    <header class="b0002-kt-head"><p class="b0002-kt-eyebrow">Vehicle classes</p><h2 class="b0002-kt-title">Three classes, one table</h2><p class="b0002-kt-desc">Daily prices are fictional and include VAT. There is no right of withdrawal for date-specific rentals (art. 15/g); cancellation and deposit terms are on the Rental Terms page.</p></header>
+    <p class="b0002-kt-hint" aria-hidden="true"><span class="material-symbols-outlined">swipe</span> Swipe the table sideways</p>
+    <div class="b0002-kt-scroll" role="region" aria-label="Vehicle class comparison table" tabindex="0">
+      <table class="b0002-kt-table">
+        <thead><tr><th scope="col" class="b0002-kt-ilk">Feature</th><th scope="col" class="b0002-kt-paket"><span class="b0002-kt-rozet b0002-kt-rozet-bos" aria-hidden="true"></span><span class="b0002-kt-ad">Economy</span><span class="b0002-kt-fiyat"><bdi dir="ltr">1.150 ₺</bdi></span><span class="b0002-kt-fiyat-not">/ day, VAT incl.</span></th><th scope="col" class="b0002-kt-paket b0002-kt-oner"><span class="b0002-kt-rozet">Most chosen</span><span class="b0002-kt-ad">Sedan</span><span class="b0002-kt-fiyat"><bdi dir="ltr">1.650 ₺</bdi></span><span class="b0002-kt-fiyat-not">/ day, VAT incl.</span></th><th scope="col" class="b0002-kt-paket"><span class="b0002-kt-rozet b0002-kt-rozet-bos" aria-hidden="true"></span><span class="b0002-kt-ad">SUV</span><span class="b0002-kt-fiyat"><bdi dir="ltr">2.450 ₺</bdi></span><span class="b0002-kt-fiyat-not">/ day, VAT incl.</span></th></tr></thead>
+        <tbody><tr><th scope="row" class="b0002-kt-ilk">Gearbox</th><td class="">Manual</td><td class="b0002-kt-oner">Automatic</td><td class="">Automatic</td></tr><tr><th scope="row" class="b0002-kt-ilk">Daily km allowance</th><td class="">300 km</td><td class="b0002-kt-oner">300 km</td><td class="">350 km</td></tr><tr><th scope="row" class="b0002-kt-ilk">Passenger capacity</th><td class="">5</td><td class="b0002-kt-oner">5</td><td class="">5–7</td></tr><tr><th scope="row" class="b0002-kt-ilk">Basic insurance</th><td class=""><span class="b0002-kt-evet"><span class="material-symbols-outlined" aria-hidden="true">check</span><span class="b0002-kt-sr">Included</span></span></td><td class="b0002-kt-oner"><span class="b0002-kt-evet"><span class="material-symbols-outlined" aria-hidden="true">check</span><span class="b0002-kt-sr">Included</span></span></td><td class=""><span class="b0002-kt-evet"><span class="material-symbols-outlined" aria-hidden="true">check</span><span class="b0002-kt-sr">Included</span></span></td></tr><tr><th scope="row" class="b0002-kt-ilk">Airport hand-over</th><td class=""><span class="b0002-kt-evet"><span class="material-symbols-outlined" aria-hidden="true">check</span><span class="b0002-kt-sr">Included</span></span></td><td class="b0002-kt-oner"><span class="b0002-kt-evet"><span class="material-symbols-outlined" aria-hidden="true">check</span><span class="b0002-kt-sr">Included</span></span></td><td class=""><span class="b0002-kt-evet"><span class="material-symbols-outlined" aria-hidden="true">check</span><span class="b0002-kt-sr">Included</span></span></td></tr><tr><th scope="row" class="b0002-kt-ilk">Free cancellation up to 24 h before pick-up</th><td class=""><span class="b0002-kt-evet"><span class="material-symbols-outlined" aria-hidden="true">check</span><span class="b0002-kt-sr">Included</span></span></td><td class="b0002-kt-oner"><span class="b0002-kt-evet"><span class="material-symbols-outlined" aria-hidden="true">check</span><span class="b0002-kt-sr">Included</span></span></td><td class=""><span class="b0002-kt-evet"><span class="material-symbols-outlined" aria-hidden="true">check</span><span class="b0002-kt-sr">Included</span></span></td></tr><tr><th scope="row" class="b0002-kt-ilk">Navigation</th><td class=""><span class="b0002-kt-hayir"><span class="material-symbols-outlined" aria-hidden="true">close</span><span class="b0002-kt-sr">Not included</span></span></td><td class="b0002-kt-oner"><span class="b0002-kt-evet"><span class="material-symbols-outlined" aria-hidden="true">check</span><span class="b0002-kt-sr">Included</span></span></td><td class=""><span class="b0002-kt-evet"><span class="material-symbols-outlined" aria-hidden="true">check</span><span class="b0002-kt-sr">Included</span></span></td></tr><tr><th scope="row" class="b0002-kt-ilk">Additional driver (free)</th><td class=""><span class="b0002-kt-hayir"><span class="material-symbols-outlined" aria-hidden="true">close</span><span class="b0002-kt-sr">Not included</span></span></td><td class="b0002-kt-oner"><span class="b0002-kt-hayir"><span class="material-symbols-outlined" aria-hidden="true">close</span><span class="b0002-kt-sr">Not included</span></span></td><td class=""><span class="b0002-kt-evet"><span class="material-symbols-outlined" aria-hidden="true">check</span><span class="b0002-kt-sr">Included</span></span></td></tr></tbody>
+        <tfoot><tr><td class="b0002-kt-ilk"></td><td class=""><a class="b0002-kt-btn" href="/en/araclar/">See vehicles</a></td><td class="b0002-kt-oner"><a class="b0002-kt-btn" href="/en/araclar/">See vehicles</a></td><td class=""><a class="b0002-kt-btn" href="/en/araclar/">See vehicles</a></td></tr></tfoot>
+      </table>
+    </div>
+  </div>
+</section>
+
+
+<section class="b0003-s2 b0003-s2-ayrik-cizgili b0003-s2-desen-noktalar" id="s2-hwz9dk" data-s2-dil="en" data-s2-sure="1000" style="--s2-n:4">
+  <span class="b0003-s2-desen" aria-hidden="true"></span>
+  <div class="b0003-s2-wrap">
+    <header class="b0003-s2-head"><h2 class="b0003-s2-title">By the numbers</h2></header>
+    <ul class="b0003-s2-list"><li class="b0003-s2-item"><span class="b0003-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">directions_car</span></span><div class="b0003-s2-deger"><bdi dir="ltr"><span class="b0003-s2-sayi" data-s2-hedef="6" data-s2-ondalik="0">6</span></bdi></div><p class="b0003-s2-etiket">Sample vehicles</p></li><li class="b0003-s2-item"><span class="b0003-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">event_busy</span></span><div class="b0003-s2-deger"><bdi dir="ltr"><span class="b0003-s2-sayi" data-s2-hedef="24" data-s2-ondalik="0">24</span><span class="b0003-s2-sonek">sa</span></bdi></div><p class="b0003-s2-etiket">Cancellation window</p></li><li class="b0003-s2-item"><span class="b0003-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">badge</span></span><div class="b0003-s2-deger"><bdi dir="ltr"><span class="b0003-s2-sayi" data-s2-hedef="21" data-s2-ondalik="0">21</span></bdi></div><p class="b0003-s2-etiket">Minimum age</p></li><li class="b0003-s2-item"><span class="b0003-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">schedule</span></span><div class="b0003-s2-deger"><bdi dir="ltr"><span class="b0003-s2-sayi" data-s2-hedef="16" data-s2-ondalik="0">16</span><span class="b0003-s2-sonek">sa</span></bdi></div><p class="b0003-s2-etiket">Hours open per day</p></li></ul>
+  </div>
+</section>
+
+
+
+<script>
+  
+  (function () {
+    var kok = document.getElementById("s2-hwz9dk");
+    if (!kok || kok.getAttribute("data-s2-hazir") === "1") { return; }
+    kok.setAttribute("data-s2-hazir", "1");
+    var azalt = false;
+    try { azalt = window.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) { azalt = false; }
+    if (azalt || !("IntersectionObserver" in window) || !window.requestAnimationFrame) { return; }
+    var dil = (kok.getAttribute("data-s2-dil") || document.documentElement.getAttribute("lang") || "tr").split("-")[0];
+    var sure = parseInt(kok.getAttribute("data-s2-sure"), 10);
+    if (!isFinite(sure) || sure < 200) { sure = 1000; }
+    var bicim = null;
+    function yaz(n, ondalik) {
+      try {
+        if (!bicim) { bicim = {}; }
+        if (!bicim[ondalik]) { bicim[ondalik] = new Intl.NumberFormat(dil + "-u-nu-latn", { minimumFractionDigits: ondalik, maximumFractionDigits: ondalik }); }
+        return bicim[ondalik].format(n);
+      } catch (e) { return n.toFixed(ondalik); }
+    }
+    function say(el) {
+      var hedef = parseFloat(el.getAttribute("data-s2-hedef"));
+      var ondalik = parseInt(el.getAttribute("data-s2-ondalik"), 10) || 0;
+      if (!isFinite(hedef)) { return; }
+      var bas = null;
+      function adim(ts) {
+        if (bas === null) { bas = ts; }
+        var p = Math.min(1, (ts - bas) / sure);
+        var e = 1 - Math.pow(1 - p, 3);
+        el.textContent = yaz(hedef * e, ondalik);
+        if (p < 1) { window.requestAnimationFrame(adim); } else { el.textContent = yaz(hedef, ondalik); }
+      }
+      el.textContent = yaz(0, ondalik);
+      window.requestAnimationFrame(adim);
+    }
+    var sayilar = kok.querySelectorAll(".b0003-s2-sayi[data-s2-hedef]");
+    var io = new IntersectionObserver(function (girdiler) {
+      var j;
+      for (j = 0; j < girdiler.length; j++) {
+        if (girdiler[j].isIntersecting) { say(girdiler[j].target); io.unobserve(girdiler[j].target); }
+      }
+    }, { threshold: 0.4 });
+    var i;
+    for (i = 0; i < sayilar.length; i++) { io.observe(sayilar[i]); }
+  })();
+</script>
+<section class="b0004-c3 b0004-c3-cerceveli-kart" id="c3-5vpgz6">
+  <div class="b0004-c3-wrap">
+    <div class="b0004-c3-kutu">
+      <span class="b0004-c3-daire b0004-c3-daire-1" aria-hidden="true"></span>
+      <span class="b0004-c3-daire b0004-c3-daire-2" aria-hidden="true"></span>
+      <span class="b0004-c3-daire b0004-c3-daire-3" aria-hidden="true"></span>
+      <div class="b0004-c3-icerik">
+        <h2 class="b0004-c3-title">Send your reservation request</h2>
+        <p class="b0004-c3-text">There is no right of withdrawal for vehicle rental booked for a specific date (Law No. 6502 art. 15/g); cancellation, change and deposit terms are on the Rental Terms page. No deposit is taken online; payment is made at pick-up.</p>
+        <div class="b0004-c3-btns"><a class="b0004-c3-btn b0004-c3-btn-1" href="/en/rezervasyon/"><span>Reservation request</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a><a class="b0004-c3-btn b0004-c3-btn-2" href="/en/kiralama-kosullari/">Rental terms</a></div>
+      </div>
+      <div class="b0004-c3-yan"><div class="b0004-c3-kart"><div class="b0004-c3-kart-bas"><span class="b0004-c3-wa-ikon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4 5.3 5.3 0 0 0 3.2.7 2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></span><p class="b0004-c3-kart-title">Reach us now</p></div><a class="b0004-c3-num" href="tel:+903420000000"><bdi dir="ltr">+90 342 000 00 00</bdi></a><p class="b0004-c3-saat"><span class="material-symbols-outlined" aria-hidden="true">schedule</span><span><span class="b0004-c3-saat-etiket">Opening hours:</span> Daily 07:00 – 23:00 · Airport desk follows flight times</span></p><a class="b0004-c3-wa" href="https://wa.me/903420000000?text=Hello%2C%20I%20am%20reaching%20out%20via%20your%20demo%20site." target="_blank" rel="noopener"><span class="b0004-c3-wa-ikon b0004-c3-wa-ikon-kucuk" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4 5.3 5.3 0 0 0 3.2.7 2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></span><span>Message us on WhatsApp</span></a></div></div>
+    </div>
+  </div>
+</section>
+
+
+</div>
+  <div id="footer"><footer class="f0000-f10 f0000-f10--acik" role="contentinfo" id="f10-w02py8">
+  <div class="f0000-f10__band"><div class="f0000-f10__bandin"><div class="f0000-f10__bandtext"><h2 class="f0000-f10__bandtitle">Stay in the loop</h2><p class="f0000-f10__bandp">One newsletter a month; be the first to hear about offers and news.</p></div><form class="f0000-f10__nlform" novalidate><label class="f0000-f10__nllabel" for="f10-w02py8-nl">Your e-mail address</label><div class="f0000-f10__nlrow"><input class="f0000-f10__nlinput" id="f10-w02py8-nl" name="email" type="email" inputmode="email" autocomplete="email" required aria-describedby="f10-w02py8-nlerr" /><button type="submit" class="f0000-f10__nlbtn"><span>Subscribe</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></button></div><p class="f0000-f10__nlerr" id="f10-w02py8-nlerr" role="status" aria-live="polite"></p><p class="f0000-f10__nlkvkk">By subscribing you agree to the processing of your e-mail address for the newsletter. You can unsubscribe at any time.</p></form></div></div>
+  <div class="f0000-f10__main f0000-f10__main--c5">
+    <div class="f0000-f10__col f0000-f10__brand">
+      <a href="/en/" class="f0000-f10__logo" aria-label="Home - Kuzey Rent">
+        <img src="/img/logo.png" alt="Kuzey Rent Logo" loading="lazy" />
+      </a>
+      <p class="f0000-f10__about">Kuzey Rent: daily and long-term car rental, airport pick-up and clear rental terms. (Demo site)</p>
+      
+    </div>
+    <nav class="f0000-f10__col f0000-f10__pages" aria-label="Navigation">
+      <h3 class="f0000-f10__title">Pages</h3>
+      <ul class="f0000-f10__list"><li><a class="f0000-f10__link" href="/en/">Home</a></li><li><a class="f0000-f10__link" href="/en/araclar/">Vehicles</a></li><li><a class="f0000-f10__link" href="/en/secenekler/">Options</a></li><li><a class="f0000-f10__link" href="/en/rezervasyon/">Reservation</a></li><li><a class="f0000-f10__link" href="/en/kiralama-kosullari/">Rental Terms</a></li><li><a class="f0000-f10__link" href="/en/galeri/">Gallery</a></li><li><a class="f0000-f10__link" href="/en/hakkimizda/">About</a></li><li><a class="f0000-f10__link" href="/en/iletisim/">Contact</a></li></ul>
+    </nav>
+    <div class="f0000-f10__col f0000-f10__services"><h3 class="f0000-f10__title">Services</h3><ul class="f0000-f10__list"><li><a class="f0000-f10__link" href="/en/secenekler/">Daily rental</a></li><li><a class="f0000-f10__link" href="/en/secenekler/">Long-term rental</a></li><li><a class="f0000-f10__link" href="/en/secenekler/">Corporate fleet</a></li><li><a class="f0000-f10__link" href="/en/secenekler/">Airport pick-up</a></li><li><a class="f0000-f10__link" href="/en/secenekler/">Extras</a></li></ul></div>
+    <div class="f0000-f10__col f0000-f10__contact"><h3 class="f0000-f10__title">Contact</h3><ul class="f0000-f10__list f0000-f10__list--ikon"><li><span class="material-symbols-outlined" aria-hidden="true">location_on</span><span>2 Havalimani Street, Oguzeli, Gaziantep (fictional address)</span></li><li><span class="material-symbols-outlined" aria-hidden="true">call</span><a class="f0000-f10__link" href="tel:+903420000000" dir="ltr">+90 342 000 00 00</a></li><li><span class="material-symbols-outlined" aria-hidden="true">mail</span><a class="f0000-f10__link" href="mailto:rezervasyon@kuzeyrent.example">rezervasyon@kuzeyrent.example</a></li></ul></div>
+    <div class="f0000-f10__col f0000-f10__hours"><h3 class="f0000-f10__title">Opening Hours</h3><dl class="f0000-f10__dl"><div class="f0000-f10__hour"><dt>Opening hours</dt><dd>Daily 07:00 – 23:00 · Airport desk follows flight times</dd></div></dl></div>
+  </div>
+  <div class="f0000-f10__bottom">
+    <p class="f0000-f10__rights">&copy; 2026 Kuzey Rent. All rights reserved.</p>
+    <ul class="f0000-f10__legal"><li><a class="f0000-f10__link" href="/en/gizlilikpolitikasi/">Privacy Policy</a></li><li><a class="f0000-f10__link" href="/en/kisiselveriler/">Personal Data</a></li><li><a class="f0000-f10__link" href="/en/kullanicahaklari/">User Rights</a></li><li><a class="f0000-f10__link" href="/en/yasaluyari/">Legal Notice</a></li></ul>
+    <div class="f0000-f10__bottomend">
+      <nav class="wm-langbar" aria-label="Language Selector"><ul><li class="wm-lang-item"><a href="/tr/" hreflang="tr" lang="tr">TR</a></li><li class="wm-lang-item wm-lang-active"><a href="/en/" hreflang="en" lang="en" aria-current="true">EN</a></li><li class="wm-lang-item"><a href="/ar/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
+      <button type="button" class="f0000-f10__top" aria-label="Back to top" title="Back to top"><span class="material-symbols-outlined" aria-hidden="true">arrow_upward</span></button>
+    </div>
+  </div>
+  <script type="application/json" id="f10-w02py8-veri">{"gonderim":"mailto","mailto":"rezervasyon@kuzeyrent.example","subject":"Newsletter subscription","body":"Hello, I would like to subscribe to the newsletter.","err":"Enter a valid e-mail address.","ok":"Your e-mail app is opening; confirm the subscription there."}</script>
+</footer>
+
+
+
+<script>
+  (function () {
+    var kok = document.getElementById("f10-w02py8");
+    if (!kok || kok.getAttribute("data-f10-hazir") === "1") { return; }
+    kok.setAttribute("data-f10-hazir", "1");
+    var veri = {};
+    try { veri = JSON.parse(document.getElementById("f10-w02py8-veri").textContent); } catch (e) { veri = {}; }
+
+    
+    var ust = kok.querySelector(".f0000-f10__top");
+    if (ust) {
+      ust.addEventListener("click", function () {
+        var yumusak = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        try { window.scrollTo({ top: 0, behavior: yumusak ? "smooth" : "auto" }); } catch (e) { window.scrollTo(0, 0); }
+        var hedef = document.querySelector("#header, header, main, body");
+        if (hedef && hedef.focus) { hedef.setAttribute("tabindex", "-1"); hedef.focus({ preventScroll: true }); }
+      });
+    }
+
+    
+    var form = kok.querySelector(".f0000-f10__nlform");
+    if (!form) { return; }
+    var girdi = form.querySelector("input[type=email]");
+    var durum = form.querySelector(".f0000-f10__nlerr");
+    function yaz(metin, hata) {
+      if (!durum) { return; }
+      durum.textContent = metin || "";
+      durum.className = "f0000-f10__nlerr" + (metin ? " is-on" : "") + (hata ? " is-err" : " is-ok");
+      if (girdi) { if (hata) { girdi.setAttribute("aria-invalid", "true"); } else { girdi.removeAttribute("aria-invalid"); } }
+    }
+    if (girdi) { girdi.addEventListener("input", function () { yaz("", false); }); }
+    form.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var v = girdi ? String(girdi.value || "").trim() : "";
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)) { yaz(veri.err || "", true); if (girdi) { girdi.focus(); } return; }
+      if (veri.gonderim !== "mailto" || !veri.mailto) { return; }
+      yaz(veri.ok || "", false);
+      window.location.href = "mailto:" + veri.mailto + "?subject=" + encodeURIComponent(veri.subject || "") + "&body=" + encodeURIComponent((veri.body || "") + "\r\n" + v);
+    });
+  })();
+</script>
+<div class="f0001-dk" role="contentinfo" aria-label="Demo credit">
+  <p class="f0001-dk-text">This demo was prepared by <bdi class="f0001-dk-brand" dir="ltr">Webyapar</bdi> — <a class="f0001-dk-cta" href="https://webyapar.com/temalar#arackiralama-3" target="_blank" rel="noopener noreferrer"><span>Get this theme</span><span class="mx-visually-hidden"> (opens in a new tab)</span><span class="material-symbols-outlined mx-flip f0001-dk-arrow" aria-hidden="true">arrow_forward</span></a></p>
+</div>
+
+<nav class="wm-yasal" aria-label="Company &amp; Legal" style="box-sizing:border-box;width:100%;max-width:100%;padding:12px 16px;background:var(--mx-site-bg, #F7F7F5);color:var(--mx-site-text, #111111);display:flex;flex-wrap:wrap;gap:4px 16px;align-items:center;justify-content:center;text-align:center;overflow-wrap:anywhere"><strong style="color:var(--mx-site-text, #111111)">Company &amp; Legal</strong><a href="/en/misyon/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Mission</a><a href="/en/vizyon/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Vision</a><a href="/en/kalitepolitikamiz/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Quality Policy</a></nav></div>
+
+  
+
+  <script defer src="/src/swiper-bundle.min.js"></script>
+  <script defer src="/src/mx-ui.js?v=i6eb5"></script>
+  <script defer src="/src/mx-store.js?v=i6eb5"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=i6eb5"></script>
+  <script defer src="/src/cookie.js?v=i6eb5"></script>
+
+</body>
+
+</html>

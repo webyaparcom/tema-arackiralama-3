@@ -1,0 +1,39 @@
+{
+  "id": "4gimrqmc2n",
+  "name": {
+    "tr": "Rezervasyon",
+    "en": "Reservation",
+    "ar": "الحجز"
+  },
+  "description": {
+    "tr": "Segmenti ve teslim gününü seçin; talebiniz bu demo sitede yalnızca tarayıcınızda oluşturulur. Kapora alınmaz.",
+    "en": "Choose the segment and pick-up day; on this demo site your request is created only in your browser. No deposit is taken.",
+    "ar": "اختر الفئة ويوم الاستلام؛ يُنشأ طلبك في متصفحك فقط. لا يُؤخذ عربون."
+  },
+  "keyword": {
+    "tr": "araç kiralama, rent a car, filo",
+    "en": "car rental, rent a car, fleet",
+    "ar": "تأجير سيارات، فلو"
+  },
+  "path": "rezervasyon",
+  "icon": "event_available",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "rc194k"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Rezervasyon",
+    "en": "Reservation",
+    "ar": "الحجز"
+  },
+  "date": "2026-10-31T14:38:35.574Z",
+  "update": "2026-11-05T19:38:43.342Z"
+}
