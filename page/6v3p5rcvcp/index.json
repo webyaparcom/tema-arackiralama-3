@@ -13,7 +13,7 @@
   "keyword": {
     "tr": "araç kiralama, rent a car, filo",
     "en": "car rental, rent a car, fleet",
-    "ar": "تأجير سيارات، فلو"
+    "ar": "تأجير سيارات، أسطول مركبات"
   },
   "path": "secenekler",
   "icon": "car_rental",
@@ -37,5 +37,5 @@
     "ar": "الخيارات"
   },
   "date": "2026-10-31T14:38:35.565Z",
-  "update": "2026-11-05T19:38:43.332Z"
+  "update": "2026-11-12T07:35:09.327Z"
 }
