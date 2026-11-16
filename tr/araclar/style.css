@@ -1386,7 +1386,7 @@
   .f0000-f10__rights { margin: 0; color: var(--f10-muted); }
   .f0000-f10__legal { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 16px; }
   .f0000-f10__bottomend { display: flex; align-items: center; gap: 14px; }
-  .f0000-f10__bottom .wm-langbar ul { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; margin: 0; padding: 0; }
+  .f0000-f10__bottom .wm-langbar ul { display: flex; flex-wrap: nowrap;  gap: 6px; list-style: none; margin: 0; padding: 0; }
   .f0000-f10__top {
     display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 999px;
     border: 1px solid var(--f10-border); background: color-mix(in srgb, currentColor 6%, transparent); color: inherit; cursor: pointer; font: inherit;
